@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 
 import requests
-import winsound
+import winsound # 在 windows 平台可以通过提示音来提示
 import ctypes
 import sys
 
@@ -85,11 +85,13 @@ def main():
     listFile = open('list.txt', 'r')
     urls = []
     for i in listFile:
-        i = i[0:-1]
+        i = i.replace("\n","")
+        i = i.replace("\r","")
         if "?" in i:
             fileFile = open('file.txt', 'r')
             for j in fileFile:
-                j = j[0:-1]
+                j = j.replace("\n","")
+                j = j.replace("\r","")
                 temp = i.replace("?",j)
                 urls.append(website + temp)
         else:
@@ -99,13 +101,14 @@ def main():
         try:
             print "Checking :", url,
             response = requests.get(url,timeout = timeout)
-            if response.status_code == 200:
-                colorPrinter.print_green_text('[ OK! ]')
+            code = response.status_code
+            if code == 200:
+                colorPrinter.print_green_text("[ " + code + " ]")
                 winsound.Beep(1000,1000)
                 if "404" in response.text:
                     colorPrinter.print_blue_text(url + "\tMaybe every page same!")
             else:
-                colorPrinter.print_red_text("[ Error! ]")
+                colorPrinter.print_red_text("[ " + code + " ]")
         except Exception as e:
             print e
 
