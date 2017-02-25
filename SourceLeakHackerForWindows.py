@@ -103,12 +103,12 @@ def main():
             response = requests.get(url,timeout = timeout)
             code = response.status_code
             if code == 200:
-                colorPrinter.print_green_text("[ " + code + " ]")
+                colorPrinter.print_green_text("[ " + str(code) + " ]")
                 winsound.Beep(1000,1000)
                 if "404" in response.text:
                     colorPrinter.print_blue_text(url + "\tMaybe every page same!")
             else:
-                colorPrinter.print_red_text("[ " + code + " ]")
+                colorPrinter.print_red_text("[ " + str(code) + " ]")
         except Exception as e:
             print e
 
