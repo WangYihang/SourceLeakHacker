@@ -20,7 +20,7 @@ class ColorPrinter:
 
 def check(url, timeout):
     try:
-        response = requests.get(url,timeout = timeout)
+        response = requests.head(url,timeout = timeout)
         code = response.status_code
         if code == 200:
             ColorPrinter.print_green_text("[ " + str(code) + " ]")

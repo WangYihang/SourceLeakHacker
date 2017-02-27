@@ -58,7 +58,7 @@ def main():
 
     for url in urls:
         try:
-            response = requests.get(url,timeout = timeout)
+            response = requests.head(url,timeout = timeout)
             code = response.status_code
             if code == 200:
                 colorPrinter.print_green_text("[ " + str(code) + " ]")
