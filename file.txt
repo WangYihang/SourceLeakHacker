@@ -4,3 +4,4 @@ register.php
 test.php
 phpinfo.php
 t.php
+www.zip
