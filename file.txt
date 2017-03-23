@@ -1,3 +1,4 @@
+robots.txt
 index.php
 login.php
 register.php
