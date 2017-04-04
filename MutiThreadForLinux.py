@@ -23,15 +23,16 @@ def check(url, timeout):
         response = requests.head(url,timeout = timeout)
         code = response.status_code
         if code == 200:
-            ColorPrinter.print_green_text("[ " + str(code) + " ]")
-            print "Checking : %s" % (url)
+            colorPrinter.print_green_text("[ " + str(code) + " ]")
+            print "Checking : " + url
             if "404" in response.text:
-                ColorPrinter.print_blue_text(url + "\tMaybe every page same!")
+                colorPrinter.print_blue_text(url + "\tMaybe every page same!")
         elif code == 404 or code == 405:
-            pass
+            colorPrinter.print_red_text("[ " + str(code) + " ]")
+            print "Checking : " + url
         else:
-            ColorPrinter.print_red_text("[ " + str(code) + " ]")
-            print "Checking : %s" % (url)
+            colorPrinter.print_blue_text("[ " + str(code) + " ]")
+            print "Checking : " + url
     except Exception as e:
         print e
 

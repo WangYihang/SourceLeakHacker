@@ -108,9 +108,9 @@ def main():
                 if "404" in response.text:
                     colorPrinter.print_blue_text(url + "\tMaybe every page same!")
             elif code == 404 or code == 405:
-                pass
-            else:
                 colorPrinter.print_red_text("[ " + str(code) + " ]")
+            else:
+                colorPrinter.print_blue_text("[ " + str(code) + " ]")
         except Exception as e:
             print e
 
