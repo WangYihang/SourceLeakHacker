@@ -76,6 +76,9 @@ def main():
     threadNumber = int(sys.argv[2])
     timeout = float(sys.argv[3])
     colorPrinter = ColorPrinter()
+    if timeout == 0:
+	print "Your timout can not be equal with 0!"
+	exit(1)
     if not colorPrinter :
         exit(1)
     listFile = open('list.txt', 'r')
