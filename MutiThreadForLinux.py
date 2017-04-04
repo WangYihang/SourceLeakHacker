@@ -5,6 +5,7 @@ import threading
 import requests
 import sys
 
+screenLock = threading.Semaphore(value=1)
 
 class ColorPrinter:
     @staticmethod
@@ -22,6 +23,7 @@ def check(url, timeout):
     try:
         response = requests.head(url,timeout = timeout)
         code = response.status_code
+        screenLock.acquire()
         if code == 200:
             ColorPrinter.print_green_text("[ " + str(code) + " ]")
             print "Checking : " + url
@@ -34,8 +36,10 @@ def check(url, timeout):
             ColorPrinter.print_blue_text("[ " + str(code) + " ]")
             print "Checking : " + url
     except Exception as e:
+        screenLock.acquire()
         print e
-
+    finally:
+        screenLock.release()
 
 class myThread (threading.Thread):
     url = ""

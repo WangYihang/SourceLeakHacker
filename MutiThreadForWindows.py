@@ -7,6 +7,8 @@ import winsound # 在 windows 平台可以通过提示音来提示
 import ctypes
 import sys
 
+screenLock = threading.Semaphore(value=1)
+
 STD_INPUT_HANDLE = -10
 STD_OUTPUT_HANDLE= -11
 STD_ERROR_HANDLE = -12
@@ -64,6 +66,7 @@ colorPrinter = ColorPrinter()
 def check(url, timeout):
     global colorPrinter
     try:
+        screenLock.acquire()
         print "Checking :", url,
         response = requests.head(url,timeout = timeout)
         code = response.status_code
@@ -77,7 +80,10 @@ def check(url, timeout):
         else:
             colorPrinter.print_blue_text("[ " + str(code) + " ]")
     except Exception as e:
+        screenLock.acquire()
         print e
+    finally:
+        screenLock.release()
 
 
 class myThread (threading.Thread):
