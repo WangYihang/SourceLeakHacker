@@ -21,8 +21,8 @@ class ColorPrinter:
 
 def check(url, timeout):
     try:
-        if timeout == 0:
-		    exit(1)
+        if timeout <= 0:
+	    timeout = 20
         response = requests.head(url,timeout = timeout)
         code = response.status_code
         screenLock.acquire()
