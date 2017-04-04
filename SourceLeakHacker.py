@@ -77,7 +77,7 @@ def main():
     timeout = float(sys.argv[3])
     colorPrinter = ColorPrinter()
     if timeout == 0:
-	print "Your timout can not be equal with 0!"
+	print "Your timeout can not be equal with 0!"
 	exit(1)
     if not colorPrinter :
         exit(1)
