@@ -20,6 +20,7 @@ WEB-INF/database.propertie
 CVS/Root
 CVS/Entries
 .bzr/
+.idea/workspace.xml
 ?
 ?~
 .?.swp
