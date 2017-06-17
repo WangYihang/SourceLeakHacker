@@ -32,8 +32,9 @@ def check(url, timeout):
             if "404" in response.text:
                 ColorPrinter.print_blue_text(url + "\tMaybe every page same!")
         elif code == 404 or code == 405:
-            ColorPrinter.print_red_text("[ " + str(code) + " ]")
-            print "Checking : " + url
+            pass
+            # ColorPrinter.print_red_text("[ " + str(code) + " ]")
+            # print "Checking : " + url
         else:
             ColorPrinter.print_blue_text("[ " + str(code) + " ]")
             print "Checking : " + url
