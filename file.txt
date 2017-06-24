@@ -1,5 +1,12 @@
 robots.txt
 index.php
+4dmIn.php
+4dmln.php
+4dmLn.php
+4dmin.php
+admLn.php
+admln.php
+admIn.php
 login.php
 register.php
 test.php
