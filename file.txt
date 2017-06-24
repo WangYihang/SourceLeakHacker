@@ -7,6 +7,12 @@ index.php
 admLn.php
 admln.php
 admIn.php
+conn.php
+config.php
+connect.php
+sql.php
+mysql.php
+mysqli.php
 login.php
 register.php
 test.php
