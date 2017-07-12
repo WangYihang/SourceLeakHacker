@@ -132,7 +132,10 @@ log.php
 simple_cmd.php
 zacosmall.php
 database.sql
+databaseinit.sql
+db_init.sql
 db.sql
+dbinit.sql
 bak.sql
 back.sql
 backup.sql
