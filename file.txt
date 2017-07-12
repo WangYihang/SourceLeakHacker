@@ -131,3 +131,10 @@ locus.php
 log.php
 simple_cmd.php
 zacosmall.php
+database.sql
+db.sql
+bak.sql
+back.sql
+backup.sql
+shujuku.sql
+data.sql
