@@ -141,3 +141,8 @@ back.sql
 backup.sql
 shujuku.sql
 data.sql
+help.php
+flag.php
+fl4g.php
+f1Ag.php
+f14g.php
