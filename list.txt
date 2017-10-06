@@ -11,7 +11,7 @@ README
 .svn/wc.db
 .svn/entries
 .hg
-.ds_store
+.DS_Store
 WEB-INF/web.xml
 WEB-INF/src/
 WEB-INF/classes
