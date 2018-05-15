@@ -61,16 +61,20 @@ def urlFormater(url):
         url += "/"
     return url
 
+
+def help(name):
+    print "Usage : "
+    print "        python %s [URL] [ThreadNumbers] [Timeout]" % (name)
+    print "Example : "
+    print "        python %s http://127.0.0.1/ 2 5" % (name)
+    print "Tips : "
+    print "        2 - 3 threadNumber is recommended."
+    print "        5 second timeout is recommended.(You can also use a decimal to set the timeout.)"
+    print "        If you have any questions, please contact <wangyihanger@gmail.com>"
+
 def main():
     if len(sys.argv) != 4:
-        print "Usage : "
-        print "        python %s [URL] [ThreadNumbers] [Timeout]" % (sys.argv[0])
-        print "Example : "
-        print "        python %s http://127.0.0.1/ 2 5" % (sys.argv[0])
-        print "Tips : "
-        print "        2 - 3 threadNumber is recommended."
-        print "        5 second timeout is recommended.(You can also use a decimal to set the timeout.)"
-        print "        If you have any questions, please contact [ wangyihanger@gmail.com ]"
+        help(sys.argv[0])
         exit(1)
 
     website = urlFormater(sys.argv[1])
@@ -78,15 +82,8 @@ def main():
     timeout = float(sys.argv[3])
     colorPrinter = ColorPrinter()
     if timeout == 0:
-        print "Your timeout can not be equal with 0!"
-        print "Usage : "
-        print "        python %s [URL] [ThreadNumbers] [Timeout]" % (sys.argv[0])
-        print "Example : "
-        print "        python %s http://127.0.0.1/ 2 5" % (sys.argv[0])
-        print "Tips : "
-        print "        2 - 3 threadNumber is recommended."
-        print "        5 second timeout is recommended.(You can also use a decimal to set the timeout.)"
-        print "        If you have any questions, please contact [ wangyihanger@gmail.com ]"
+        print "[-] Your timeout can not be equal with 0!"
+        help(sys.argv[0])
         exit(1)
     if not colorPrinter :
         exit(1)
