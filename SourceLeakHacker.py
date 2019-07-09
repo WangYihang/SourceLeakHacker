@@ -10,13 +10,13 @@ screenLock = threading.Semaphore(value=1)
 class ColorPrinter:
     @staticmethod
     def print_red_text(content):
-        print "\033[1;31;40m %s \033[0m" % (content),
+        print("\033[1;31;40m %s \033[0m" % (content))
     @staticmethod
     def print_green_text(content):
-        print "\033[1;32;40m %s \033[0m" % (content),
+        print("\033[1;32;40m %s \033[0m" % (content))
     @staticmethod
     def print_blue_text(content):
-        print "\033[1;34;40m %s \033[0m" % (content),
+        print("\033[1;34;40m %s \033[0m" % (content))
 
 
 def check(url, timeout):
@@ -28,19 +28,19 @@ def check(url, timeout):
         screenLock.acquire()
         if code == 200:
             ColorPrinter.print_green_text("[ " + str(code) + " ]")
-            print "Checking : " + url
+            print("Checking : " + url)
             if "404" in response.text:
                 ColorPrinter.print_blue_text(url + "\tMaybe every page same!")
         elif code == 404 or code == 405:
             pass
             # ColorPrinter.print_red_text("[ " + str(code) + " ]")
-            # print "Checking : " + url
+            # print("Checking : " + url)
         else:
             ColorPrinter.print_blue_text("[ " + str(code) + " ]")
-            print "Checking : " + url
+            print("Checking : " + url)
     except Exception as e:
         screenLock.acquire()
-        print e
+        print(e)
     finally:
         screenLock.release()
 
@@ -63,14 +63,14 @@ def urlFormater(url):
 
 
 def help(name):
-    print "Usage : "
-    print "        python %s [URL] [ThreadNumbers] [Timeout]" % (name)
-    print "Example : "
-    print "        python %s http://127.0.0.1/ 2 5" % (name)
-    print "Tips : "
-    print "        2 - 3 threadNumber is recommended."
-    print "        5 second timeout is recommended.(You can also use a decimal to set the timeout.)"
-    print "        If you have any questions, please contact <wangyihanger@gmail.com>"
+    print("Usage : ")
+    print("        python %s [URL] [ThreadNumbers] [Timeout]" % (name))
+    print("Example : ")
+    print("        python %s http://127.0.0.1/ 2 5" % (name))
+    print("Tips : ")
+    print("        2 - 3 threadNumber is recommended.")
+    print("        5 second timeout is recommended.(You can also use a decimal to set the timeout.)")
+    print("        If you have any questions, please contact <wangyihanger@gmail.com>")
 
 def main():
     if len(sys.argv) != 4:
@@ -82,7 +82,7 @@ def main():
     timeout = float(sys.argv[3])
     colorPrinter = ColorPrinter()
     if timeout == 0:
-        print "[-] Your timeout can not be equal with 0!"
+        print("[-] Your timeout can not be equal with 0!")
         help(sys.argv[0])
         exit(1)
     if not colorPrinter :
