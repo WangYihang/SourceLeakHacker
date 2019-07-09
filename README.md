@@ -1,24 +1,14 @@
-Description
----
+#### Description
 ```
 SourceLeakHacker is a muilt-thread web source leak detector.
 ```
 
-Dependency
----
-```
-requests
-```
-
-Installation
----
+#### Installation
 ```
 pip install -r requirments.txt
 ```
 
-Usage  　
----
-
+#### Usage　
 ```
 Usage :
         python SourceLeakHacker.py [URL] [ThreadNumbers] [Timeout]
@@ -30,11 +20,7 @@ Tips :
         If you have any questions, please contact [ wangyihanger@gmail.com ]
 ```
 
-
-
-Demo
----
-
-![screenshot-00.png](image/screenshot-00.png)
-![screenshot-01.png](image/screenshot-01.png)
-![screenshot-02.png](image/screenshot-02.png)
+#### Demo
+![screenshot-00.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-00.png)
+![screenshot-01.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-01.png)
+![screenshot-02.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-02.png)
