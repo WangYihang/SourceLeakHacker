@@ -16,10 +16,9 @@ def check(url, timeout):
     try:
         if timeout <= 0:
             timeout = 4
+            
         start_time = time.time()
         response = requests.head(url, timeout = timeout)
-        logger.correct(response.status_code)
-
         end_time = time.time()
 
         code = response.status_code

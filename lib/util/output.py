@@ -12,16 +12,16 @@ def asTable():
     table = prettytable.PrettyTable()
     table.field_names = headers
     for k, v in context.result.items():
-        # if v["code"] != 404:
-        table.add_row([
-            color.colorByStatusCode(v["code"], v["code"]), 
-            # v["code"],
-            v["Content-Length"], 
-            "%02f" % v["time"], 
-            v["Content-Type"], 
-            # string.fixLength(k, 0x20)
-            k,
-        ])
+        if v["code"] != 404:
+            table.add_row([
+                color.colorByStatusCode(v["code"], v["code"]), 
+                # v["code"],
+                v["Content-Length"], 
+                "%02f" % v["time"], 
+                v["Content-Type"], 
+                # string.fixLength(k, 0x20)
+                k,
+            ])
     table.set_style(prettytable.MSWORD_FRIENDLY)
     logger.plain(table)
 
