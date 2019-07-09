@@ -35,6 +35,6 @@ Tips :
 Demo
 ---
 
-![screenshot-00.png](screenshot-00.png)
-![screenshot-01.png](screenshot-01.png)
-![screenshot-02.png](screenshot-02.png)
+![screenshot-00.png](image/screenshot-00.png)
+![screenshot-01.png](image/screenshot-01.png)
+![screenshot-02.png](image/screenshot-02.png)
