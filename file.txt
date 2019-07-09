@@ -4,9 +4,10 @@ index.php
 4dmln.php
 4dmLn.php
 4dmin.php
-admLn.php
-admln.php
 admIn.php
+admln.php
+admLn.php
+admin.php
 conn.php
 config.php
 connect.php
