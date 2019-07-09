@@ -29,16 +29,19 @@ def start(website, threadNumber, listFile, timeout):
     logger.detail("%d tasks dispatched, starting threads..." % (len(threads)))
 
     # Start threads
-    counter = 0
+    # counter = 0
     for thread in threads:
         if context.CTRL_C_FLAG:
             break
-        # print("[%d / %d] Finished" % (counter, len(threads)))
+        # logger.detail("[%d / %d] Finished" % (counter, len(threads)))
         thread.start()
+        thread.join()
         while True:
             if context.CTRL_C_FLAG:
                 break
             # -1 for main thread
             if ((len(threading.enumerate()) - 1) < threadNumber):
                 break
-        counter += 1
+        # counter += 1
+
+    

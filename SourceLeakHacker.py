@@ -40,7 +40,9 @@ def main():
         prompt.show(sys.argv[0])
         exit(1)
     listFile = open('list.txt', 'r')
+    
     dispatcher.start(website, threadNumber, listFile, timeout)
+
     output.asTable()
     output.asCSV("result.csv")
 

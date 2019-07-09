@@ -1,15 +1,15 @@
 from termcolor import colored
 
 def colorProjection(code):
-    if (code / 100) == 1:
+    if int(code / 100) == 1:
         return ("blue", "on_grey")
-    elif (code / 100) == 2:
+    elif int(code / 100) == 2:
         return ("green", "on_grey")
-    elif (code / 100) == 3:
+    elif int(code / 100) == 3:
         return ("yellow", "on_grey")
-    elif (code / 100) == 4:
+    elif int(code / 100) == 4:
         return ("red", "on_grey")
-    elif (code / 100) == 5:
+    elif int(code / 100) == 5:
         return ("magenta", "on_grey")
     else:
         return ("cyan", "on_grey")

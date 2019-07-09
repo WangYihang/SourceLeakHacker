@@ -1,8 +1,9 @@
 import subprocess
 import platform
+import sys
 
 def clear():
     if platform.system()=="Windows":
         subprocess.Popen("cls", shell=True).communicate()
     else:
-        print("\033c", end="")
+        sys.stdout.write("\033c")
