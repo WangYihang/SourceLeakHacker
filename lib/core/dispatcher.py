@@ -20,11 +20,10 @@ def start(website, threadNumber, listFile, timeout):
                 j = j.replace("\r","")
                 temp = i.replace("?",j)
                 url = website + temp
+                threads.append(spider.Spider(url, timeout))
         else:
             url = website + i
-        # sys.stdout.write("Dispatching tasks: %s" % (url))
-        # terminal.clear()
-        threads.append(spider.Spider(url, timeout))
+            threads.append(spider.Spider(url, timeout))
     
     logger.detail("%d tasks dispatched, starting threads..." % (len(threads)))
 
