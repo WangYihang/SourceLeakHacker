@@ -35,6 +35,7 @@ _index.php
 150.php
 2.php
 233.php
+img.php
 3.php
 4.php
 4dmIn.php
@@ -136,6 +137,8 @@ log.php
 login.php
 login.php
 logon.php
+img.php
+image.php
 maer.php
 mma.php
 muma.php
