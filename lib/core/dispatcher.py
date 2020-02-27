@@ -93,6 +93,7 @@ class Producer(threading.Thread):
 
     def run(self):
         # Generate tasks for threads
+        context.logger.info("Loading dictionaries: 1/3")
         for i in list(self.foldernames_file):
             key = i.split("\t")[1].strip()
             value = int(i.split("\t")[0])
@@ -100,6 +101,7 @@ class Producer(threading.Thread):
             context.foldernames_cache[key] = value
             context.foldernames_lock.release()
 
+        context.logger.info("Loading dictionaries: 2/3")
         for i in list(self.filenames_file):
             key = i.split("\t")[1].strip()
             value = int(i.split("\t")[0])
@@ -107,31 +109,50 @@ class Producer(threading.Thread):
             context.filenames_cache[key] = value
             context.filenames_lock.release()
 
+        context.logger.info("Loading dictionaries: 3/3")
         for i in list(self.backups_file):
             key = i.split("\t")[1].strip()
             value = int(i.split("\t")[0])
             context.backups_lock.acquire()
             context.backups_cache[key] = value
             context.backups_lock.release()
-        
-        # Sort
 
-        for foldername in list(context.foldernames_cache.keys()):
-            for filename in list(context.filenames_cache.keys()):
-                for backup in list(context.backups_cache.keys()):
-                    path = "{}{}".format(foldername, backup.replace("?", filename))
-                    for url in self.urls:
+        context.logger.info("Sorting dictionaries...")
+        for backup in sorted(context.backups_cache.items(), key=lambda item:item[1], reverse=True):
+            for foldername in sorted(context.foldernames_cache.items(), key=lambda item:item[1], reverse=True):
+                for url in self.urls:
+                    # Check folder existance
+                    folder_url = "{}{}".format(url, foldername[0])
+                    skip_flag = False
+                    try:
+                        response = requests.head(folder_url, timeout=self.timeout)
+                        code = response.status_code
+                        if code >= 400 and code < 500:
+                            skip_flag = True
+                            context.logger.info("Folder({}) not exists, skipping scanning files in this folder.".format(folder_url))
+                    except Exception as e:
+                        context.logger.error(repr(e))
+
+                    if skip_flag:
+                        continue
+
+                    for filename in sorted(context.filenames_cache.items(), key=lambda item:item[1], reverse=True):
+                        path = "{}{}".format(foldername[0], backup[0].replace("?", filename[0]))
                         u = "{}{}".format(url, path)
                         task = {
                             "url":u, 
                             "timeout": self.timeout, 
                             "retry":4, 
-                            "foldername": foldername, 
-                            "filename":filename,
-                            "backup": backup,
+                            "foldername": foldername[0], 
+                            "filename":filename[0],
+                            "backup": backup[0],
                         }
                         if not context.CTRL_C_FLAG:
                             self.Q.put(task)
+                    if context.CTRL_C_FLAG: break
+                if context.CTRL_C_FLAG: break
+            if context.CTRL_C_FLAG: break
+
         context.FINISH_FLAG = True
 
 class Consumer(threading.Thread):

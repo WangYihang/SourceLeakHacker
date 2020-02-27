@@ -1,5 +1,5 @@
 1	
-2	html/
+0	html/
 0	images/
 0	doc/
 0	upload/
@@ -14,7 +14,6 @@
 0	config/
 0	conf/
 0	files/
-0	admin/
 0	.bzr/
 0	.git/
 0	.hg/
@@ -317,7 +316,6 @@
 0	apanel/
 0	apc/
 0	apexec/
-0	api/
 0	apis/
 0	apl/
 0	apm/
@@ -388,7 +386,6 @@
 0	asset/
 0	assetmanage/
 0	assetmanagement/
-0	assets/
 0	at/
 0	atom/
 0	attach_mod/
@@ -454,7 +451,6 @@
 0	BackOffice/
 0	backup_migrate/
 0	backup-db/
-0	backup/
 0	backup2/
 0	backups/
 0	bad_link/
@@ -840,7 +836,6 @@
 0	comments/
 0	commerce/
 0	commercial/
-0	common/
 0	commoncontrols/
 0	commun/
 0	communication/
@@ -875,11 +870,9 @@
 0	con/
 0	concrete/
 0	conditions/
-0	conf/
 0	conference/
 0	conferences/
 0	config.local/
-0	config/
 0	configs/
 0	configuration/
 0	configure/
@@ -1196,7 +1189,6 @@
 0	DMSDump/
 0	dns/
 0	do/
-0	doc/
 0	docebo/
 0	docedit/
 0	dock/
@@ -1483,7 +1475,6 @@
 0	fileadmin/
 0	filelist/
 0	filemanager/
-0	files/
 0	fileupload/
 0	fileuploads/
 0	filez/
@@ -1817,7 +1808,6 @@
 0	htdocs/
 0	htm/
 0	HTML/
-0	html/
 0	htmlarea/
 0	htmls/
 0	htpasswd/
@@ -1863,13 +1853,11 @@
 0	iissamples/
 0	im/
 0	Image/
-0	image/
 0	imagefolio/
 0	imagegallery/
 0	imagenes/
 0	imagens/
 0	Images/
-0	images/
 0	images01/
 0	images1/
 0	images2/
@@ -3791,7 +3779,6 @@
 0	statement/
 0	statements/
 0	states/
-0	static/
 0	staticpages/
 0	statistic/
 0	statistics/
@@ -4158,7 +4145,6 @@
 0	upgrade/
 0	upload_file/
 0	upload_files/
-0	upload/
 0	uploaded/
 0	uploadedfiles/
 0	uploadedimages/

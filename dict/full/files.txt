@@ -1,8 +1,6 @@
 0	__index.php
 0	_index.php
 0	.bash_history
-0	.bash_history
-0	.bashrc
 0	.bashrc
 0	.cache
 0	.config
@@ -18,12 +16,10 @@
 0	.history
 0	.hta
 0	.htaccess
-0	.htaccess
 0	.htpasswd
 0	.idea/workspace.xml
 0	.listing
 0	.listings
-0	.mysql_history
 0	.mysql_history
 0	.passwd
 0	.perf
@@ -32,7 +28,6 @@
 0	.sh_history
 0	.svn/entries
 0	.svn/wc.db
-0	.viminfo
 0	.viminfo
 0	0.php
 0	1.php
@@ -53,7 +48,6 @@
 0	9.php
 0	acid.php
 0	admin.php
-0	admin.php
 0	admIn.php
 0	admin.xml
 0	admln.php
@@ -68,7 +62,6 @@
 0	back.sql
 0	backup.7z
 0	backup.rar
-0	backup.sql
 0	backup.sql
 0	backup.tar
 0	backup.tar.gz
@@ -100,7 +93,6 @@
 0	CHANGELOG.txt
 0	cihshell_fix.php
 0	cmd.php
-0	cmd.php
 0	co.php
 0	common.inc
 0	conf.conf
@@ -127,7 +119,6 @@
 0	data.sql
 0	database.mdb
 0	Database.mdf
-0	database.sql
 0	database.sql
 0	database.xml
 0	databaseinit.sql
@@ -157,7 +148,6 @@
 0	flag.php
 0	fl4g.php
 0	f1ag.php
-0	f14g.php
 0	forum.php
 0	ftp.ini
 0	g00nv13.php
@@ -185,7 +175,6 @@
 0	index.zip
 0	info.ini
 0	info.php
-0	info.php
 0	info.xml
 0	ini.xml
 0	init_db.sql
@@ -209,7 +198,6 @@
 0	log.php
 0	log.txt
 0	login.php
-0	login.php
 0	login.sql
 0	login.xml
 0	logon.php
@@ -231,10 +219,8 @@
 0	PHANTASMA.php
 0	Php_Backdoor.txt.php
 0	php.ini
-0	php.ini
 0	php.ini~
 0	Php.xml
-0	phpinfo.php
 0	phpinfo.php
 0	PHPJackal.php
 0	PHPRemoteView.php
@@ -261,7 +247,6 @@
 0	setup.ini
 0	setup.sql
 0	shell.php
-0	shell.php
 0	shujuku.sql
 0	simattacker.php
 0	simple_cmd.php
@@ -275,7 +260,6 @@
 0	t.php
 0	test.conf
 0	test.mdb
-0	test.php
 0	test.php
 0	test.sql
 0	test.xml
@@ -292,29 +276,20 @@
 0	WEB-INF/database.propertie
 0	WEB-INF/web.xml
 0	web.7z
-0	web.7z
 0	web.config
-0	web.rar
 0	web.rar
 0	web.sql
 0	web.tar
-0	web.tar
-0	web.tar.gz
 0	web.tar.gz
 0	web.xml
 0	web.zip
-0	web.zip
 0	webshell.php
-0	www.7z
 0	www.7z
 0	www.ini
 0	www.rar
-0	www.rar
 0	www.tar
 0	www.tar.gz
-0	www.tar.gz
 0	www.xml
-0	www.zip
 0	www.zip
 0	wwwroot.7z
 0	wwwroot.rar
