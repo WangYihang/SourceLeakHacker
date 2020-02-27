@@ -43,7 +43,7 @@ def initArguments():
 
     levels = ["CRITICAL", "ERROR", "WARNING", "INFO", "DEBUG",]
     parser.add_argument("--level", "-v", choices=levels, default="WARNING", help="log level")
-    parser.add_argument("--version", "-V", action="version", version="%(prog)s 2.0")
+    parser.add_argument("--version", "-V", action="version", version="%(prog)s 3.0")
 
     args = parser.parse_args()
     return args

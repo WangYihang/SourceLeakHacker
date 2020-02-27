@@ -13,15 +13,14 @@ usage: SourceLeakHacker.py [options]
 optional arguments:
   -h, --help            show this help message and exit
   --url URL             url to scan, eg: 'http://127.0.0.1/'
-  --urls URLS           file contains urls to sacn, one line one url.
-  --folders FOLDERS     dictionary for most common folder names
-  --files FILES         dictionary for most common file names
-  --backups BACKUPS     dictionary for most common backup file patterns
-  --output OUTPUT       output csv filename
+  --urls URLS           file contains urls to scan, one line one url.
+  --scale {full,tiny}   build-in dictionary scale
+  --output OUTPUT       output folder, default: result/YYYY-MM-DD hh:mm:ss
   --threads THREADS, -t THREADS
                         threads numbers, default: 4
   --timeout TIMEOUT     HTTP request timeout
-  --verbose, -v         log level, eg: -vv
+  --level {CRITICAL,ERROR,WARNING,INFO,DEBUG}, -v {CRITICAL,ERROR,WARNING,INFO,DEBUG}
+                        log level
   --version, -V         show program's version number and exit
 ```
 
