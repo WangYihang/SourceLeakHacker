@@ -105,12 +105,9 @@ venv.bak/
 # json
 *.json
 
-# logs
-Webshell.txt
-
 # IDE
 .idea/
 .vscode/
 
 # Result file
-result.csv
+result/*
