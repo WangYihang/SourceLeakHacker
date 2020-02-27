@@ -85,22 +85,18 @@ def main():
     )
 
     # Save optimized dictionary
-    context.logger.info("Saving optimized dictionary: {}".format(context.foldernames_dictionary))
-    save_dictionary(context.foldernames_dictionary, context.foldernames_cache)
-    context.logger.info("Saving optimized dictionary: {}".format(context.filenames_dictionary))
-    save_dictionary(context.filenames_dictionary, context.filenames_cache)
-    context.logger.info("Saving optimized dictionary: {}".format(context.backups_dictionary))
-    save_dictionary(context.backups_dictionary, context.backups_cache)
+    context.logger.info("Saving optimized dictionary: dict/{}/{}".format(args.scale, context.foldernames_dictionary))
+    save_dictionary("dict/{}/{}".format(args.scale, context.foldernames_dictionary), context.foldernames_cache)
+    context.logger.info("Saving optimized dictionary: dict/{}/{}".format(args.scale, context.filenames_dictionary))
+    save_dictionary("dict/{}/{}".format(args.scale, context.filenames_dictionary), context.filenames_cache)
+    context.logger.info("Saving optimized dictionary: dict/{}/{}".format(args.scale, context.backups_dictionary))
+    save_dictionary("dict/{}/{}".format(args.scale, context.backups_dictionary), context.backups_cache)
+
+    # Print statistic information
+    output.asTable()
 
     # Save result
     output.asCSV(args.output)
-
-    # Print statistic information
-    table = prettytable.PrettyTable()
-    table.field_names = ["Code", "Times"]
-    for k, v in context.statistic.items():
-        table.add_row([k, v])
-    print(table)
 
 if __name__ == "__main__":
     main()
