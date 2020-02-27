@@ -52,9 +52,9 @@ class Producer(threading.Thread):
 
     def run(self):
         # Generate tasks for threads
-        foldernames = [i.strip() for i in list(self.foldernames_file)][0:3]
-        filenames = [i.strip() for i in list(self.filenames_file)][0:3]
-        backups = [i.strip() for i in list(self.backups_file)][0:3]
+        foldernames = [i.strip() for i in list(self.foldernames_file)]
+        filenames = [i.strip() for i in list(self.filenames_file)]
+        backups = [i.strip() for i in list(self.backups_file)]
         paths = []
         for folder in foldernames:
             for filename in filenames:
