@@ -60,10 +60,24 @@ def check(url, foldername, filename, backup, timeout=4):
         print(color.projection(code) + "[%d]\t%s\t%02f\t%s\t%s" % (code, content_length, time_used, content_type, url))
         print(Style.RESET_ALL, end="")
         context.screenLock.release()
-
-        # logger.http(, code)
     except Exception as e:
+        code = 0
+        context.result_lock.acquire()
+        context.result[url] = {
+            "code":code,
+            "time":0,
+            "Content-Length": 0,
+            "Content-Type": repr(e).replace(",", "|"),
+        }
+        context.result_lock.release()
         context.logger.error(e)
+
+        context.statistic_lock.acquire()
+        if code not in context.statistic.keys():
+            context.statistic[code] = 0
+        context.statistic[code] += 1
+        context.statistic_lock.release()
+
         raise e
 
 class Producer(threading.Thread):

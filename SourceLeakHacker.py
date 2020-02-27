@@ -42,7 +42,7 @@ def initArguments():
     parser.add_argument("--timeout", type=float, default=4, help="HTTP request timeout")
 
     levels = ["CRITICAL", "ERROR", "WARNING", "INFO", "DEBUG",]
-    parser.add_argument("--level", "-v", choices=levels, default="DEBUG", help="log level")
+    parser.add_argument("--level", "-v", choices=levels, default="WARNING", help="log level")
     parser.add_argument("--version", "-V", action="version", version="%(prog)s 2.0")
 
     args = parser.parse_args()
