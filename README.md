@@ -61,7 +61,7 @@ Result save in file: result/2020-02-27 07:08:54.csv
 - [x] Support for multiple urls (from file).
 - [x] Add help comments for every params.
 - [x] Update Usage.
-- [ ] Adjust dictionary elements order systematically.
+- [x] Adjust dictionary elements order systematically.
 - [ ] Change logger in order to suite for both windows and linux.
 - [ ] Retry
 - [ ] Add log level.

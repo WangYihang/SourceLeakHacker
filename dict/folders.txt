@@ -1,4669 +1,4648 @@
-_/
-_adm/
-_admin/
-_ajax/
-_archive/
-_assets/
-_backup/
-_baks/
-_borders/
-_cache/
-_catalogs/
-_common/
-_conf/
-_config/
-_css/
-_data/
-_database/
-_db_backups/
-_derived/
-_dev/
-_dummy/
-_files/
-_flash/
-_fpclass/
-_images/
-_img/
-_inc/
-_include/
-_includes/
-_install/
-_js/
-_layouts/
-_lib/
-_media/
-_mem_bin/
-_mm/
-_mmserverscripts/
-_mygallery/
-_notes/
-_old/
-_overlay/
-_pages/
-_private/
-_reports/
-_res/
-_resources/
-_scriptlibrary/
-_scripts/
-_source/
-_src/
-_stats/
-_styles/
-_swf/
-_temp/
-_tempalbums/
-_template/
-_templates/
-_test/
-_themes/
-_tmp/
-_tmpfileop/
-_viminfo
-_vti_aut/
-_vti_bin/
-_vti_bin/_vti_adm/admin.dll/
-_vti_bin/_vti_aut/author.dll/
-_vti_bin/shtml.dll/
-_vti_cnf/
-_vti_inf/
-_vti_log/
-_vti_map/
-_vti_pvt/
-_vti_rpc/
-_vti_script/
-_vti_txt/
-_www/
-.bzr/
-.git/
-.hg/
-.svn/
-@/
-~adm/
-~admin/
-~administrator/
-~amanda/
-~apache/
-~bin/
-~ftp/
-~guest/
-~http/
-~httpd/
-~log/
-~logs/
-~lp/
-~mail/
-~nobody/
-~operator/
-~root/
-~sys/
-~sysadm/
-~sysadmin/
-~test/
-~tmp/
-~user/
-~webmaster/
-~www/
-0/
-00/
-01/
-02/
-03/
-04/
-05/
-06/
-07/
-08/
-09/
-1/
-10/
-100/
-1000/
-1001/
-101/
-102/
-103/
-11/
-12/
-123/
-13/
-14/
-15/
-1990/
-1991/
-1992/
-1993/
-1994/
-1995/
-1996/
-1997/
-1998/
-1999/
-1x1/
-2/
-20/
-200/
-2000/
-2001/
-2002/
-2003/
-2004/
-2005/
-2006/
-2007/
-2008/
-2009/
-2010/
-2011/
-2012/
-2013/
-2014/
-21/
-22/
-2257/
-23/
-24/
-25/
-2g/
-3/
-30/
-300/
-32/
-3g/
-3rdparty/
-4/
-400/
-401/
-403/
-404/
-42/
-5/
-50/
-500/
-51/
-6/
-64/
-7/
-7z/
-8/
-9/
-96/
-A/
-a/
-aa/
-aaa/
-abc/
-abc123/
-abcd/
-abcd1234/
-about_us/
-about-us/
-about/
-About/
-AboutUs/
-aboutus/
-abstract/
-abuse/
-ac/
-academic/
-academics/
-acatalog/
-acc/
-access_db/
-access_log.1/
-access_log/
-access-log.1/
-access-log/
-access.1/
-access/
-accessgranted/
-accessibility/
-accessories/
-accommodation/
-account_edit/
-account_history/
-account/
-accountants/
-accounting/
-accounts/
-accountsettings/
-acct_login/
-achitecture/
-acp/
-act/
-action/
-actions/
-activate/
-active/
-activeCollab/
-activex/
-activities/
-activity/
-ad_js/
-ad/
-adaptive/
-adclick/
-add_cart/
-add/
-addfav/
-addnews/
-addons/
-addpost/
-addreply/
-address_book/
-address/
-addressbook/
-addresses/
-addtocart/
-adlog/
-adlogger/
-adm/
-ADM/
-admin_/
-admin_area/
-admin_banner/
-admin_c/
-admin_index/
-admin_interface/
-admin_login/
-admin_logon/
-admin-admin/
-admin-console/
-admin-interface/
-admin.cgi/
-admin.php/
-admin.pl/
-admin/
-Admin/
-admin/
-ADMIN/
-admin1/
-admin2/
-admin3/
-admin4_account/
-admin4_colon/
-admincontrol/
-admincp/
-adminhelp/
-administer/
-administr8/
-administracion/
-administrador/
-administrat/
-administratie/
-administration/
-Administration/
-administrator/
-administratoraccounts/
-administrators/
-administrivia/
-adminlogin/
-adminlogon/
-adminpanel/
-adminpro/
-admins/
-AdminService/
-adminsessions/
-adminsql/
-admintools/
-AdminTools/
-admissions/
-admon/
-ADMON/
-adobe/
-adodb/
-ads/
-adserver/
-adsl/
-adv_counter/
-adv/
-advanced_search/
-advanced/
-advancedsearch/
-advert/
-advertise/
-advertisement/
-advertisers/
-advertising/
-adverts/
-advice/
-adview/
-advisories/
-af/
-aff/
-affiche/
-affiliate_info/
-affiliate_terms/
-affiliate/
-affiliates/
-affiliatewiz/
-africa/
-agb/
-agency/
-agenda/
-agent/
-agents/
-aggregator/
-AggreSpy/
-ajax_cron/
-ajax/
-akamai/
-akeeba.backend.log/
-alarm/
-alarms/
-album/
-albums/
-alcatel/
-alert/
-alerts/
-alias/
-aliases/
-all-wcprops/
-all/
-alltime/
-alpha/
-alt/
-alumni_add/
-alumni_details/
-alumni_info/
-alumni_reunions/
-alumni_update/
-alumni/
-am/
-amanda/
-amazon/
-amember/
-analog.html/
-analog/
-analyse/
-analysis/
-analytics/
-and/
-android/
-announce/
-announcement/
-announcements/
-annuaire/
-annual/
-anon_ftp/
-anon/
-anonymous/
-ansi/
-answer/
-answers/
-antibot_image/
-antispam/
-antivirus/
-anuncios/
-any/
-aol/
-ap/
-apac/
-apache/
-apanel/
-apc/
-apexec/
-api/
-apis/
-apl/
-apm/
-app_browser/
-app_browsers/
-app_code/
-app_data/
-app_themes/
-app/
-app/
-appeal/
-appeals/
-append/
-appl/
-apple/
-applet/
-applets/
-appliance/
-appliation/
-application.wadl/
-application/
-applications/
-apply/
-apps/
-AppsLocalLogin/
-AppsLogin/
-apr/
-ar/
-arbeit/
-arcade/
-arch/
-architect/
-architecture/
-archiv/
-Archive/
-archive/
-archives/
-archivos/
-arquivos/
-array/
-arrow/
-ars/
-art/
-article/
-Articles/
-articles/
-artikel/
-artists/
-arts/
-artwork/
-as/
-ascii/
-asdf/
-ashley/
-asia/
-ask_a_question/
-ask/
-askapache/
-asmx/
-asp/
-aspadmin/
-aspdnsfcommon/
-aspdnsfencrypt/
-aspdnsfgateways/
-aspdnsfpatterns/
-aspnet_client/
-asps/
-aspx/
-asset/
-assetmanage/
-assetmanagement/
-assets/
-at/
-atom/
-attach_mod/
-attach/
-attachment/
-attachments/
-attachs/
-attic/
-au/
-auction/
-auctions/
-audio/
-audit/
-audits/
-auth/
-authentication/
-author/
-authoring/
-authorization/
-authorized_keys/
-authors/
-authuser/
-authusers/
-auto/
-autobackup/
-autocheck/
-autodeploy/
-autodiscover/
-autologin/
-automatic/
-automation/
-automotive/
-aux/
-av/
-avatar/
-avatars/
-aw/
-award/
-awardingbodies/
-awards/
-awl/
-awmdata/
-awstats.conf/
-awstats/
-axis-admin/
-axis/
-axis2-admin/
-axis2/
-axs/
-az/
-b/
-B/
-b1/
-b2b/
-b2c/
-back-up/
-back/
-backdoor/
-backend/
-background/
-backgrounds/
-backoffice/
-BackOffice/
-backup_migrate/
-backup-db/
-backup/
-backup2/
-backups/
-bad_link/
-bak-up/
-bak/
-bakup/
-balance/
-balances/
-ban/
-bandwidth/
-bank/
-banking/
-banks/
-banned/
-banner_element/
-banner/
-banner2/
-banneradmin/
-bannerads/
-banners/
-bar/
-base/
-Base/
-baseball/
-bash/
-basic/
-basket/
-basketball/
-baskets/
-bass/
-bat/
-batch/
-baz/
-bb-hist/
-bb-histlog/
-bb/
-bbadmin/
-bbclone/
-bboard/
-bbs/
-bc/
-bd/
-bdata/
-be/
-bea/
-bean/
-beans/
-beehive/
-beheer/
-benefits/
-benutzer/
-best/
-beta/
-bfc/
-bg/
-big/
-bigadmin/
-bigip/
-bilder/
-bill/
-billing/
-bin/
-binaries/
-binary/
-bins/
-bio/
-bios/
-bitrix/
-biz/
-bk/
-bkup/
-bl/
-black/
-blah/
-blank/
-blb/
-block/
-blocked/
-blocks/
-blog_ajax/
-blog_inlinemod/
-blog_report/
-blog_search/
-blog_usercp/
-Blog/
-blog/
-blogger/
-bloggers/
-blogindex/
-blogs/
-blogspot/
-blow/
-blue/
-bm/
-bmz_cache/
-bnnr/
-bo/
-board/
-boards/
-bob/
-body/
-bofh/
-boiler/
-boilerplate/
-bonus/
-bonuses/
-book/
-booker/
-booking/
-bookmark/
-bookmarks/
-books/
-Books/
-bookstore/
-boost_stats/
-boot/
-bot-trap/
-bot/
-bots/
-bottom/
-boutique/
-box/
-boxes/
-br/
-brand/
-brands/
-broadband/
-brochure/
-brochures/
-broken_link/
-broken/
-broker/
-browse/
-Browser/
-browser/
-bs/
-bsd/
-bt/
-bug/
-bugs/
-build/
-BUILD/
-builder/
-buildr/
-bulk/
-bulksms/
-bullet/
-busca/
-buscador/
-buscar/
-business/
-Business/
-button/
-buttons/
-buy/
-buynow/
-buyproduct/
-bypass/
-bz2/
-C/
-c/
-ca/
-cabinet/
-cache/
-cachemgr.cgi/
-cachemgr/
-caching/
-cad/
-cadmins/
-cal/
-calc/
-calendar_events/
-calendar_sports/
-calendar/
-calendarevents/
-calendars/
-call/
-callback/
-callee/
-caller/
-callin/
-calling/
-callout/
-cam/
-camel/
-campaign/
-campaigns/
-can/
-canada/
-captcha/
-car/
-carbuyaction/
-card/
-cardinal/
-cardinalauth/
-cardinalform/
-cards/
-career/
-careers/
-carp/
-carpet/
-cars/
-cart/
-carthandler/
-carts/
-cas/
-cases/
-casestudies/
-cash/
-cat/
-catalog.wci/
-catalog/
-catalogs/
-catalogsearch/
-catalogue/
-catalyst/
-catch/
-categoria/
-categories/
-category/
-catinfo/
-cats/
-cb/
-cc/
-ccbill/
-ccount/
-ccp14admin/
-ccs/
-cd/
-cdrom/
-centres/
-cert/
-certenroll/
-certificate/
-certificates/
-certification/
-certified/
-certs/
-certserver/
-certsrv/
-cf/
-cfc/
-cfcache/
-cfdocs/
-cfg/
-cfide/
-cfm/
-cfusion/
-cgi_bin/
-cgi-bin/
-cgi-bin//
-cgi-bin2/
-cgi-data/
-cgi-exe/
-cgi-home/
-cgi-image/
-cgi-local/
-cgi-perl/
-cgi-pub/
-cgi-script/
-cgi-shl/
-cgi-sys/
-cgi-web/
-cgi-win/
-cgi/
-cgibin/
-cgis/
-cgiwrap/
-cgm-web/
-ch/
-chan/
-change_password/
-change/
-changed/
-changelog/
-ChangeLog/
-changepw/
-changes/
-channel/
-charge/
-charges/
-chart/
-charts/
-chat/
-chats/
-check/
-checking/
-checkout_iclear/
-checkout/
-checkoutanon/
-checkoutreview/
-checkpoint/
-checks/
-child/
-children/
-china/
-chk/
-choosing/
-chris/
-chrome/
-cinema/
-cisco/
-cisweb/
-cities/
-citrix/
-city/
-ck/
-ckeditor/
-ckfinder/
-cl/
-claim/
-claims/
-class/
-classes/
-classic/
-classified/
-classifieds/
-classroompages/
-cleanup/
-clear/
-clearcookies/
-clearpixel/
-click/
-clickheat/
-clickout/
-clicks/
-client/
-clientaccesspolicy/
-clientapi/
-clientes/
-clients/
-clientscript/
-clipart/
-clips/
-clk/
-clock/
-close/
-closed/
-closing/
-club/
-cluster/
-clusters/
-cm/
-cmd/
-cmpi_popup/
-cms/
-CMS/
-cmsadmin/
-cn/
-cnf/
-cnstats/
-cnt/
-co/
-cocoon/
-code/
-codec/
-codecs/
-codepages/
-codes/
-coffee/
-cognos/
-coke/
-coldfusion/
-collapse/
-collection/
-college/
-columnists/
-columns/
-com_sun_web_ui/
-com/
-com1/
-com2/
-com3/
-com4/
-comics/
-comm/
-command/
-comment-page-1/
-comment-page/
-comment/
-commentary/
-commented/
-comments/
-commerce/
-commercial/
-common/
-commoncontrols/
-commun/
-communication/
-communications/
-communicator/
-communities/
-community/
-comp/
-compact/
-companies/
-company/
-compare_product/
-compare/
-comparison_list/
-comparison/
-compat/
-compiled/
-complaint/
-complaints/
-compliance/
-component/
-components/
-compose/
-composer/
-compress/
-compressed/
-computer/
-computers/
-Computers/
-computing/
-comunicator/
-con/
-concrete/
-conditions/
-conf/
-conference/
-conferences/
-config.local/
-config/
-configs/
-configuration/
-configure/
-confirm/
-confirmed/
-conlib/
-conn/
-connect/
-connections/
-connector/
-connectors/
-console/
-constant/
-constants/
-consulting/
-consumer/
-cont/
-contact_bean/
-contact_us/
-contact-form/
-contact-us/
-contact/
-Contact/
-contactinfo/
-contacto/
-contacts/
-ContactUs/
-contactus/
-contao/
-contato/
-contenido/
-content/
-Content/
-contents/
-contest/
-contests/
-contract/
-contracts/
-contrib/
-contribute/
-contributor/
-control/
-controller/
-controllers/
-controlpanel/
-controls/
-converge_local/
-converse/
-cookie_usage/
-cookie/
-cookies/
-cool/
-copies/
-copy/
-copyright-policy/
-copyright/
-corba/
-core/
-coreg/
-corp/
-corpo/
-corporate/
-corporation/
-corrections/
-count/
-counter/
-counters/
-country/
-counts/
-coupon/
-coupons/
-coupons1/
-course/
-courses/
-cover/
-covers/
-cp/
-cpadmin/
-CPAN/
-cpanel_file/
-cPanel/
-cpanel/
-cpath/
-cpp/
-cps/
-cpstyles/
-cr/
-crack/
-crash/
-crashes/
-create_account/
-create/
-createaccount/
-createbutton/
-creation/
-Creatives/
-creator/
-credit/
-creditcards/
-credits/
-crime/
-crm/
-crms/
-cron/
-cronjobs/
-crons/
-crontab/
-crontabs/
-crossdomain.xml/
-crossdomain/
-crs/
-crtr/
-crypt/
-crypto/
-cs/
-cse/
-csproj/
-css/
-csv/
-ct/
-ctl/
-culture/
-currency/
-current/
-custom_log/
-custom-log/
-custom/
-customavatars/
-customcode/
-customer_login/
-customer/
-customers/
-customgroupicons/
-customize/
-cute/
-cutesoft_client/
-cv/
-cvs/
-CVS/
-CVS/Entries/
-CVS/Entries/
-CVS/Repository/
-CVS/Root/
-CVS/Root/
-cxf/
-cy/
-CYBERDOCS/
-CYBERDOCS25/
-CYBERDOCS31/
-cyberworld/
-cycle_image/
-cz/
-czcmdcvt/
-D/
-d/
-da/
-daemon/
-daily/
-dan/
-dana-na/
-dark/
-dashboard/
-dat/
-data/
-Database_Administration/
-database_administration/
-database/
-databases/
-datafiles/
-datas/
-date/
-daten/
-datenschutz/
-dating/
-dav/
-day/
-db_connect/
-db/
-DB/
-dba/
-dbadmin/
-dbadmin/
-dbase/
-dbboon/
-dbg/
-dbi/
-dblclk/
-dbm/
-dbman/
-dbmodules/
-dbms/
-dbutil/
-dc/
-dcforum/
-dclk/
-de_DE/
-de/
-deal/
-dealer/
-dealers/
-deals/
-debian/
-debug/
-dec/
-decl/
-declaration/
-declarations/
-decode/
-decoder/
-decrypt/
-decrypted/
-decryption/
-def/
-default_icon/
-default_image/
-default_logo/
-default_page/
-default_pages/
-default/
-Default/
-defaults/
-definition/
-definitions/
-del/
-delete/
-deleted/
-deleteme/
-deletion/
-delicious/
-demo/
-demo2/
-demos/
-denied/
-deny/
-departments/
-deploy/
-deployment/
-descargas/
-design/
-designs/
-desktop/
-desktopmodules/
-desktops/
-destinations/
-detail/
-details/
-deutsch/
-dev/
-dev2/
-dev60cgi/
-devel/
-develop/
-developement/
-developer/
-developers/
-development.log/
-development/
-device/
-devices/
-devs/
-devtools/
-df/
-dh_/
-dh_phpmyadmin/
-di/
-diag/
-diagnostics/
-dial/
-dialog/
-dialogs/
-diary/
-dictionary/
-diff/
-diffs/
-dig/
-digest/
-digg/
-digital/
-dir-login/
-dir-prop-base/
-dir/
-dirbmark/
-direct/
-directadmin/
-directions/
-directories/
-directorio/
-directory/
-dirs/
-disabled/
-disallow/
-disclaimer/
-disclosure/
-discootra/
-discount/
-discovery/
-discus/
-discuss/
-discussion/
-disdls/
-disk/
-dispatch/
-dispatcher/
-display_vvcodes/
-display/
-dist/
-divider/
-django/
-dk/
-dl/
-dll/
-dm-config/
-dm/
-dmdocuments/
-dms/
-dms0/
-DMSDump/
-dns/
-do/
-doc/
-docebo/
-docedit/
-dock/
-docroot/
-docs/
-docs41/
-docs51/
-document_library/
-document/
-documentation/
-Documents and Settings/
-documents/
-doinfo/
-dokuwiki/
-domain/
-domains/
-donate/
-donations/
-done/
-dot/
-doubleclick/
-down/
-download_private/
-Download/
-download/
-downloader/
-downloads/
-Downloads/
-downsys/
-draft/
-drafts/
-dragon/
-draver/
-driver/
-drivers/
-drop/
-dropped/
-drupal/
-ds/
-dummy/
-dump/
-dumpenv/
-dumps/
-dumpuser/
-dvd/
-dwr/
-dyn/
-dynamic/
-dyop_addtocart/
-dyop_delete/
-dyop_quan/
-e-mail/
-e-store/
-e/
-E/
-e107_admin/
-e107_files/
-e107_handlers/
-e2fs/
-ear/
-easy/
-ebay/
-eblast/
-ebook/
-ebooks/
-ebriefs/
-ec/
-ecard/
-ecards/
-echannel/
-ecommerce/
-ecrire/
-edge/
-edgy/
-edit_link/
-edit_profile/
-edit/
-editaddress/
-editor/
-editorial/
-editorials/
-editors/
-editpost/
-edits/
-edp/
-edu/
-Education/
-education/
-ee/
-effort/
-efforts/
-egress/
-ehdaa/
-ejb/
-el/
-electronics/
-element/
-elements/
-elmar/
-em/
-email-a-friend/
-email-addresses/
-email/
-emailafriend/
-emailer/
-emailhandler/
-emailing/
-emailproduct/
-emails/
-emailsignup/
-emailtemplates/
-embed/
-embedd/
-embedded/
-emea/
-emergency/
-emoticons/
-employee/
-employees/
-employers/
-employment/
-empty/
-emu/
-emulator/
-en_US/
-en_us/
-en/
-enable-cookies/
-enc/
-encode/
-encoder/
-encrypt/
-encrypted/
-encryption/
-encyption/
-end/
-enduser/
-endusers/
-energy/
-enews/
-eng/
-engine/
-engines/
-English/
-english/
-enterprise/
-Entertainment/
-entertainment/
-entries/
-Entries/
-entropybanner/
-entry/
-env/
-environ/
-environment/
-ep/
-eproducts/
-equipment/
-eric/
-err/
-erraddsave/
-errata/
-error_docs/
-error_log/
-error_message/
-error_pages/
-error-espanol/
-error-log/
-error/
-error404/
-errordocs/
-errorpage/
-errorpages/
-errors/
-erros/
-es_ES/
-es/
-esale/
-esales/
-eshop/
-esp/
-espanol/
-established/
-estilos/
-estore/
-esupport/
-et/
-etc/
-ethics/
-eu/
-europe/
-evb/
-event/
-events/
-Events/
-evil/
-evt/
-ewebeditor/
-ews/
-ex/
-example/
-examples/
-excalibur/
-excel/
-exception_log/
-exch/
-exchange/
-exchweb/
-exclude/
-exe/
-exec/
-executable/
-executables/
-exiar/
-exit/
-expert/
-experts/
-exploits/
-explore/
-explorer/
-export/
-exports/
-ext/
-ext2/
-extension/
-extensions/
-extern/
-external/
-externalid/
-externalisation/
-externalization/
-extra/
-extranet/
-Extranet/
-extras/
-ezshopper/
-ezsqliteadmin/
-f/
-F/
-fa/
-fabric/
-face/
-facebook/
-faces/
-facts/
-faculty/
-fail/
-failed/
-failure/
-fake/
-family/
-fancybox/
-faq/
-FAQ/
-faqs/
-fashion/
-favicon.ico/
-favorite/
-favorites/
-fb/
-fbook/
-fc/
-fcategory/
-fcgi-bin/
-fcgi/
-fck/
-fckeditor/
-FCKeditor/
-fdcp/
-feature/
-featured/
-features/
-fedora/
-feed/
-feedback_js/
-feedback/
-feeds/
-felix/
-fetch/
-fi/
-field/
-fields/
-file/
-fileadmin/
-filelist/
-filemanager/
-files/
-fileupload/
-fileuploads/
-filez/
-film/
-films/
-filter/
-finance/
-financial/
-find/
-finger/
-finishorder/
-firefox/
-firewall/
-firewalls/
-firmconnect/
-firms/
-firmware/
-first/
-fixed/
-fk/
-fla/
-flag/
-flags/
-flash-intro/
-flash/
-flex/
-flights/
-flow/
-flowplayer/
-flows/
-flv/
-flvideo/
-flyspray/
-fm/
-fn/
-focus/
-foia/
-folder_new/
-folder/
-folders/
-font/
-fonts/
-foo/
-food/
-football/
-footer/
-footers/
-for/
-forcedownload/
-forget/
-forgot_password/
-forgot-password/
-forgot/
-forgotpassword/
-forgotten/
-form/
-format/
-formatting/
-formhandler/
-formmail/
-forms/
-forms1/
-formsend/
-formslogin/
-formupdate/
-foro/
-foros/
-forrest/
-fortune/
-forum_old/
-forum/
-forum1/
-forum2/
-forumcp/
-forumdata/
-forumdisplay/
-forums/
-forward/
-foto/
-fotos/
-foundation/
-fpdb/
-fpdf/
-fr_FR/
-fr/
-frame/
-frames/
-frameset/
-framework/
-francais/
-france/
-free/
-freebsd/
-freeware/
-french/
-friend/
-friends/
-frm_attach/
-frob/
-from/
-front/
-frontend/
-frontpage/
-fs/
-fsck/
-ftp/
-fuck/
-fuckoff/
-fuckyou/
-full/
-fun/
-func/
-funcs/
-function.require/
-function/
-functionlude/
-functions/
-fund/
-funding/
-funds/
-furl/
-fusion/
-future/
-fw/
-fwlink/
-fx/
-g/
-G/
-ga/
-gadget/
-gadgets/
-gaestebuch/
-galeria/
-galerie/
-galleries/
-gallery/
-gallery2/
-game/
-gamercard/
-Games/
-games/
-gaming/
-ganglia/
-garbage/
-gate/
-gateway/
-gb/
-gbook/
-gccallback/
-gdform/
-geeklog/
-gen/
-general/
-generateditems/
-generator/
-generic/
-gentoo/
-geo/
-geoip/
-german/
-geronimo/
-gest/
-gestion/
-gestione/
-get_file/
-get-file/
-get/
-getaccess/
-getconfig/
-getFile.cfm/
-getfile/
-getjobid/
-getout/
-gettxt/
-gfen/
-gfx/
-gg/
-gid/
-gif/
-gifs/
-gift/
-giftcert/
-giftoptions/
-giftreg_manage/
-giftregs/
-gifts/
-git/
-gitweb/
-gl/
-glance_config/
-glimpse/
-global.asa/
-global.asax/
-Global/
-global/
-globalnav/
-globals/
-globes_admin/
-glossary/
-go/
-goaway/
-gold/
-golf/
-gone/
-goods_script/
-goods/
-google_sitemap/
-google/
-googlebot/
-goto/
-government/
-gp/
-gpapp/
-gpl/
-gprs/
-gps/
-gr/
-gracias/
-grafik/
-grant/
-granted/
-grants/
-graph/
-Graphics/
-graphics/
-green/
-greybox/
-grid/
-group_inlinemod/
-group/
-groupcp/
-groups/
-groupware/
-gs/
-gsm/
-guess/
-guest-tracking/
-guest/
-guestbook/
-guests/
-gui/
-guide/
-guidelines/
-guides/
-gump/
-gv_faq/
-gv_redeem/
-gv_send/
-gwt/
-gz/
-H/
-h/
-hack/
-hacker/
-hacking/
-hackme/
-hadoop/
-handle/
-handler/
-handlers/
-handles/
-happen/
-happening/
-hard/
-hardcore/
-hardware/
-harm/
-harming/
-harmony/
-head/
-header_logo/
-header/
-headers/
-headlines/
-Health/
-health/
-healthcare/
-hello/
-helloworld/
-help_answer/
-Help/
-help/
-helpdesk/
-helper/
-helpers/
-hi/
-hidden/
-hide/
-high/
-highslide/
-hilfe/
-hipaa/
-hire/
-history/
-hit/
-hitcount/
-hits/
-hold/
-hole/
-holiday/
-holidays/
-home/
-Home/
-homepage/
-homes/
-homework/
-honda/
-hooks/
-hop/
-horde/
-host-manager/
-host/
-hosted/
-hosting/
-hosts/
-hotel/
-hotels/
-hour/
-hourly/
-house/
-how/
-howto/
-hp/
-hpwebjetadmin/
-hr/
-ht/
-hta/
-htbin/
-htdig/
-htdoc/
-htdocs/
-htm/
-HTML/
-html/
-htmlarea/
-htmls/
-htpasswd/
-http/
-httpd/
-httpdocs/
-httpmodules/
-https/
-httpuser/
-hu/
-human/
-humans/
-humor/
-hyper/
-i/
-I/
-ia/
-ibm/
-icat/
-ico/
-icon/
-icons/
-icq/
-id_rsa.pub/
-id_rsa/
-id/
-idbc/
-idea/
-ideas/
-identity/
-idp/
-ids/
-ie/
-if/
-iframe/
-iframes/
-ig/
-ignore/
-ignoring/
-iis/
-iisadmin/
-iisadmpwd/
-iissamples/
-im/
-Image/
-image/
-imagefolio/
-imagegallery/
-imagenes/
-imagens/
-Images/
-images/
-images01/
-images1/
-images2/
-images3/
-imanager/
-img/
-img2/
-imgs/
-immagini/
-imp/
-import/
-important/
-imports/
-impressum/
-in/
-inbound/
-inbox/
-inc/
-incl/
-include/
-includes/
-incoming/
-incs/
-incubator/
-index_01/
-index_1/
-index_2/
-index_adm/
-index_admin/
-index_files/
-index_var_de/
-index-bak/
-index.htm/
-index.html/
-index.php/
-Index/
-index/
-index1/
-index2.php/
-index2/
-index3.php/
-index3/
-indexes/
-industries/
-industry/
-Indy_admin/
-indy_admin/
-inetpub/
-inetsrv/
-inf/
-info.php/
-info/
-information/
-informer/
-infos.php/
-infos/
-infraction/
-ingres/
-ingress/
-ini/
-init/
-injection/
-inline/
-inlinemod/
-input/
-inquire/
-inquiries/
-inquiry/
-insert/
-INSTALL_admin/
-install-xaff/
-install-xaom/
-install-xbench/
-install-xfcomp/
-install-xoffers/
-install-xpconf/
-install-xrma/
-install-xsurvey/
-install.mysql/
-install.pgsql/
-install/
-installation/
-installer/
-installwordpress/
-instance/
-instructions/
-insurance/
-int/
-intel/
-intelligence/
-inter/
-interactive/
-interface/
-interim/
-intermediate/
-intern/
-internal/
-international/
-internet/
-Internet/
-interview/
-interviews/
-intl/
-intra/
-intracorp/
-intranet/
-intro/
-introduction/
-inventory/
-investors/
-invitation/
-invite/
-invoice/
-invoices/
-ioncube/
-ip/
-ipc/
-ipdata/
-iphone/
-ipn/
-ipod/
-ipp/
-ips_kernel/
-ips/
-ir/
-iraq/
-irc-macadmin/
-irc/
-is-bin/
-is/
-isapi/
-iso/
-isp/
-issue/
-issues/
-it_IT/
-it/
-ita/
-item/
-items/
-iw/
-J/
-j/
-j2ee/
-j2me/
-ja_JP/
-ja/
-jacob/
-jakarta/
-japan/
-jar/
-java-plugin/
-java-sys/
-java/
-Java/
-javac/
-javadoc/
-javascript/
-javascripts/
-javax/
-jboss/
-jbossas/
-jbossws/
-jdbc/
-jdk/
-jennifer/
-jessica/
-jexr/
-jhtml/
-jigsaw/
-jira/
-jj/
-jmx-console/
-JMXSoapAdapter/
-job/
-jobs/
-joe/
-john/
-join/
-joinrequests/
-joomla/
-journal/
-journals/
-jp/
-jpa/
-jpegimage/
-jpg/
-jquery/
-jre/
-jrun/
-js-lib/
-js/
-jscript/
-jscripts/
-jsession/
-jsf/
-jsFiles/
-json-api/
-json/
-jsp-examples/
-jsp/
-jsp2/
-jsps/
-jsr/
-jsso/
-jsx/
-jump/
-juniper/
-junk/
-jvm/
-k/
-katalog/
-kb_results/
-kb/
-kboard/
-kcaptcha/
-keep/
-kept/
-kernel/
-key/
-keygen/
-keys/
-keyword/
-keywords/
-kids/
-kill/
-kiosk/
-known_hosts/
-ko_KR/
-ko/
-kontakt/
-konto-eroeffnen/
-kr/
-kunden/
-l/
-L/
-la/
-lab/
-labels/
-labs/
-landing/
-landingpages/
-landwind/
-lang-en/
-lang-fr/
-lang/
-langs/
-language/
-languages/
-laptops/
-large/
-lastnews/
-lastpost/
-lat_account/
-lat_driver/
-lat_getlinking/
-lat_signin/
-lat_signout/
-lat_signup/
-latest/
-launch/
-launcher/
-launchpage/
-law/
-layout/
-layouts/
-ldap/
-leader/
-leaders/
-leads/
-learn/
-learners/
-learning/
-left/
-legacy/
-legal-notice/
-legal/
-Legal/
-legislation/
-lenya/
-lessons/
-letters/
-level/
-lg/
-lgpl/
-lib/
-librairies/
-libraries/
-library/
-libs/
-lic/
-licence/
-license_afl/
-license/
-LICENSE/
-licenses/
-licensing/
-life/
-lifestyle/
-lightbox/
-limit/
-line/
-link-to-us/
-link/
-linkex/
-linkmachine/
-links_submit/
-links/
-Links/
-linktous/
-Linux/
-linux/
-lisence/
-lisense/
-list_users/
-list-create/
-list-edit/
-list-search/
-list-users/
-list-view/
-list/
-listadmin/
-listinfo/
-listing/
-listings/
-lists/
-listusers/
-listview/
-live/
-livechat/
-livehelp/
-livesupport/
-livezilla/
-lo/
-load/
-loader/
-loading/
-loc/
-local/
-locale/
-localstart/
-location/
-locations/
-locator/
-lock/
-locked/
-lockout/
-lofiversion/
-log/
-Log/
-log4j/
-log4net/
-logfile/
-logfiles/
-LogFiles/
-logfileview/
-logger/
-logging/
-login_db/
-login_sendpass/
-login-redirect/
-login-us/
-login/
-Login/
-login1/
-loginadmin/
-loginflat/
-logins/
-logo_sysadmin/
-logo/
-logoff/
-logon/
-logos/
-logout/
-logs/
-Logs/
-logview/
-loja/
-lost/
-lost+found/
-lostpassword/
-Lotus_Domino_Admin/
-love/
-low/
-lp/
-lpt1/
-lpt2/
-ls/
-lst/
-lt/
-lucene/
-lunch_menu/
-lv/
-m_images/
-m/
-M/
-m1/
-m6_edit_item/
-m6_invoice/
-m6_pay/
-m6/
-m7/
-ma/
-mac/
-macadmin/
-macromedia/
-maestro/
-magazin/
-magazine/
-magazines/
-magento/
-magic/
-magnifier_xml/
-magpierss/
-mail_link/
-mail_password/
-mail/
-mailbox/
-mailer/
-mailing/
-mailinglist/
-mailings/
-maillist/
-mailman/
-mails/
-mailtemplates/
-mailto/
-Main_Page/
-main.mdb/
-main/
-Main/
-mainfile/
-maint/
-maintainers/
-mainten/
-maintenance/
-Makefile/
-makefile/
-mal/
-mall/
-mambo/
-mambots/
-man/
-mana/
-manage/
-managed/
-management/
-manager/
-manifest.mf/
-MANIFEST.MF/
-manifest/
-mantis/
-manual/
-manuallogin/
-manuals/
-manufacturer/
-manufacturers/
-map/
-maps/
-mark/
-market/
-marketing/
-marketplace/
-markets/
-master.passwd/
-master/
-masterpages/
-masters/
-masthead/
-match/
-matches/
-math/
-matrix/
-matt/
-maven/
-mb/
-mbo/
-mbox/
-mc/
-mchat/
-mcp/
-mdb-database/
-mdb/
-me/
-media_center/
-media/
-Media/
-mediakit/
-mediaplayer/
-medias/
-mediawiki/
-medium/
-meetings/
-mein-konto/
-mein-merkzettel/
-mem/
-member/
-member2/
-memberlist/
-members/
-Members/
-membership/
-membre/
-membres/
-memcached/
-memcp/
-memlogin/
-memo/
-memory/
-menu/
-Menus/
-menus/
-merchant/
-merchant2/
-message/
-messageboard/
-messages/
-messaging/
-meta_login/
-meta_tags/
-meta-inf/
-META-INF/
-meta/
-metabase/
-metadata/
-metaframe/
-metatags/
-mgr/
-michael/
-microsoft/
-midi/
-migrate/
-migrated/
-migration/
-military/
-min/
-mina/
-mine/
-mini_cal/
-mini/
-minicart/
-minimum/
-mint/
-minute/
-mirror/
-mirrors/
-misc/
-Misc/
-miscellaneous/
-missing/
-mission/
-mix/
-mk/
-mkstats/
-ml/
-mlist/
-mm/
-mm5/
-mms/
-mmwip/
-mo/
-mobi/
-mobil/
-mobile/
-mock/
-mod/
-modcp/
-mode/
-model/
-models/
-modelsearch/
-modem/
-moderation/
-moderator/
-modify/
-modlogan/
-mods/
-module/
-modules/
-modulos/
-mojo/
-money/
-monitor/
-monitoring/
-monitors/
-month/
-monthly/
-moodle/
-more/
-motd/
-moto-news/
-moto1/
-mount/
-move/
-moved/
-movie/
-movies/
-moving.page/
-mozilla/
-mp/
-mp3/
-mp3s/
-mqseries/
-mrtg/
-ms-sql/
-ms/
-msadc/
-msadm/
-msft/
-msg/
-msie/
-msn/
-msoffice/
-mspace/
-msql/
-mssql/
-mstpre/
-mt-bin/
-mt-search/
-mt-static/
-mt/
-mta/
-multi/
-multimedia/
-music/
-Music/
-mx/
-my-account/
-my-components/
-my-gift-registry/
-my-sql/
-my-wishlist/
-my/
-myaccount/
-myadmin/
-myadmin/
-myblog/
-mycalendar/
-mycgi/
-myfaces/
-myhomework/
-myicons/
-mypage/
-myphpnuke/
-myspace/
-mysql-admin/
-mysql/
-mysql/
-MySQLadmin/
-MySQLAdmin/
-mysqladmin/
-mysqld/
-mysqldumper/
-mysqlmanager/
-mysqlmanager/
-mytag_js/
-mytp/
-N/
-n/
-nachrichten/
-nagios/
-name/
-names/
-national/
-nav/
-navigation/
-navSiteAdmin/
-navsiteadmin/
-nc/
-ne/
-net/
-netbsd/
-netcat/
-nethome/
-nets/
-netscape/
-netstat/
-netstorage/
-network/
-networking/
-new/
-newadmin/
-newattachment/
-newposts/
-newreply/
-news_insert/
-news/
-News/
-newsadmin/
-newsite/
-newsletter/
-newsletters/
-newsline/
-newsroom/
-newssys/
-newstarter/
-newthread/
-newticket/
-next/
-nfs/
-nice/
-nieuws/
-ningbar/
-nk9/
-nl/
-no-index/
-no/
-nobody/
-node/
-noindex/
-nokia/
-none/
-note/
-notes/
-notfound/
-noticias/
-notification/
-notifications/
-notified/
-notifier/
-notify/
-novell/
-nr/
-ns/
-nsf/
-ntopic/
-nude/
-nuke/
-nul/
-null/
-number/
-nxfeed/
-nz/
-o/
-O/
-OA_HTML/
-oa_servlets/
-OA/
-OAErrorDetailPage/
-OasDefault/
-oauth/
-obdc/
-obj/
-object/
-objects/
-obsolete/
-obsoleted/
-odbc/
-ode/
-oem/
-of/
-ofbiz/
-off/
-offer/
-offerdetail/
-offers/
-Office/
-office/
-offices/
-offline/
-ogl/
-old_site/
-old-site/
-old/
-oldie/
-oldsite/
-omited/
-on/
-onbound/
-online/
-onsite/
-op/
-open-account/
-open/
-openads/
-openapp/
-openbsd/
-opencart/
-opendir/
-openejb/
-openfile/
-openjpa/
-opensearch/
-opensource/
-openvpnadmin/
-openx/
-opera/
-operations/
-operator/
-opinion/
-opinions/
-opml/
-oprocmgr-status/
-opros/
-opt/
-option/
-options/
-ora/
-oracle/
-oradata/
-order_history/
-order_status/
-order-detail/
-order-follow/
-order-history/
-order-opc/
-order-return/
-order-slip/
-order/
-orderdownloads/
-ordered/
-orderfinished/
-orders/
-orderstatus/
-ordertotal/
-org/
-organisation/
-organisations/
-organizations/
-orig/
-original/
-os/
-osc/
-oscommerce/
-other/
-others/
-otrs/
-out/
-outcome/
-outgoing/
-outils/
-outline/
-output/
-outreach/
-oversikt/
-overview/
-owa/
-owl/
-owners/
-ows-bin/
-ows/
-P/
-p/
-p/m/a/
-p2p/
-p7pm/
-pa/
-pack/
-package/
-packaged/
-packages/
-packaging/
-packed/
-pad/
-page_1/
-page_2/
-page_sample1/
-page-not-found/
-page/
-page1/
-page2/
-pageid/
-pagenotfound/
-pager/
-Pages/
-pages/
-pagination/
-paid/
-paiement/
-pam/
-panel/
-panelc/
-paper/
-papers/
-parse/
-part/
-partenaires/
-partner/
-partners/
-parts/
-party/
-pass/
-passes/
-passive/
-passport/
-passw/
-passwd/
-passwor/
-password/
-passwords/
-past/
-patch/
-patches/
-patents/
-path/
-pay/
-payment_gateway/
-payment/
-payments/
-paypal_notify/
-paypal/
-paypalcancel/
-paypalok/
-pbc_download/
-pbcs/
-pbcsad/
-pbcsi/
-pbo/
-pc/
-pci/
-pconf/
-pd/
-pda/
-pdf-invoice/
-pdf-order-slip/
-pdf/
-PDF/
-pdfs/
-pear/
-peek/
-peel/
-pem/
-pending/
-People/
-people/
-perf/
-performance/
-perl/
-perl5/
-person/
-personal/
-personals/
-pfx/
-pg/
-pgadmin/
-pgp/
-pgsql/
-phf/
-phishing/
-phone/
-phones/
-phorum/
-photo/
-photodetails/
-photogallery/
-photography/
-photos/
-php_uploads/
-php-bin/
-php-cgi/
-php-my-admin/
-php-myadmin/
-php.ini/
-php/
-PHP/
-php/
-php168/
-php3/
-phpadmin/
-phpads/
-phpadsnew/
-phpBB/
-phpbb/
-phpbb2/
-phpBB2/
-phpbb3/
-phpBB3/
-phpEventCalendar/
-phpinfo.php/
-phpinfo/
-phpinfo/
-phpinfos.php/
-phpldapadmin/
-phplist/
-phplive/
-phpmailer/
-phpmanager/
-phpmanual/
-phpmv2/
-phpmy-admin/
-phpMyAdmin-2.2.3/
-phpMyAdmin-2.2.6/
-phpMyAdmin-2.5.1/
-phpMyAdmin-2.5.4/
-phpMyAdmin-2.5.5-pl1/
-phpMyAdmin-2.5.5-rc1/
-phpMyAdmin-2.5.5-rc2/
-phpMyAdmin-2.5.5/
-phpMyAdmin-2.5.6-rc1/
-phpMyAdmin-2.5.6-rc2/
-phpMyAdmin-2.5.6/
-phpMyAdmin-2.5.7-pl1/
-phpMyAdmin-2.5.7/
-phpMyAdmin-2.6.0-alpha/
-phpMyAdmin-2.6.0-alpha2/
-phpMyAdmin-2.6.0-beta1/
-phpMyAdmin-2.6.0-beta2/
-phpMyAdmin-2.6.0-pl1/
-phpMyAdmin-2.6.0-pl2/
-phpMyAdmin-2.6.0-pl3/
-phpMyAdmin-2.6.0-rc1/
-phpMyAdmin-2.6.0-rc2/
-phpMyAdmin-2.6.0-rc3/
-phpMyAdmin-2.6.0/
-phpMyAdmin-2.6.1-pl1/
-phpMyAdmin-2.6.1-pl2/
-phpMyAdmin-2.6.1-pl3/
-phpMyAdmin-2.6.1-rc1/
-phpMyAdmin-2.6.1-rc2/
-phpMyAdmin-2.6.1/
-phpMyAdmin-2.6.2-beta1/
-phpMyAdmin-2.6.2-pl1/
-phpMyAdmin-2.6.2-rc1/
-phpMyAdmin-2.6.2/
-phpMyAdmin-2.6.3-pl1/
-phpMyAdmin-2.6.3-rc1/
-phpMyAdmin-2.6.3/
-phpMyAdmin-2.6.4-pl1/
-phpMyAdmin-2.6.4-pl2/
-phpMyAdmin-2.6.4-pl3/
-phpMyAdmin-2.6.4-pl4/
-phpMyAdmin-2.6.4-rc1/
-phpMyAdmin-2.6.4/
-phpMyAdmin-2.7.0-beta1/
-phpMyAdmin-2.7.0-pl1/
-phpMyAdmin-2.7.0-pl2/
-phpMyAdmin-2.7.0-rc1/
-phpMyAdmin-2.7.0/
-phpMyAdmin-2.8.0-beta1/
-phpMyAdmin-2.8.0-rc1/
-phpMyAdmin-2.8.0-rc2/
-phpMyAdmin-2.8.0.1/
-phpMyAdmin-2.8.0.2/
-phpMyAdmin-2.8.0.3/
-phpMyAdmin-2.8.0.4/
-phpMyAdmin-2.8.0/
-phpMyAdmin-2.8.1-rc1/
-phpMyAdmin-2.8.1/
-phpMyAdmin-2.8.2/
-phpMyAdmin-2/
-phpMyAdmin/
-phpMyAdmin/
-phpmyadmin/
-phpmyadmin/
-phpmyadmin2/
-phpmyadmin2/
-phpMyAdmin2/
-phpMyAdmin2/
-phpnuke/
-phppgadmin/
-phps/
-phpsecinfo/
-phpsitemapng/
-phpSQLiteAdmin/
-phpthumb/
-phtml/
-pic/
-pics/
-picts/
-picture_library/
-picture/
-picturecomment/
-pictures/
-pii/
-ping/
-pingback/
-pipe/
-pipermail/
-piranha/
-pivot/
-piwik/
-pix/
-pixel/
-pixelpost/
-pkg/
-pkginfo/
-pkgs/
-pl/
-placeorder/
-places/
-plain/
-plate/
-platz_login/
-play/
-player.swf/
-player/
-players/
-playing/
-playlist/
-please/
-plenty/
-plesk-stat/
-pls/
-plugin/
-plugins/
-plus/
-plx/
-pm/
-pma/
-PMA/
-PMA/
-PMA2005/
-pma2005/
-pmwiki/
-pnadodb/
-png/
-pntables/
-pntemp/
-poc/
-podcast/
-podcasting/
-podcasts/
-poi/
-poker/
-pol/
-policies/
-policy/
-politics/
-poll/
-pollbooth/
-polls/
-pollvote/
-pool/
-pop/
-pop3/
-popular/
-populate/
-popup_content/
-popup_cvv/
-popup_image/
-popup_info/
-popup_magnifier/
-popup_poptions/
-popup/
-popups/
-porn/
-port/
-portal/
-portals/
-portfolio/
-portfoliofiles/
-portlet/
-portlets/
-ports/
-pos/
-post_thanks/
-post/
-postcard/
-postcards/
-posted/
-postgres/
-postgresql/
-posthistory/
-postinfo/
-posting/
-postings/
-postnuke/
-postpaid/
-postreview/
-posts/
-posttocar/
-power_user/
-power/
-pp/
-ppc/
-ppcredir/
-ppt/
-pr/
-pr0n/
-pre/
-preferences/
-preload/
-premiere/
-premium/
-prepaid/
-prepare/
-presentation/
-presentations/
-preserve/
-press_releases/
-Press/
-press/
-presse/
-pressreleases/
-pressroom/
-prev/
-preview/
-previews/
-previous/
-price/
-pricelist/
-prices/
-pricing/
-print_order/
-print/
-printable/
-printarticle/
-printenv/
-printer/
-printers/
-printmail/
-printpdf/
-printthread/
-printview/
-priv/
-privacy_policy/
-privacy-policy/
-privacy/
-Privacy/
-privacypolicy/
-privat/
-private/
-private2/
-privateassets/
-privatemsg/
-prive/
-privmsg/
-privs/
-prn/
-pro/
-probe/
-problems/
-proc/
-procedures/
-process_order/
-process/
-processform/
-procure/
-procurement/
-prod/
-prodconf/
-prodimages/
-producers/
-product_compare/
-product_image/
-product_images/
-product_info/
-product_reviews/
-product_thumb/
-product-sort/
-product/
-productdetails/
-productimage/
-production.log/
-production/
-productquestion/
-products_new/
-products/
-Products/
-productspecs/
-productupdates/
-produkte/
-professor/
-profil/
-profile/
-profiles/
-profiling/
-proftpd/
-prog/
-Program Files/
-program/
-programming/
-programs/
-progress/
-project-admins/
-project/
-projects/
-Projects/
-promo/
-promos/
-promoted/
-promotion/
-promotions/
-proof/
-proofs/
-prop-base/
-prop/
-properties/
-property/
-props/
-prot/
-protect/
-protected/
-protection/
-proto/
-provider/
-providers/
-proxies/
-proxy/
-prueba/
-pruebas/
-prv_download/
-prv/
-ps/
-psd/
-psp/
-psql/
-pt_BR/
-pt/
-ptopic/
-pub/
-public_ftp/
-public_html/
-public/
-publication/
-Publications/
-publications/
-publicidad/
-publish/
-published/
-publisher/
-pubs/
-pull/
-purchase/
-purchases/
-purchasing/
-pureadmin/
-push/
-put/
-putty.reg/
-putty/
-pw_ajax/
-pw_api/
-pw_app/
-pw/
-pwd/
-py/
-python/
-q/
-q1/
-q2/
-q3/
-q4/
-qa/
-qinetiq/
-qotd/
-qpid/
-qsc/
-quarterly/
-queries/
-query/
-question/
-questions/
-queue/
-queues/
-quick/
-quickstart/
-quiz/
-quote/
-quotes/
-R/
-r/
-r57/
-radcontrols/
-radio/
-radmind-1/
-radmind/
-rail/
-rails/
-Rakefile/
-ramon/
-random/
-rank/
-ranks/
-rar/
-rarticles/
-rate/
-ratecomment/
-rateit/
-ratepic/
-rates/
-ratethread/
-rating/
-rating0/
-ratings/
-rb/
-rcLogin/
-rcp/
-rcs/
-RCS/
-rct/
-rd/
-rdf/
-read/
-reader/
-readfile/
-readfolder/
-README/
-readme/
-Readme/
-real/
-realaudio/
-realestate/
-RealMedia/
-receipt/
-receipts/
-receive/
-received/
-recent/
-recharge/
-recherche/
-recipes/
-recommend/
-recommends/
-record/
-recorded/
-recorder/
-records/
-recoverpassword/
-recovery/
-recycle/
-Recycled/
-recycled/
-red/
-reddit/
-redesign/
-redir/
-redirect/
-redirector/
-redirects/
-redis/
-ref/
-refer/
-reference/
-references/
-referer/
-referral/
-referrers/
-refuse/
-refused/
-reg/
-reginternal/
-region/
-regional/
-register/
-registered/
-registration/
-registrations/
-registro/
-reklama/
-related/
-release/
-releases/
-religion/
-remind_password/
-remind/
-reminder/
-remote/
-remotetracer/
-removal/
-removals/
-remove/
-removed/
-render/
-rendered/
-reorder/
-rep/
-repl/
-replica/
-replicas/
-replicate/
-replicated/
-replication/
-replicator/
-reply/
-repo/
-report/
-reporting/
-reports list/
-reports/
-repository/
-repost/
-reprints/
-reputation/
-req/
-reqs/
-request/
-requested/
-requests/
-require/
-requisite/
-requisition/
-requisitions/
-res/
-research/
-Research/
-reseller/
-resellers/
-reservation/
-reservations/
-resin-admin/
-resin/
-resize/
-resolution/
-resolve/
-resolved/
-resource/
-Resources/
-resources/
-respond/
-responder/
-rest/
-restaurants/
-restore/
-restored/
-restricted/
-result/
-results/
-resume/
-resumes/
-retail/
-returns/
-reusablecontent/
-reverse/
-reversed/
-revert/
-reverted/
-review/
-reviews/
-rfid/
-rhtml/
-right/
-ro/
-roadmap/
-roam/
-roaming/
-robot/
-robotics/
-robots.txt/
-robots/
-role/
-roles/
-roller/
-room/
-Root/
-root/
-rorentity/
-rorindex/
-rortopics/
-route/
-router/
-routes/
-rpc/
-rs/
-rsa/
-RSS/
-rss/
-rss10/
-rss2/
-rss20/
-rssarticle/
-rssfeed/
-rsync/
-rte/
-rtf/
-ru/
-rub/
-ruby/
-rule/
-rules/
-run/
-rus/
-rwservlet/
-s/
-S/
-s1/
-sa/
-safe/
-safety/
-sale/
-sales/
-salesforce/
-sam/
-samba/
-saml/
-sample/
-samples/
-san/
-sandbox/
-sav/
-save/
-saved/
-saves/
-sb/
-sbin/
-sc/
-scan/
-scanned/
-scans/
-scgi-bin/
-sched/
-schedule/
-scheduled/
-scheduling/
-schema/
-schemas/
-schemes/
-school/
-schools/
-science/
-scope/
-scr/
-scratc/
-screen/
-screens/
-screenshot/
-screenshots/
-script/
-scripte/
-scriptlet/
-scriptlets/
-scriptlibrary/
-scriptresource/
-Scripts/
-scripts/
-sd/
-sdk/
-se/
-search_result/
-search_results/
-search-results/
-search/
-Search/
-searchnx/
-searchresults/
-searchurl/
-sec/
-seccode/
-second/
-secondary/
-secret/
-secrets/
-section/
-sections/
-secure_login/
-secure/
-secureauth/
-secured/
-secureform/
-secureprocess/
-securimage/
-Security/
-security/
-seed/
-select/
-selectaddress/
-selected/
-selection/
-self/
-sell/
-sem/
-seminar/
-seminars/
-send_order/
-send_pwd/
-send_to_friend/
-send-password/
-send/
-sendform/
-sendfriend/
-sendmail/
-sendmessage/
-sendpm/
-sendthread/
-sendto/
-sendtofriend/
-sensepost/
-sensor/
-sent/
-seo/
-serial/
-serv/
-serve/
-server_admin_small/
-server_stats/
-SERVER-INF/
-server-info/
-server-status/
-Server/
-server/
-ServerAdministrator/
-servers/
-service/
-services/
-Services/
-servicios/
-servlet/
-Servlet/
-servlets-examples/
-Servlets/
-servlets/
-sess/
-session/
-sessionid/
-sessions/
-set/
-setcurrency/
-setlocale/
-setting/
-settings/
-setup/
-setvatsetting/
-sex/
-sf/
-sg/
-sh/
-shadow/
-shaken/
-share/
-shared/
-shares/
-shell/
-shim/
-ship/
-shipped/
-shipping_help/
-shipping/
-shippinginfo/
-shipquote/
-shit/
-shockwave/
-shop_closed/
-shop_content/
-shop/
-shopadmin/
-shopper/
-shopping_cart/
-shopping-lists/
-shopping/
-shoppingcart/
-shops_buyaction/
-shops/
-shopstat/
-shopsys/
-shoutbox/
-show_post/
-show_thread/
-show/
-showallsites/
-showcase/
-showcat/
-showcode.asp/
-showcode/
-showenv/
-showgroups/
-showjobs/
-showkey/
-showlogin/
-showmap/
-showmsg/
-showpost/
-showroom/
-shows/
-showthread/
-shtml/
-si/
-sid/
-sign_up/
-sign-up/
-sign/
-signature/
-signaturepics/
-signed/
-signer/
-signin/
-signing/
-signoff/
-signon/
-signout/
-signup/
-simple/
-simpleLogin/
-simplelogin/
-single_pages/
-single/
-sink/
-site_map/
-site-map/
-site/
-siteadmin/
-sitebuilder/
-sitecore/
-sitefiles/
-siteimages/
-sitemap.gz/
-sitemap.xml/
-SiteMap/
-sitemap/
-sitemaps/
-sitemgr/
-Sites/
-sites/
-SiteScope/
-sitesearch/
-SiteServer/
-sk/
-skel/
-skin/
-skin1_original/
-skin1/
-skins/
-skip/
-sl/
-slabel/
-slashdot/
-slide_show/
-slides/
-slideshow/
-slimstat/
-sling/
-sm/
-small/
-smarty/
-smb/
-smblogin/
-smf/
-smile/
-smiles/
-smileys/
-smilies/
-sms/
-smtp/
-snippets/
-snoop/
-snp/
-so/
-soap/
-soapdocs/
-SOAPMonitor/
-soaprouter/
-social/
-soft/
-Software/
-software/
-sohoadmin/
-solaris/
-sold/
-solution/
-solutions/
-solve/
-solved/
-somebody/
-songs/
-sony/
-soporte/
-sort/
-sound/
-sounds/
-source/
-Sources/
-sources/
-sox/
-sp/
-space/
-spacer/
-spain/
-spam/
-spamlog.log/
-spanish/
-spaw/
-speakers/
-spec/
-special_offers/
-special/
-specials/
-specified/
-specs/
-speedtest/
-spellchecker/
-sphider/
-spider/
-spiders/
-splash/
-sponsor/
-sponsors/
-spool/
-sport/
-Sports/
-sports/
-spotlight/
-spryassets/
-Spy/
-spyware/
-sq/
-sql-admin/
-sql/
-SQL/
-sqladmin/
-sqlmanager/
-sqlmanager/
-sqlnet/
-sqlweb/
-sqlweb/
-squelettes-dist/
-squelettes/
-squirrel/
-squirrelmail/
-sr/
-src/
-srchad/
-srv/
-ss_vms_admin_sm/
-ss/
-ssfm/
-ssh/
-sshadmin/
-ssi/
-ssl_check/
-ssl/
-sslvpn/
-ssn/
-sso/
-ssp_director/
-st/
-stackdump/
-staff_directory/
-staff/
-stage/
-staging/
-stale/
-standalone/
-standard/
-standards/
-star/
-staradmin/
-start/
-starter/
-startpage/
-stat/
-state/
-statement/
-statements/
-states/
-static/
-staticpages/
-statistic/
-statistics/
-Statistics/
-statistik/
-Stats/
-stats/
-statshistory/
-status/
-statusicon/
-stock/
-stoneedge/
-stop/
-storage/
-store_closed/
-store/
-stored/
-stores/
-stories/
-story/
-stow/
-strategy/
-stream/
-string/
-strut/
-struts/
-student/
-students/
-studio/
-stuff/
-style_avatars/
-style_captcha/
-style_css/
-style_emoticons/
-style_images/
-style/
-styles/
-stylesheet/
-stylesheets/
-sub-login/
-sub/
-subdomains/
-subject/
-submenus/
-submissions/
-submit/
-submitter/
-subs/
-subscribe/
-subscribed/
-subscriber/
-subscribers/
-subscription/
-subscriptions/
-success/
-suche/
-sucontact/
-suffix/
-suggest-listing/
-suggest/
-suite/
-suites/
-summary/
-sun/
-sunos/
-SUNWmc/
-Super-Admin/
-super/
-supplier/
-support_login/
-support/
-Support/
-supported/
-surf/
-survey/
-surveys/
-suspended.page/
-suupgrade/
-sv/
-svc/
-svn-base/
-svn/
-svr/
-sw/
-swajax1/
-swf/
-swfobject.js/
-swfs/
-switch/
-sws/
-synapse/
-sync/
-synced/
-syndication/
-sys-admin/
-sys/
-SysAdmin/
-sysadmin/
-sysadmin2/
-SysAdmin2/
-sysadmins/
-sysmanager/
-system_admin/
-system_administration/
-system_web/
-system-admin/
-system-administration/
-system/
-systems/
-sysuser/
-szukaj/
-t/
-T/
-t1/
-t3lib/
-table/
-tabs/
-tag/
-tagline/
-tags/
-tail/
-talk/
-talks/
-tape/
-tapes/
-tapestry/
-tar.bz2/
-tar.gz/
-tar/
-target/
-tartarus/
-task/
-tasks/
-taxonomy/
-tb/
-tcl/
-te/
-team/
-tech/
-technical/
-technology/
-Technology/
-tel/
-tele/
-television/
-tell_a_friend/
-tell_friend/
-tellafriend/
-temaoversikt/
-temp/
-TEMP/
-templ/
-template/
-templates_c/
-templates/
-templets/
-temporal/
-temporary/
-temps/
-term/
-terminal/
-terms_privacy/
-terms-of-use/
-terms/
-termsofuse/
-terrorism/
-test_db/
-test-cgi/
-test-env/
-test/
-test1/
-test123/
-test1234/
-test2/
-test3/
-teste/
-testimonial/
-testimonials/
-testing/
-tests/
-testsite/
-texis/
-text-base/
-text/
-textobject/
-textpattern/
-texts/
-tgp/
-tgz/
-th/
-thank-you/
-thanks/
-thankyou/
-the/
-theme/
-Themes/
-themes/
-thickbox/
-third-party/
-this/
-thread/
-threadrate/
-threads/
-threadtag/
-thumb/
-thumbnail/
-thumbnails/
-Thumbs.db/
-thumbs.db/
-thumbs/
-ticket_list/
-ticket_new/
-ticket/
-tickets/
-tienda/
-tiki/
-tiles/
-time/
-timeline/
-tiny_mce/
-tinymce/
-tip/
-tips/
-title/
-titles/
-tl/
-tls/
-TMP/
-tmp/
-tmpl/
-tmps/
-tn/
-tncms/
-to/
-toc/
-today/
-todel/
-todo/
-TODO/
-toggle/
-tomcat-docs/
-tomcat/
-tool/
-toolbar/
-toolkit/
-tools/
-top/
-top1/
-topic/
-topicadmin/
-topics/
-toplist/
-toplists/
-topnav/
-topsites/
-torrent/
-torrents/
-tos/
-tour/
-tours/
-toys/
-tp/
-tpl/
-tpv/
-tr/
-trac/
-trace/
-traceroute/
-traces/
-track/
-trackback/
-trackclick/
-tracker/
-trackers/
-tracking/
-trackpackage/
-tracks/
-trade/
-trademarks/
-traffic/
-trailer/
-trailers/
-training/
-trans/
-transaction/
-transactions/
-transfer/
-transformations/
-translate/
-translations/
-transparent/
-transport/
-trap/
-trash/
-Travel/
-travel/
-treasury/
-tree/
-trees/
-trends/
-trial/
-true/
-trunk/
-tslib/
-tsweb/
-tt/
-tuning/
-turbine/
-tuscany/
-tutorial/
-tutorials/
-tv/
-tw/
-twatch/
-tweak/
-twiki/
-twitter/
-tx/
-txt/
-type/
-typo3_src/
-typo3/
-typo3conf/
-typo3temp/
-typolight/
-U/
-u/
-ua/
-ubb/
-uc_client/
-uc_server/
-uc/
-ucenter/
-ucp/
-uddi/
-uds/
-ui/
-uk/
-umbraco_client/
-umbraco/
-umts/
-uncategorized/
-under_update/
-uninstall/
-union/
-unix/
-unlock/
-unpaid/
-unreg/
-unregister/
-unsafe/
-unsubscribe/
-unused/
-up/
-upcoming/
-upd/
-update/
-updated/
-updateinstaller/
-updater/
-updates-topic/
-updates/
-upgrade.readme/
-upgrade/
-upload_file/
-upload_files/
-upload/
-uploaded/
-uploadedfiles/
-uploadedimages/
-uploader/
-uploadfile/
-uploadfiles/
-uploads/
-ur-admin/
-urchin/
-url/
-urlrewriter/
-urls/
-US/
-us/
-usa/
-usage/
-user_upload/
-user/
-useradmin/
-userapp/
-usercontrols/
-usercp/
-usercp2/
-userdir/
-userfiles/
-UserFiles/
-userimages/
-userinfo/
-userlist/
-userlog/
-userlogin/
-usermanager/
-username/
-usernames/
-usernote/
-users/
-usr/
-usrmgr/
-usrs/
-ustats/
-usuario/
-usuarios/
-util/
-utilities/
-Utilities/
-utility_login/
-utility/
-utils/
-v/
-V/
-v1/
-v2/
-v3/
-v4/
-vadmind/
-validation/
-validatior/
-vap/
-var/
-vault/
-vb/
-vbmodcp/
-vbs/
-vbscript/
-vbscripts/
-vbseo/
-vbseocp/
-vcss/
-vdsbackup/
-vector/
-vehicle/
-vehiclemakeoffer/
-vehiclequote/
-vehicletestdrive/
-velocity/
-venda/
-vendor/
-vendors/
-ver/
-ver1/
-ver2/
-version/
-verwaltung/
-vfs/
-vi/
-viagra/
-vid/
-Video/
-video/
-videos/
-view_cart/
-view-source/
-view/
-viewcart/
-viewcvs/
-viewer/
-viewfile/
-viewforum/
-viewlogin/
-viewonline/
-views/
-viewsource/
-viewsvn/
-viewthread/
-viewtopic/
-viewvc/
-vip/
-virtual/
-virus/
-visit/
-visitor/
-visitormessage/
-vista/
-vm/
-vmailadmin/
-void/
-voip/
-vol/
-volunteer/
-vote/
-voted/
-voter/
-votes/
-vp/
-vpg/
-vpn/
-vs/
-vsadmin/
-vuln/
-vvc_display/
-W/
-w/
-w3/
-w3c/
-w3svc/
-W3SVC/
-W3SVC1/
-W3SVC2/
-W3SVC3/
-wa/
-wallpaper/
-wallpapers/
-wap/
-war/
-warenkorb/
-warez/
-warn/
-way-board/
-wbboard/
-wbsadmin/
-wc/
-wcs/
-wdav/
-weather/
-web_users/
-web-beans/
-web-console/
-web-inf/
-WEB-INF/
-WEB-INF/classes/
-WEB-INF/lib/
-WEB-INF/src/
-web.config/
-web.xml/
-web/
-web/
-web1/
-web2/
-web3/
-webaccess/
-webadm/
-WebAdmin/
-webadmin/
-webadmin/
-webagent/
-webalizer/
-webapp/
-webapps/
-webb/
-webbbs/
-webboard/
-webcalendar/
-webcam/
-webcart/
-webcast/
-webcasts/
-webcgi/
-webcharts/
-webchat/
-webctrl_client/
-webdata/
-webdav/
-webdb/
-webdb/
-webdist/
-webedit/
-webfm_send/
-webhits/
-webim/
-webinar/
-weblog/
-weblogic/
-weblogs/
-webmail/
-webmaster/
-webmasters/
-webpages/
-webplus/
-webresource/
-websearch/
-webservice/
-webservices/
-webshop/
-website/
-websites/
-websphere/
-websql/
-websql/
-webstat/
-webstats/
-websvn/
-webtrends/
-webusers/
-webvpn/
-webwork/
-wedding/
-week/
-weekly/
-welcome/
-wellcome/
-werbung/
-wget/
-what/
-whatever/
-whatnot/
-whatsnew/
-white/
-whitepaper/
-whitepapers/
-who/
-whois/
-wholesale/
-whosonline/
-why/
-wicket/
-wide_search/
-widget/
-widgets/
-wifi/
-wii/
-wiki/
-will/
-win/
-win32/
-Windows/
-windows/
-wink/
-winnt/
-wireless/
-wishlist/
-with/
-wizmysqladmin/
-wml/
-wolthuis/
-word/
-wordpress/
-work/
-workarea/
-workflowtasks/
-working/
-workplace/
-works/
-workshop/
-workshops/
-world/
-worldpayreturn/
-worldwide/
-wow/
-wp-admin/
-wp-app/
-wp-atom/
-wp-blog-header/
-wp-comments/
-wp-commentsrss2/
-wp-config/
-wp-content/
-wp-cron/
-wp-dbmanager/
-wp-feed/
-wp-icludes/
-wp-images/
-wp-includes/
-wp-links-opml/
-wp-load/
-wp-login/
-wp-mail/
-wp-pass/
-wp-rdf/
-wp-register/
-wp-rss/
-wp-rss2/
-wp-settings/
-wp-signup/
-wp-syntax/
-wp-trackback/
-wp/
-wpau-backup/
-wpcallback/
-wpcontent/
-wps/
-wrap/
-writing/
-WS_FTP.LOG/
-WS_FTP/
-ws_ftp/
-ws-client/
-ws/
-wsdl/
-wss/
-wstat/
-wstats/
-wt/
-wtai/
-wusage/
-wwhelp/
-www-sql/
-www/
-www/
-www1/
-www2/
-www3/
-wwwboard/
-wwwjoin/
-wwwlog/
-wwwroot/
-wwwstat/
-wwwstats/
-wwwthreads/
-wwwuser/
-wysiwyg/
-wysiwygpro/
-x/
-X/
-xajax_js/
-xajax/
-xalan/
-xbox/
-xcache/
-xcart/
-xd_receiver/
-xdb/
-xerces/
-xfer/
-xhtml/
-xlogin/
-xls/
-xmas/
-xml-rpc/
-XML/
-xml/
-xmlfiles/
-xmlimporter/
-xmlrpc.php/
-xmlrpc/
-xn/
-xsl/
-xslt/
-xsql/
-xx/
-xxx/
-XXX/
-xyz/
-xyzzy/
-y/
-yahoo/
-year/
-yearly/
-yesterday/
-yml/
-yonetici/
-yonetim/
-youtube/
-yshop/
-yt/
-yui/
-z/
-zap/
-zboard/
-zencart/
-zend/
-zero/
-zeus/
-zh_CN/
-zh_TW/
-zh-cn/
-zh-tw/
-zh/
-zimbra/
-zip/
-zipfiles/
-zips/
-zoeken/
-zoom/
-zope/
-zorum/
-zt/
+1	
+0	_/
+0	_adm/
+0	_admin/
+0	_ajax/
+0	_archive/
+0	_assets/
+0	_backup/
+0	_baks/
+0	_borders/
+0	_cache/
+0	_catalogs/
+0	_common/
+0	_conf/
+0	_config/
+0	_css/
+0	_data/
+0	_database/
+0	_db_backups/
+0	_derived/
+0	_dev/
+0	_dummy/
+0	_files/
+0	_flash/
+0	_fpclass/
+0	_images/
+0	_img/
+0	_inc/
+0	_include/
+0	_includes/
+0	_install/
+0	_js/
+0	_layouts/
+0	_lib/
+0	_media/
+0	_mem_bin/
+0	_mm/
+0	_mmserverscripts/
+0	_mygallery/
+0	_notes/
+0	_old/
+0	_overlay/
+0	_pages/
+0	_private/
+0	_reports/
+0	_res/
+0	_resources/
+0	_scriptlibrary/
+0	_scripts/
+0	_source/
+0	_src/
+0	_stats/
+0	_styles/
+0	_swf/
+0	_temp/
+0	_tempalbums/
+0	_template/
+0	_templates/
+0	_test/
+0	_themes/
+0	_tmp/
+0	_tmpfileop/
+0	_viminfo
+0	_vti_aut/
+0	_vti_bin/
+0	_vti_bin/_vti_adm/admin.dll/
+0	_vti_bin/_vti_aut/author.dll/
+0	_vti_bin/shtml.dll/
+0	_vti_cnf/
+0	_vti_inf/
+0	_vti_log/
+0	_vti_map/
+0	_vti_pvt/
+0	_vti_rpc/
+0	_vti_script/
+0	_vti_txt/
+0	_www/
+0	.bzr/
+0	.git/
+0	.hg/
+0	.svn/
+0	@/
+0	~adm/
+0	~admin/
+0	~administrator/
+0	~amanda/
+0	~apache/
+0	~bin/
+0	~ftp/
+0	~guest/
+0	~http/
+0	~httpd/
+0	~log/
+0	~logs/
+0	~lp/
+0	~mail/
+0	~nobody/
+0	~operator/
+0	~root/
+0	~sys/
+0	~sysadm/
+0	~sysadmin/
+0	~test/
+0	~tmp/
+0	~user/
+0	~webmaster/
+0	~www/
+0	0/
+0	00/
+0	01/
+0	02/
+0	03/
+0	04/
+0	05/
+0	06/
+0	07/
+0	08/
+0	09/
+0	1/
+0	10/
+0	100/
+0	1000/
+0	1001/
+0	101/
+0	102/
+0	103/
+0	11/
+0	12/
+0	123/
+0	13/
+0	14/
+0	15/
+0	1990/
+0	1991/
+0	1992/
+0	1993/
+0	1994/
+0	1995/
+0	1996/
+0	1997/
+0	1998/
+0	1999/
+0	1x1/
+0	2/
+0	20/
+0	200/
+0	2000/
+0	2001/
+0	2002/
+0	2003/
+0	2004/
+0	2005/
+0	2006/
+0	2007/
+0	2008/
+0	2009/
+0	2010/
+0	2011/
+0	2012/
+0	2013/
+0	2014/
+0	21/
+0	22/
+0	2257/
+0	23/
+0	24/
+0	25/
+0	2g/
+0	3/
+0	30/
+0	300/
+0	32/
+0	3g/
+0	3rdparty/
+0	4/
+0	400/
+0	401/
+0	403/
+0	404/
+0	42/
+0	5/
+0	50/
+0	500/
+0	51/
+0	6/
+0	64/
+0	7/
+0	7z/
+0	8/
+0	9/
+0	96/
+0	A/
+0	a/
+0	aa/
+0	aaa/
+0	abc/
+0	abc123/
+0	abcd/
+0	abcd1234/
+0	about_us/
+0	about-us/
+0	about/
+0	About/
+0	AboutUs/
+0	aboutus/
+0	abstract/
+0	abuse/
+0	ac/
+0	academic/
+0	academics/
+0	acatalog/
+0	acc/
+0	access_db/
+0	access_log.1/
+0	access_log/
+0	access-log.1/
+0	access-log/
+0	access.1/
+0	access/
+0	accessgranted/
+0	accessibility/
+0	accessories/
+0	accommodation/
+0	account_edit/
+0	account_history/
+0	account/
+0	accountants/
+0	accounting/
+0	accounts/
+0	accountsettings/
+0	acct_login/
+0	achitecture/
+0	acp/
+0	act/
+0	action/
+0	actions/
+0	activate/
+0	active/
+0	activeCollab/
+0	activex/
+0	activities/
+0	activity/
+0	ad_js/
+0	ad/
+0	adaptive/
+0	adclick/
+0	add_cart/
+0	add/
+0	addfav/
+0	addnews/
+0	addons/
+0	addpost/
+0	addreply/
+0	address_book/
+0	address/
+0	addressbook/
+0	addresses/
+0	addtocart/
+0	adlog/
+0	adlogger/
+0	adm/
+0	ADM/
+0	admin_/
+0	admin_area/
+0	admin_banner/
+0	admin_c/
+0	admin_index/
+0	admin_interface/
+0	admin_login/
+0	admin_logon/
+0	admin-admin/
+0	admin-console/
+0	admin-interface/
+0	admin.cgi/
+0	admin.php/
+0	admin.pl/
+0	admin/
+0	Admin/
+0	ADMIN/
+0	admin1/
+0	admin2/
+0	admin3/
+0	admin4_account/
+0	admin4_colon/
+0	admincontrol/
+0	admincp/
+0	adminhelp/
+0	administer/
+0	administr8/
+0	administracion/
+0	administrador/
+0	administrat/
+0	administratie/
+0	administration/
+0	Administration/
+0	administrator/
+0	administratoraccounts/
+0	administrators/
+0	administrivia/
+0	adminlogin/
+0	adminlogon/
+0	adminpanel/
+0	adminpro/
+0	admins/
+0	AdminService/
+0	adminsessions/
+0	adminsql/
+0	admintools/
+0	AdminTools/
+0	admissions/
+0	admon/
+0	ADMON/
+0	adobe/
+0	adodb/
+0	ads/
+0	adserver/
+0	adsl/
+0	adv_counter/
+0	adv/
+0	advanced_search/
+0	advanced/
+0	advancedsearch/
+0	advert/
+0	advertise/
+0	advertisement/
+0	advertisers/
+0	advertising/
+0	adverts/
+0	advice/
+0	adview/
+0	advisories/
+0	af/
+0	aff/
+0	affiche/
+0	affiliate_info/
+0	affiliate_terms/
+0	affiliate/
+0	affiliates/
+0	affiliatewiz/
+0	africa/
+0	agb/
+0	agency/
+0	agenda/
+0	agent/
+0	agents/
+0	aggregator/
+0	AggreSpy/
+0	ajax_cron/
+0	ajax/
+0	akamai/
+0	akeeba.backend.log/
+0	alarm/
+0	alarms/
+0	album/
+0	albums/
+0	alcatel/
+0	alert/
+0	alerts/
+0	alias/
+0	aliases/
+0	all-wcprops/
+0	all/
+0	alltime/
+0	alpha/
+0	alt/
+0	alumni_add/
+0	alumni_details/
+0	alumni_info/
+0	alumni_reunions/
+0	alumni_update/
+0	alumni/
+0	am/
+0	amanda/
+0	amazon/
+0	amember/
+0	analog.html/
+0	analog/
+0	analyse/
+0	analysis/
+0	analytics/
+0	and/
+0	android/
+0	announce/
+0	announcement/
+0	announcements/
+0	annuaire/
+0	annual/
+0	anon_ftp/
+0	anon/
+0	anonymous/
+0	ansi/
+0	answer/
+0	answers/
+0	antibot_image/
+0	antispam/
+0	antivirus/
+0	anuncios/
+0	any/
+0	aol/
+0	ap/
+0	apac/
+0	apache/
+0	apanel/
+0	apc/
+0	apexec/
+0	api/
+0	apis/
+0	apl/
+0	apm/
+0	app_browser/
+0	app_browsers/
+0	app_code/
+0	app_data/
+0	app_themes/
+0	app/
+0	appeal/
+0	appeals/
+0	append/
+0	appl/
+0	apple/
+0	applet/
+0	applets/
+0	appliance/
+0	appliation/
+0	application.wadl/
+0	application/
+0	applications/
+0	apply/
+0	apps/
+0	AppsLocalLogin/
+0	AppsLogin/
+0	apr/
+0	ar/
+0	arbeit/
+0	arcade/
+0	arch/
+0	architect/
+0	architecture/
+0	archiv/
+0	Archive/
+0	archive/
+0	archives/
+0	archivos/
+0	arquivos/
+0	array/
+0	arrow/
+0	ars/
+0	art/
+0	article/
+0	Articles/
+0	articles/
+0	artikel/
+0	artists/
+0	arts/
+0	artwork/
+0	as/
+0	ascii/
+0	asdf/
+0	ashley/
+0	asia/
+0	ask_a_question/
+0	ask/
+0	askapache/
+0	asmx/
+0	asp/
+0	aspadmin/
+0	aspdnsfcommon/
+0	aspdnsfencrypt/
+0	aspdnsfgateways/
+0	aspdnsfpatterns/
+0	aspnet_client/
+0	asps/
+0	aspx/
+0	asset/
+0	assetmanage/
+0	assetmanagement/
+0	assets/
+0	at/
+0	atom/
+0	attach_mod/
+0	attach/
+0	attachment/
+0	attachments/
+0	attachs/
+0	attic/
+0	au/
+0	auction/
+0	auctions/
+0	audio/
+0	audit/
+0	audits/
+0	auth/
+0	authentication/
+0	author/
+0	authoring/
+0	authorization/
+0	authorized_keys/
+0	authors/
+0	authuser/
+0	authusers/
+0	auto/
+0	autobackup/
+0	autocheck/
+0	autodeploy/
+0	autodiscover/
+0	autologin/
+0	automatic/
+0	automation/
+0	automotive/
+0	aux/
+0	av/
+0	avatar/
+0	avatars/
+0	aw/
+0	award/
+0	awardingbodies/
+0	awards/
+0	awl/
+0	awmdata/
+0	awstats.conf/
+0	awstats/
+0	axis-admin/
+0	axis/
+0	axis2-admin/
+0	axis2/
+0	axs/
+0	az/
+0	b/
+0	B/
+0	b1/
+0	b2b/
+0	b2c/
+0	back-up/
+0	back/
+0	backdoor/
+0	backend/
+0	background/
+0	backgrounds/
+0	backoffice/
+0	BackOffice/
+0	backup_migrate/
+0	backup-db/
+0	backup/
+0	backup2/
+0	backups/
+0	bad_link/
+0	bak-up/
+0	bak/
+0	bakup/
+0	balance/
+0	balances/
+0	ban/
+0	bandwidth/
+0	bank/
+0	banking/
+0	banks/
+0	banned/
+0	banner_element/
+0	banner/
+0	banner2/
+0	banneradmin/
+0	bannerads/
+0	banners/
+0	bar/
+0	base/
+0	Base/
+0	baseball/
+0	bash/
+0	basic/
+0	basket/
+0	basketball/
+0	baskets/
+0	bass/
+0	bat/
+0	batch/
+0	baz/
+0	bb-hist/
+0	bb-histlog/
+0	bb/
+0	bbadmin/
+0	bbclone/
+0	bboard/
+0	bbs/
+0	bc/
+0	bd/
+0	bdata/
+0	be/
+0	bea/
+0	bean/
+0	beans/
+0	beehive/
+0	beheer/
+0	benefits/
+0	benutzer/
+0	best/
+0	beta/
+0	bfc/
+0	bg/
+0	big/
+0	bigadmin/
+0	bigip/
+0	bilder/
+0	bill/
+0	billing/
+0	bin/
+0	binaries/
+0	binary/
+0	bins/
+0	bio/
+0	bios/
+0	bitrix/
+0	biz/
+0	bk/
+0	bkup/
+0	bl/
+0	black/
+0	blah/
+0	blank/
+0	blb/
+0	block/
+0	blocked/
+0	blocks/
+0	blog_ajax/
+0	blog_inlinemod/
+0	blog_report/
+0	blog_search/
+0	blog_usercp/
+0	Blog/
+0	blog/
+0	blogger/
+0	bloggers/
+0	blogindex/
+0	blogs/
+0	blogspot/
+0	blow/
+0	blue/
+0	bm/
+0	bmz_cache/
+0	bnnr/
+0	bo/
+0	board/
+0	boards/
+0	bob/
+0	body/
+0	bofh/
+0	boiler/
+0	boilerplate/
+0	bonus/
+0	bonuses/
+0	book/
+0	booker/
+0	booking/
+0	bookmark/
+0	bookmarks/
+0	books/
+0	Books/
+0	bookstore/
+0	boost_stats/
+0	boot/
+0	bot-trap/
+0	bot/
+0	bots/
+0	bottom/
+0	boutique/
+0	box/
+0	boxes/
+0	br/
+0	brand/
+0	brands/
+0	broadband/
+0	brochure/
+0	brochures/
+0	broken_link/
+0	broken/
+0	broker/
+0	browse/
+0	Browser/
+0	browser/
+0	bs/
+0	bsd/
+0	bt/
+0	bug/
+0	bugs/
+0	build/
+0	BUILD/
+0	builder/
+0	buildr/
+0	bulk/
+0	bulksms/
+0	bullet/
+0	busca/
+0	buscador/
+0	buscar/
+0	business/
+0	Business/
+0	button/
+0	buttons/
+0	buy/
+0	buynow/
+0	buyproduct/
+0	bypass/
+0	bz2/
+0	C/
+0	c/
+0	ca/
+0	cabinet/
+0	cache/
+0	cachemgr.cgi/
+0	cachemgr/
+0	caching/
+0	cad/
+0	cadmins/
+0	cal/
+0	calc/
+0	calendar_events/
+0	calendar_sports/
+0	calendar/
+0	calendarevents/
+0	calendars/
+0	call/
+0	callback/
+0	callee/
+0	caller/
+0	callin/
+0	calling/
+0	callout/
+0	cam/
+0	camel/
+0	campaign/
+0	campaigns/
+0	can/
+0	canada/
+0	captcha/
+0	car/
+0	carbuyaction/
+0	card/
+0	cardinal/
+0	cardinalauth/
+0	cardinalform/
+0	cards/
+0	career/
+0	careers/
+0	carp/
+0	carpet/
+0	cars/
+0	cart/
+0	carthandler/
+0	carts/
+0	cas/
+0	cases/
+0	casestudies/
+0	cash/
+0	cat/
+0	catalog.wci/
+0	catalog/
+0	catalogs/
+0	catalogsearch/
+0	catalogue/
+0	catalyst/
+0	catch/
+0	categoria/
+0	categories/
+0	category/
+0	catinfo/
+0	cats/
+0	cb/
+0	cc/
+0	ccbill/
+0	ccount/
+0	ccp14admin/
+0	ccs/
+0	cd/
+0	cdrom/
+0	centres/
+0	cert/
+0	certenroll/
+0	certificate/
+0	certificates/
+0	certification/
+0	certified/
+0	certs/
+0	certserver/
+0	certsrv/
+0	cf/
+0	cfc/
+0	cfcache/
+0	cfdocs/
+0	cfg/
+0	cfide/
+0	cfm/
+0	cfusion/
+0	cgi_bin/
+0	cgi-bin/
+0	cgi-bin//
+0	cgi-bin2/
+0	cgi-data/
+0	cgi-exe/
+0	cgi-home/
+0	cgi-image/
+0	cgi-local/
+0	cgi-perl/
+0	cgi-pub/
+0	cgi-script/
+0	cgi-shl/
+0	cgi-sys/
+0	cgi-web/
+0	cgi-win/
+0	cgi/
+0	cgibin/
+0	cgis/
+0	cgiwrap/
+0	cgm-web/
+0	ch/
+0	chan/
+0	change_password/
+0	change/
+0	changed/
+0	changelog/
+0	ChangeLog/
+0	changepw/
+0	changes/
+0	channel/
+0	charge/
+0	charges/
+0	chart/
+0	charts/
+0	chat/
+0	chats/
+0	check/
+0	checking/
+0	checkout_iclear/
+0	checkout/
+0	checkoutanon/
+0	checkoutreview/
+0	checkpoint/
+0	checks/
+0	child/
+0	children/
+0	china/
+0	chk/
+0	choosing/
+0	chris/
+0	chrome/
+0	cinema/
+0	cisco/
+0	cisweb/
+0	cities/
+0	citrix/
+0	city/
+0	ck/
+0	ckeditor/
+0	ckfinder/
+0	cl/
+0	claim/
+0	claims/
+0	class/
+0	classes/
+0	classic/
+0	classified/
+0	classifieds/
+0	classroompages/
+0	cleanup/
+0	clear/
+0	clearcookies/
+0	clearpixel/
+0	click/
+0	clickheat/
+0	clickout/
+0	clicks/
+0	client/
+0	clientaccesspolicy/
+0	clientapi/
+0	clientes/
+0	clients/
+0	clientscript/
+0	clipart/
+0	clips/
+0	clk/
+0	clock/
+0	close/
+0	closed/
+0	closing/
+0	club/
+0	cluster/
+0	clusters/
+0	cm/
+0	cmd/
+0	cmpi_popup/
+0	cms/
+0	CMS/
+0	cmsadmin/
+0	cn/
+0	cnf/
+0	cnstats/
+0	cnt/
+0	co/
+0	cocoon/
+0	code/
+0	codec/
+0	codecs/
+0	codepages/
+0	codes/
+0	coffee/
+0	cognos/
+0	coke/
+0	coldfusion/
+0	collapse/
+0	collection/
+0	college/
+0	columnists/
+0	columns/
+0	com_sun_web_ui/
+0	com/
+0	com1/
+0	com2/
+0	com3/
+0	com4/
+0	comics/
+0	comm/
+0	command/
+0	comment-page-1/
+0	comment-page/
+0	comment/
+0	commentary/
+0	commented/
+0	comments/
+0	commerce/
+0	commercial/
+0	common/
+0	commoncontrols/
+0	commun/
+0	communication/
+0	communications/
+0	communicator/
+0	communities/
+0	community/
+0	comp/
+0	compact/
+0	companies/
+0	company/
+0	compare_product/
+0	compare/
+0	comparison_list/
+0	comparison/
+0	compat/
+0	compiled/
+0	complaint/
+0	complaints/
+0	compliance/
+0	component/
+0	components/
+0	compose/
+0	composer/
+0	compress/
+0	compressed/
+0	computer/
+0	computers/
+0	Computers/
+0	computing/
+0	comunicator/
+0	con/
+0	concrete/
+0	conditions/
+0	conf/
+0	conference/
+0	conferences/
+0	config.local/
+0	config/
+0	configs/
+0	configuration/
+0	configure/
+0	confirm/
+0	confirmed/
+0	conlib/
+0	conn/
+0	connect/
+0	connections/
+0	connector/
+0	connectors/
+0	console/
+0	constant/
+0	constants/
+0	consulting/
+0	consumer/
+0	cont/
+0	contact_bean/
+0	contact_us/
+0	contact-form/
+0	contact-us/
+0	contact/
+0	Contact/
+0	contactinfo/
+0	contacto/
+0	contacts/
+0	ContactUs/
+0	contactus/
+0	contao/
+0	contato/
+0	contenido/
+0	content/
+0	Content/
+0	contents/
+0	contest/
+0	contests/
+0	contract/
+0	contracts/
+0	contrib/
+0	contribute/
+0	contributor/
+0	control/
+0	controller/
+0	controllers/
+0	controlpanel/
+0	controls/
+0	converge_local/
+0	converse/
+0	cookie_usage/
+0	cookie/
+0	cookies/
+0	cool/
+0	copies/
+0	copy/
+0	copyright-policy/
+0	copyright/
+0	corba/
+0	core/
+0	coreg/
+0	corp/
+0	corpo/
+0	corporate/
+0	corporation/
+0	corrections/
+0	count/
+0	counter/
+0	counters/
+0	country/
+0	counts/
+0	coupon/
+0	coupons/
+0	coupons1/
+0	course/
+0	courses/
+0	cover/
+0	covers/
+0	cp/
+0	cpadmin/
+0	CPAN/
+0	cpanel_file/
+0	cPanel/
+0	cpanel/
+0	cpath/
+0	cpp/
+0	cps/
+0	cpstyles/
+0	cr/
+0	crack/
+0	crash/
+0	crashes/
+0	create_account/
+0	create/
+0	createaccount/
+0	createbutton/
+0	creation/
+0	Creatives/
+0	creator/
+0	credit/
+0	creditcards/
+0	credits/
+0	crime/
+0	crm/
+0	crms/
+0	cron/
+0	cronjobs/
+0	crons/
+0	crontab/
+0	crontabs/
+0	crossdomain.xml/
+0	crossdomain/
+0	crs/
+0	crtr/
+0	crypt/
+0	crypto/
+0	cs/
+0	cse/
+0	csproj/
+0	css/
+0	csv/
+0	ct/
+0	ctl/
+0	culture/
+0	currency/
+0	current/
+0	custom_log/
+0	custom-log/
+0	custom/
+0	customavatars/
+0	customcode/
+0	customer_login/
+0	customer/
+0	customers/
+0	customgroupicons/
+0	customize/
+0	cute/
+0	cutesoft_client/
+0	cv/
+0	cvs/
+0	CVS/
+0	CVS/Entries/
+0	CVS/Repository/
+0	CVS/Root/
+0	cxf/
+0	cy/
+0	CYBERDOCS/
+0	CYBERDOCS25/
+0	CYBERDOCS31/
+0	cyberworld/
+0	cycle_image/
+0	cz/
+0	czcmdcvt/
+0	D/
+0	d/
+0	da/
+0	daemon/
+0	daily/
+0	dan/
+0	dana-na/
+0	dark/
+0	dashboard/
+0	dat/
+0	data/
+0	Database_Administration/
+0	database_administration/
+0	database/
+0	databases/
+0	datafiles/
+0	datas/
+0	date/
+0	daten/
+0	datenschutz/
+0	dating/
+0	dav/
+0	day/
+0	db_connect/
+0	db/
+0	DB/
+0	dba/
+0	dbadmin/
+0	dbase/
+0	dbboon/
+0	dbg/
+0	dbi/
+0	dblclk/
+0	dbm/
+0	dbman/
+0	dbmodules/
+0	dbms/
+0	dbutil/
+0	dc/
+0	dcforum/
+0	dclk/
+0	de_DE/
+0	de/
+0	deal/
+0	dealer/
+0	dealers/
+0	deals/
+0	debian/
+0	debug/
+0	dec/
+0	decl/
+0	declaration/
+0	declarations/
+0	decode/
+0	decoder/
+0	decrypt/
+0	decrypted/
+0	decryption/
+0	def/
+0	default_icon/
+0	default_image/
+0	default_logo/
+0	default_page/
+0	default_pages/
+0	default/
+0	Default/
+0	defaults/
+0	definition/
+0	definitions/
+0	del/
+0	delete/
+0	deleted/
+0	deleteme/
+0	deletion/
+0	delicious/
+0	demo/
+0	demo2/
+0	demos/
+0	denied/
+0	deny/
+0	departments/
+0	deploy/
+0	deployment/
+0	descargas/
+0	design/
+0	designs/
+0	desktop/
+0	desktopmodules/
+0	desktops/
+0	destinations/
+0	detail/
+0	details/
+0	deutsch/
+0	dev/
+0	dev2/
+0	dev60cgi/
+0	devel/
+0	develop/
+0	developement/
+0	developer/
+0	developers/
+0	development.log/
+0	development/
+0	device/
+0	devices/
+0	devs/
+0	devtools/
+0	df/
+0	dh_/
+0	dh_phpmyadmin/
+0	di/
+0	diag/
+0	diagnostics/
+0	dial/
+0	dialog/
+0	dialogs/
+0	diary/
+0	dictionary/
+0	diff/
+0	diffs/
+0	dig/
+0	digest/
+0	digg/
+0	digital/
+0	dir-login/
+0	dir-prop-base/
+0	dir/
+0	dirbmark/
+0	direct/
+0	directadmin/
+0	directions/
+0	directories/
+0	directorio/
+0	directory/
+0	dirs/
+0	disabled/
+0	disallow/
+0	disclaimer/
+0	disclosure/
+0	discootra/
+0	discount/
+0	discovery/
+0	discus/
+0	discuss/
+0	discussion/
+0	disdls/
+0	disk/
+0	dispatch/
+0	dispatcher/
+0	display_vvcodes/
+0	display/
+0	dist/
+0	divider/
+0	django/
+0	dk/
+0	dl/
+0	dll/
+0	dm-config/
+0	dm/
+0	dmdocuments/
+0	dms/
+0	dms0/
+0	DMSDump/
+0	dns/
+0	do/
+0	doc/
+0	docebo/
+0	docedit/
+0	dock/
+0	docroot/
+0	docs/
+0	docs41/
+0	docs51/
+0	document_library/
+0	document/
+0	documentation/
+0	Documents and Settings/
+0	documents/
+0	doinfo/
+0	dokuwiki/
+0	domain/
+0	domains/
+0	donate/
+0	donations/
+0	done/
+0	dot/
+0	doubleclick/
+0	down/
+0	download_private/
+0	Download/
+0	download/
+0	downloader/
+0	downloads/
+0	Downloads/
+0	downsys/
+0	draft/
+0	drafts/
+0	dragon/
+0	draver/
+0	driver/
+0	drivers/
+0	drop/
+0	dropped/
+0	drupal/
+0	ds/
+0	dummy/
+0	dump/
+0	dumpenv/
+0	dumps/
+0	dumpuser/
+0	dvd/
+0	dwr/
+0	dyn/
+0	dynamic/
+0	dyop_addtocart/
+0	dyop_delete/
+0	dyop_quan/
+0	e-mail/
+0	e-store/
+0	e/
+0	E/
+0	e107_admin/
+0	e107_files/
+0	e107_handlers/
+0	e2fs/
+0	ear/
+0	easy/
+0	ebay/
+0	eblast/
+0	ebook/
+0	ebooks/
+0	ebriefs/
+0	ec/
+0	ecard/
+0	ecards/
+0	echannel/
+0	ecommerce/
+0	ecrire/
+0	edge/
+0	edgy/
+0	edit_link/
+0	edit_profile/
+0	edit/
+0	editaddress/
+0	editor/
+0	editorial/
+0	editorials/
+0	editors/
+0	editpost/
+0	edits/
+0	edp/
+0	edu/
+0	Education/
+0	education/
+0	ee/
+0	effort/
+0	efforts/
+0	egress/
+0	ehdaa/
+0	ejb/
+0	el/
+0	electronics/
+0	element/
+0	elements/
+0	elmar/
+0	em/
+0	email-a-friend/
+0	email-addresses/
+0	email/
+0	emailafriend/
+0	emailer/
+0	emailhandler/
+0	emailing/
+0	emailproduct/
+0	emails/
+0	emailsignup/
+0	emailtemplates/
+0	embed/
+0	embedd/
+0	embedded/
+0	emea/
+0	emergency/
+0	emoticons/
+0	employee/
+0	employees/
+0	employers/
+0	employment/
+0	empty/
+0	emu/
+0	emulator/
+0	en_US/
+0	en_us/
+0	en/
+0	enable-cookies/
+0	enc/
+0	encode/
+0	encoder/
+0	encrypt/
+0	encrypted/
+0	encryption/
+0	encyption/
+0	end/
+0	enduser/
+0	endusers/
+0	energy/
+0	enews/
+0	eng/
+0	engine/
+0	engines/
+0	English/
+0	english/
+0	enterprise/
+0	Entertainment/
+0	entertainment/
+0	entries/
+0	Entries/
+0	entropybanner/
+0	entry/
+0	env/
+0	environ/
+0	environment/
+0	ep/
+0	eproducts/
+0	equipment/
+0	eric/
+0	err/
+0	erraddsave/
+0	errata/
+0	error_docs/
+0	error_log/
+0	error_message/
+0	error_pages/
+0	error-espanol/
+0	error-log/
+0	error/
+0	error404/
+0	errordocs/
+0	errorpage/
+0	errorpages/
+0	errors/
+0	erros/
+0	es_ES/
+0	es/
+0	esale/
+0	esales/
+0	eshop/
+0	esp/
+0	espanol/
+0	established/
+0	estilos/
+0	estore/
+0	esupport/
+0	et/
+0	etc/
+0	ethics/
+0	eu/
+0	europe/
+0	evb/
+0	event/
+0	events/
+0	Events/
+0	evil/
+0	evt/
+0	ewebeditor/
+0	ews/
+0	ex/
+0	example/
+0	examples/
+0	excalibur/
+0	excel/
+0	exception_log/
+0	exch/
+0	exchange/
+0	exchweb/
+0	exclude/
+0	exe/
+0	exec/
+0	executable/
+0	executables/
+0	exiar/
+0	exit/
+0	expert/
+0	experts/
+0	exploits/
+0	explore/
+0	explorer/
+0	export/
+0	exports/
+0	ext/
+0	ext2/
+0	extension/
+0	extensions/
+0	extern/
+0	external/
+0	externalid/
+0	externalisation/
+0	externalization/
+0	extra/
+0	extranet/
+0	Extranet/
+0	extras/
+0	ezshopper/
+0	ezsqliteadmin/
+0	f/
+0	F/
+0	fa/
+0	fabric/
+0	face/
+0	facebook/
+0	faces/
+0	facts/
+0	faculty/
+0	fail/
+0	failed/
+0	failure/
+0	fake/
+0	family/
+0	fancybox/
+0	faq/
+0	FAQ/
+0	faqs/
+0	fashion/
+0	favicon.ico/
+0	favorite/
+0	favorites/
+0	fb/
+0	fbook/
+0	fc/
+0	fcategory/
+0	fcgi-bin/
+0	fcgi/
+0	fck/
+0	fckeditor/
+0	FCKeditor/
+0	fdcp/
+0	feature/
+0	featured/
+0	features/
+0	fedora/
+0	feed/
+0	feedback_js/
+0	feedback/
+0	feeds/
+0	felix/
+0	fetch/
+0	fi/
+0	field/
+0	fields/
+0	file/
+0	fileadmin/
+0	filelist/
+0	filemanager/
+0	files/
+0	fileupload/
+0	fileuploads/
+0	filez/
+0	film/
+0	films/
+0	filter/
+0	finance/
+0	financial/
+0	find/
+0	finger/
+0	finishorder/
+0	firefox/
+0	firewall/
+0	firewalls/
+0	firmconnect/
+0	firms/
+0	firmware/
+0	first/
+0	fixed/
+0	fk/
+0	fla/
+0	flag/
+0	flags/
+0	flash-intro/
+0	flash/
+0	flex/
+0	flights/
+0	flow/
+0	flowplayer/
+0	flows/
+0	flv/
+0	flvideo/
+0	flyspray/
+0	fm/
+0	fn/
+0	focus/
+0	foia/
+0	folder_new/
+0	folder/
+0	folders/
+0	font/
+0	fonts/
+0	foo/
+0	food/
+0	football/
+0	footer/
+0	footers/
+0	for/
+0	forcedownload/
+0	forget/
+0	forgot_password/
+0	forgot-password/
+0	forgot/
+0	forgotpassword/
+0	forgotten/
+0	form/
+0	format/
+0	formatting/
+0	formhandler/
+0	formmail/
+0	forms/
+0	forms1/
+0	formsend/
+0	formslogin/
+0	formupdate/
+0	foro/
+0	foros/
+0	forrest/
+0	fortune/
+0	forum_old/
+0	forum/
+0	forum1/
+0	forum2/
+0	forumcp/
+0	forumdata/
+0	forumdisplay/
+0	forums/
+0	forward/
+0	foto/
+0	fotos/
+0	foundation/
+0	fpdb/
+0	fpdf/
+0	fr_FR/
+0	fr/
+0	frame/
+0	frames/
+0	frameset/
+0	framework/
+0	francais/
+0	france/
+0	free/
+0	freebsd/
+0	freeware/
+0	french/
+0	friend/
+0	friends/
+0	frm_attach/
+0	frob/
+0	from/
+0	front/
+0	frontend/
+0	frontpage/
+0	fs/
+0	fsck/
+0	ftp/
+0	fuck/
+0	fuckoff/
+0	fuckyou/
+0	full/
+0	fun/
+0	func/
+0	funcs/
+0	function.require/
+0	function/
+0	functionlude/
+0	functions/
+0	fund/
+0	funding/
+0	funds/
+0	furl/
+0	fusion/
+0	future/
+0	fw/
+0	fwlink/
+0	fx/
+0	g/
+0	G/
+0	ga/
+0	gadget/
+0	gadgets/
+0	gaestebuch/
+0	galeria/
+0	galerie/
+0	galleries/
+0	gallery/
+0	gallery2/
+0	game/
+0	gamercard/
+0	Games/
+0	games/
+0	gaming/
+0	ganglia/
+0	garbage/
+0	gate/
+0	gateway/
+0	gb/
+0	gbook/
+0	gccallback/
+0	gdform/
+0	geeklog/
+0	gen/
+0	general/
+0	generateditems/
+0	generator/
+0	generic/
+0	gentoo/
+0	geo/
+0	geoip/
+0	german/
+0	geronimo/
+0	gest/
+0	gestion/
+0	gestione/
+0	get_file/
+0	get-file/
+0	get/
+0	getaccess/
+0	getconfig/
+0	getFile.cfm/
+0	getfile/
+0	getjobid/
+0	getout/
+0	gettxt/
+0	gfen/
+0	gfx/
+0	gg/
+0	gid/
+0	gif/
+0	gifs/
+0	gift/
+0	giftcert/
+0	giftoptions/
+0	giftreg_manage/
+0	giftregs/
+0	gifts/
+0	git/
+0	gitweb/
+0	gl/
+0	glance_config/
+0	glimpse/
+0	global.asa/
+0	global.asax/
+0	Global/
+0	global/
+0	globalnav/
+0	globals/
+0	globes_admin/
+0	glossary/
+0	go/
+0	goaway/
+0	gold/
+0	golf/
+0	gone/
+0	goods_script/
+0	goods/
+0	google_sitemap/
+0	google/
+0	googlebot/
+0	goto/
+0	government/
+0	gp/
+0	gpapp/
+0	gpl/
+0	gprs/
+0	gps/
+0	gr/
+0	gracias/
+0	grafik/
+0	grant/
+0	granted/
+0	grants/
+0	graph/
+0	Graphics/
+0	graphics/
+0	green/
+0	greybox/
+0	grid/
+0	group_inlinemod/
+0	group/
+0	groupcp/
+0	groups/
+0	groupware/
+0	gs/
+0	gsm/
+0	guess/
+0	guest-tracking/
+0	guest/
+0	guestbook/
+0	guests/
+0	gui/
+0	guide/
+0	guidelines/
+0	guides/
+0	gump/
+0	gv_faq/
+0	gv_redeem/
+0	gv_send/
+0	gwt/
+0	gz/
+0	H/
+0	h/
+0	hack/
+0	hacker/
+0	hacking/
+0	hackme/
+0	hadoop/
+0	handle/
+0	handler/
+0	handlers/
+0	handles/
+0	happen/
+0	happening/
+0	hard/
+0	hardcore/
+0	hardware/
+0	harm/
+0	harming/
+0	harmony/
+0	head/
+0	header_logo/
+0	header/
+0	headers/
+0	headlines/
+0	Health/
+0	health/
+0	healthcare/
+0	hello/
+0	helloworld/
+0	help_answer/
+0	Help/
+0	help/
+0	helpdesk/
+0	helper/
+0	helpers/
+0	hi/
+0	hidden/
+0	hide/
+0	high/
+0	highslide/
+0	hilfe/
+0	hipaa/
+0	hire/
+0	history/
+0	hit/
+0	hitcount/
+0	hits/
+0	hold/
+0	hole/
+0	holiday/
+0	holidays/
+0	home/
+0	Home/
+0	homepage/
+0	homes/
+0	homework/
+0	honda/
+0	hooks/
+0	hop/
+0	horde/
+0	host-manager/
+0	host/
+0	hosted/
+0	hosting/
+0	hosts/
+0	hotel/
+0	hotels/
+0	hour/
+0	hourly/
+0	house/
+0	how/
+0	howto/
+0	hp/
+0	hpwebjetadmin/
+0	hr/
+0	ht/
+0	hta/
+0	htbin/
+0	htdig/
+0	htdoc/
+0	htdocs/
+0	htm/
+0	HTML/
+0	html/
+0	htmlarea/
+0	htmls/
+0	htpasswd/
+0	http/
+0	httpd/
+0	httpdocs/
+0	httpmodules/
+0	https/
+0	httpuser/
+0	hu/
+0	human/
+0	humans/
+0	humor/
+0	hyper/
+0	i/
+0	I/
+0	ia/
+0	ibm/
+0	icat/
+0	ico/
+0	icon/
+0	icons/
+0	icq/
+0	id_rsa.pub/
+0	id_rsa/
+0	id/
+0	idbc/
+0	idea/
+0	ideas/
+0	identity/
+0	idp/
+0	ids/
+0	ie/
+0	if/
+0	iframe/
+0	iframes/
+0	ig/
+0	ignore/
+0	ignoring/
+0	iis/
+0	iisadmin/
+0	iisadmpwd/
+0	iissamples/
+0	im/
+0	Image/
+0	image/
+0	imagefolio/
+0	imagegallery/
+0	imagenes/
+0	imagens/
+0	Images/
+0	images/
+0	images01/
+0	images1/
+0	images2/
+0	images3/
+0	imanager/
+0	img/
+0	img2/
+0	imgs/
+0	immagini/
+0	imp/
+0	import/
+0	important/
+0	imports/
+0	impressum/
+0	in/
+0	inbound/
+0	inbox/
+0	inc/
+0	incl/
+0	include/
+0	includes/
+0	incoming/
+0	incs/
+0	incubator/
+0	index_01/
+0	index_1/
+0	index_2/
+0	index_adm/
+0	index_admin/
+0	index_files/
+0	index_var_de/
+0	index-bak/
+0	index.htm/
+0	index.html/
+0	index.php/
+0	Index/
+0	index/
+0	index1/
+0	index2.php/
+0	index2/
+0	index3.php/
+0	index3/
+0	indexes/
+0	industries/
+0	industry/
+0	Indy_admin/
+0	indy_admin/
+0	inetpub/
+0	inetsrv/
+0	inf/
+0	info.php/
+0	info/
+0	information/
+0	informer/
+0	infos.php/
+0	infos/
+0	infraction/
+0	ingres/
+0	ingress/
+0	ini/
+0	init/
+0	injection/
+0	inline/
+0	inlinemod/
+0	input/
+0	inquire/
+0	inquiries/
+0	inquiry/
+0	insert/
+0	INSTALL_admin/
+0	install-xaff/
+0	install-xaom/
+0	install-xbench/
+0	install-xfcomp/
+0	install-xoffers/
+0	install-xpconf/
+0	install-xrma/
+0	install-xsurvey/
+0	install.mysql/
+0	install.pgsql/
+0	install/
+0	installation/
+0	installer/
+0	installwordpress/
+0	instance/
+0	instructions/
+0	insurance/
+0	int/
+0	intel/
+0	intelligence/
+0	inter/
+0	interactive/
+0	interface/
+0	interim/
+0	intermediate/
+0	intern/
+0	internal/
+0	international/
+0	internet/
+0	Internet/
+0	interview/
+0	interviews/
+0	intl/
+0	intra/
+0	intracorp/
+0	intranet/
+0	intro/
+0	introduction/
+0	inventory/
+0	investors/
+0	invitation/
+0	invite/
+0	invoice/
+0	invoices/
+0	ioncube/
+0	ip/
+0	ipc/
+0	ipdata/
+0	iphone/
+0	ipn/
+0	ipod/
+0	ipp/
+0	ips_kernel/
+0	ips/
+0	ir/
+0	iraq/
+0	irc-macadmin/
+0	irc/
+0	is-bin/
+0	is/
+0	isapi/
+0	iso/
+0	isp/
+0	issue/
+0	issues/
+0	it_IT/
+0	it/
+0	ita/
+0	item/
+0	items/
+0	iw/
+0	J/
+0	j/
+0	j2ee/
+0	j2me/
+0	ja_JP/
+0	ja/
+0	jacob/
+0	jakarta/
+0	japan/
+0	jar/
+0	java-plugin/
+0	java-sys/
+0	java/
+0	Java/
+0	javac/
+0	javadoc/
+0	javascript/
+0	javascripts/
+0	javax/
+0	jboss/
+0	jbossas/
+0	jbossws/
+0	jdbc/
+0	jdk/
+0	jennifer/
+0	jessica/
+0	jexr/
+0	jhtml/
+0	jigsaw/
+0	jira/
+0	jj/
+0	jmx-console/
+0	JMXSoapAdapter/
+0	job/
+0	jobs/
+0	joe/
+0	john/
+0	join/
+0	joinrequests/
+0	joomla/
+0	journal/
+0	journals/
+0	jp/
+0	jpa/
+0	jpegimage/
+0	jpg/
+0	jquery/
+0	jre/
+0	jrun/
+0	js-lib/
+0	js/
+0	jscript/
+0	jscripts/
+0	jsession/
+0	jsf/
+0	jsFiles/
+0	json-api/
+0	json/
+0	jsp-examples/
+0	jsp/
+0	jsp2/
+0	jsps/
+0	jsr/
+0	jsso/
+0	jsx/
+0	jump/
+0	juniper/
+0	junk/
+0	jvm/
+0	k/
+0	katalog/
+0	kb_results/
+0	kb/
+0	kboard/
+0	kcaptcha/
+0	keep/
+0	kept/
+0	kernel/
+0	key/
+0	keygen/
+0	keys/
+0	keyword/
+0	keywords/
+0	kids/
+0	kill/
+0	kiosk/
+0	known_hosts/
+0	ko_KR/
+0	ko/
+0	kontakt/
+0	konto-eroeffnen/
+0	kr/
+0	kunden/
+0	l/
+0	L/
+0	la/
+0	lab/
+0	labels/
+0	labs/
+0	landing/
+0	landingpages/
+0	landwind/
+0	lang-en/
+0	lang-fr/
+0	lang/
+0	langs/
+0	language/
+0	languages/
+0	laptops/
+0	large/
+0	lastnews/
+0	lastpost/
+0	lat_account/
+0	lat_driver/
+0	lat_getlinking/
+0	lat_signin/
+0	lat_signout/
+0	lat_signup/
+0	latest/
+0	launch/
+0	launcher/
+0	launchpage/
+0	law/
+0	layout/
+0	layouts/
+0	ldap/
+0	leader/
+0	leaders/
+0	leads/
+0	learn/
+0	learners/
+0	learning/
+0	left/
+0	legacy/
+0	legal-notice/
+0	legal/
+0	Legal/
+0	legislation/
+0	lenya/
+0	lessons/
+0	letters/
+0	level/
+0	lg/
+0	lgpl/
+0	lib/
+0	librairies/
+0	libraries/
+0	library/
+0	libs/
+0	lic/
+0	licence/
+0	license_afl/
+0	license/
+0	LICENSE/
+0	licenses/
+0	licensing/
+0	life/
+0	lifestyle/
+0	lightbox/
+0	limit/
+0	line/
+0	link-to-us/
+0	link/
+0	linkex/
+0	linkmachine/
+0	links_submit/
+0	links/
+0	Links/
+0	linktous/
+0	Linux/
+0	linux/
+0	lisence/
+0	lisense/
+0	list_users/
+0	list-create/
+0	list-edit/
+0	list-search/
+0	list-users/
+0	list-view/
+0	list/
+0	listadmin/
+0	listinfo/
+0	listing/
+0	listings/
+0	lists/
+0	listusers/
+0	listview/
+0	live/
+0	livechat/
+0	livehelp/
+0	livesupport/
+0	livezilla/
+0	lo/
+0	load/
+0	loader/
+0	loading/
+0	loc/
+0	local/
+0	locale/
+0	localstart/
+0	location/
+0	locations/
+0	locator/
+0	lock/
+0	locked/
+0	lockout/
+0	lofiversion/
+0	log/
+0	Log/
+0	log4j/
+0	log4net/
+0	logfile/
+0	logfiles/
+0	LogFiles/
+0	logfileview/
+0	logger/
+0	logging/
+0	login_db/
+0	login_sendpass/
+0	login-redirect/
+0	login-us/
+0	login/
+0	Login/
+0	login1/
+0	loginadmin/
+0	loginflat/
+0	logins/
+0	logo_sysadmin/
+0	logo/
+0	logoff/
+0	logon/
+0	logos/
+0	logout/
+0	logs/
+0	Logs/
+0	logview/
+0	loja/
+0	lost/
+0	lost+found/
+0	lostpassword/
+0	Lotus_Domino_Admin/
+0	love/
+0	low/
+0	lp/
+0	lpt1/
+0	lpt2/
+0	ls/
+0	lst/
+0	lt/
+0	lucene/
+0	lunch_menu/
+0	lv/
+0	m_images/
+0	m/
+0	M/
+0	m1/
+0	m6_edit_item/
+0	m6_invoice/
+0	m6_pay/
+0	m6/
+0	m7/
+0	ma/
+0	mac/
+0	macadmin/
+0	macromedia/
+0	maestro/
+0	magazin/
+0	magazine/
+0	magazines/
+0	magento/
+0	magic/
+0	magnifier_xml/
+0	magpierss/
+0	mail_link/
+0	mail_password/
+0	mail/
+0	mailbox/
+0	mailer/
+0	mailing/
+0	mailinglist/
+0	mailings/
+0	maillist/
+0	mailman/
+0	mails/
+0	mailtemplates/
+0	mailto/
+0	Main_Page/
+0	main.mdb/
+0	main/
+0	Main/
+0	mainfile/
+0	maint/
+0	maintainers/
+0	mainten/
+0	maintenance/
+0	Makefile/
+0	makefile/
+0	mal/
+0	mall/
+0	mambo/
+0	mambots/
+0	man/
+0	mana/
+0	manage/
+0	managed/
+0	management/
+0	manager/
+0	manifest.mf/
+0	MANIFEST.MF/
+0	manifest/
+0	mantis/
+0	manual/
+0	manuallogin/
+0	manuals/
+0	manufacturer/
+0	manufacturers/
+0	map/
+0	maps/
+0	mark/
+0	market/
+0	marketing/
+0	marketplace/
+0	markets/
+0	master.passwd/
+0	master/
+0	masterpages/
+0	masters/
+0	masthead/
+0	match/
+0	matches/
+0	math/
+0	matrix/
+0	matt/
+0	maven/
+0	mb/
+0	mbo/
+0	mbox/
+0	mc/
+0	mchat/
+0	mcp/
+0	mdb-database/
+0	mdb/
+0	me/
+0	media_center/
+0	media/
+0	Media/
+0	mediakit/
+0	mediaplayer/
+0	medias/
+0	mediawiki/
+0	medium/
+0	meetings/
+0	mein-konto/
+0	mein-merkzettel/
+0	mem/
+0	member/
+0	member2/
+0	memberlist/
+0	members/
+0	Members/
+0	membership/
+0	membre/
+0	membres/
+0	memcached/
+0	memcp/
+0	memlogin/
+0	memo/
+0	memory/
+0	menu/
+0	Menus/
+0	menus/
+0	merchant/
+0	merchant2/
+0	message/
+0	messageboard/
+0	messages/
+0	messaging/
+0	meta_login/
+0	meta_tags/
+0	meta-inf/
+0	META-INF/
+0	meta/
+0	metabase/
+0	metadata/
+0	metaframe/
+0	metatags/
+0	mgr/
+0	michael/
+0	microsoft/
+0	midi/
+0	migrate/
+0	migrated/
+0	migration/
+0	military/
+0	min/
+0	mina/
+0	mine/
+0	mini_cal/
+0	mini/
+0	minicart/
+0	minimum/
+0	mint/
+0	minute/
+0	mirror/
+0	mirrors/
+0	misc/
+0	Misc/
+0	miscellaneous/
+0	missing/
+0	mission/
+0	mix/
+0	mk/
+0	mkstats/
+0	ml/
+0	mlist/
+0	mm/
+0	mm5/
+0	mms/
+0	mmwip/
+0	mo/
+0	mobi/
+0	mobil/
+0	mobile/
+0	mock/
+0	mod/
+0	modcp/
+0	mode/
+0	model/
+0	models/
+0	modelsearch/
+0	modem/
+0	moderation/
+0	moderator/
+0	modify/
+0	modlogan/
+0	mods/
+0	module/
+0	modules/
+0	modulos/
+0	mojo/
+0	money/
+0	monitor/
+0	monitoring/
+0	monitors/
+0	month/
+0	monthly/
+0	moodle/
+0	more/
+0	motd/
+0	moto-news/
+0	moto1/
+0	mount/
+0	move/
+0	moved/
+0	movie/
+0	movies/
+0	moving.page/
+0	mozilla/
+0	mp/
+0	mp3/
+0	mp3s/
+0	mqseries/
+0	mrtg/
+0	ms-sql/
+0	ms/
+0	msadc/
+0	msadm/
+0	msft/
+0	msg/
+0	msie/
+0	msn/
+0	msoffice/
+0	mspace/
+0	msql/
+0	mssql/
+0	mstpre/
+0	mt-bin/
+0	mt-search/
+0	mt-static/
+0	mt/
+0	mta/
+0	multi/
+0	multimedia/
+0	music/
+0	Music/
+0	mx/
+0	my-account/
+0	my-components/
+0	my-gift-registry/
+0	my-sql/
+0	my-wishlist/
+0	my/
+0	myaccount/
+0	myadmin/
+0	myblog/
+0	mycalendar/
+0	mycgi/
+0	myfaces/
+0	myhomework/
+0	myicons/
+0	mypage/
+0	myphpnuke/
+0	myspace/
+0	mysql-admin/
+0	mysql/
+0	MySQLadmin/
+0	MySQLAdmin/
+0	mysqladmin/
+0	mysqld/
+0	mysqldumper/
+0	mysqlmanager/
+0	mytag_js/
+0	mytp/
+0	N/
+0	n/
+0	nachrichten/
+0	nagios/
+0	name/
+0	names/
+0	national/
+0	nav/
+0	navigation/
+0	navSiteAdmin/
+0	navsiteadmin/
+0	nc/
+0	ne/
+0	net/
+0	netbsd/
+0	netcat/
+0	nethome/
+0	nets/
+0	netscape/
+0	netstat/
+0	netstorage/
+0	network/
+0	networking/
+0	new/
+0	newadmin/
+0	newattachment/
+0	newposts/
+0	newreply/
+0	news_insert/
+0	news/
+0	News/
+0	newsadmin/
+0	newsite/
+0	newsletter/
+0	newsletters/
+0	newsline/
+0	newsroom/
+0	newssys/
+0	newstarter/
+0	newthread/
+0	newticket/
+0	next/
+0	nfs/
+0	nice/
+0	nieuws/
+0	ningbar/
+0	nk9/
+0	nl/
+0	no-index/
+0	no/
+0	nobody/
+0	node/
+0	noindex/
+0	nokia/
+0	none/
+0	note/
+0	notes/
+0	notfound/
+0	noticias/
+0	notification/
+0	notifications/
+0	notified/
+0	notifier/
+0	notify/
+0	novell/
+0	nr/
+0	ns/
+0	nsf/
+0	ntopic/
+0	nude/
+0	nuke/
+0	nul/
+0	null/
+0	number/
+0	nxfeed/
+0	nz/
+0	o/
+0	O/
+0	OA_HTML/
+0	oa_servlets/
+0	OA/
+0	OAErrorDetailPage/
+0	OasDefault/
+0	oauth/
+0	obdc/
+0	obj/
+0	object/
+0	objects/
+0	obsolete/
+0	obsoleted/
+0	odbc/
+0	ode/
+0	oem/
+0	of/
+0	ofbiz/
+0	off/
+0	offer/
+0	offerdetail/
+0	offers/
+0	Office/
+0	office/
+0	offices/
+0	offline/
+0	ogl/
+0	old_site/
+0	old-site/
+0	old/
+0	oldie/
+0	oldsite/
+0	omited/
+0	on/
+0	onbound/
+0	online/
+0	onsite/
+0	op/
+0	open-account/
+0	open/
+0	openads/
+0	openapp/
+0	openbsd/
+0	opencart/
+0	opendir/
+0	openejb/
+0	openfile/
+0	openjpa/
+0	opensearch/
+0	opensource/
+0	openvpnadmin/
+0	openx/
+0	opera/
+0	operations/
+0	operator/
+0	opinion/
+0	opinions/
+0	opml/
+0	oprocmgr-status/
+0	opros/
+0	opt/
+0	option/
+0	options/
+0	ora/
+0	oracle/
+0	oradata/
+0	order_history/
+0	order_status/
+0	order-detail/
+0	order-follow/
+0	order-history/
+0	order-opc/
+0	order-return/
+0	order-slip/
+0	order/
+0	orderdownloads/
+0	ordered/
+0	orderfinished/
+0	orders/
+0	orderstatus/
+0	ordertotal/
+0	org/
+0	organisation/
+0	organisations/
+0	organizations/
+0	orig/
+0	original/
+0	os/
+0	osc/
+0	oscommerce/
+0	other/
+0	others/
+0	otrs/
+0	out/
+0	outcome/
+0	outgoing/
+0	outils/
+0	outline/
+0	output/
+0	outreach/
+0	oversikt/
+0	overview/
+0	owa/
+0	owl/
+0	owners/
+0	ows-bin/
+0	ows/
+0	P/
+0	p/
+0	p/m/a/
+0	p2p/
+0	p7pm/
+0	pa/
+0	pack/
+0	package/
+0	packaged/
+0	packages/
+0	packaging/
+0	packed/
+0	pad/
+0	page_1/
+0	page_2/
+0	page_sample1/
+0	page-not-found/
+0	page/
+0	page1/
+0	page2/
+0	pageid/
+0	pagenotfound/
+0	pager/
+0	Pages/
+0	pages/
+0	pagination/
+0	paid/
+0	paiement/
+0	pam/
+0	panel/
+0	panelc/
+0	paper/
+0	papers/
+0	parse/
+0	part/
+0	partenaires/
+0	partner/
+0	partners/
+0	parts/
+0	party/
+0	pass/
+0	passes/
+0	passive/
+0	passport/
+0	passw/
+0	passwd/
+0	passwor/
+0	password/
+0	passwords/
+0	past/
+0	patch/
+0	patches/
+0	patents/
+0	path/
+0	pay/
+0	payment_gateway/
+0	payment/
+0	payments/
+0	paypal_notify/
+0	paypal/
+0	paypalcancel/
+0	paypalok/
+0	pbc_download/
+0	pbcs/
+0	pbcsad/
+0	pbcsi/
+0	pbo/
+0	pc/
+0	pci/
+0	pconf/
+0	pd/
+0	pda/
+0	pdf-invoice/
+0	pdf-order-slip/
+0	pdf/
+0	PDF/
+0	pdfs/
+0	pear/
+0	peek/
+0	peel/
+0	pem/
+0	pending/
+0	People/
+0	people/
+0	perf/
+0	performance/
+0	perl/
+0	perl5/
+0	person/
+0	personal/
+0	personals/
+0	pfx/
+0	pg/
+0	pgadmin/
+0	pgp/
+0	pgsql/
+0	phf/
+0	phishing/
+0	phone/
+0	phones/
+0	phorum/
+0	photo/
+0	photodetails/
+0	photogallery/
+0	photography/
+0	photos/
+0	php_uploads/
+0	php-bin/
+0	php-cgi/
+0	php-my-admin/
+0	php-myadmin/
+0	php.ini/
+0	php/
+0	PHP/
+0	php168/
+0	php3/
+0	phpadmin/
+0	phpads/
+0	phpadsnew/
+0	phpBB/
+0	phpbb/
+0	phpbb2/
+0	phpBB2/
+0	phpbb3/
+0	phpBB3/
+0	phpEventCalendar/
+0	phpinfo.php/
+0	phpinfo/
+0	phpinfos.php/
+0	phpldapadmin/
+0	phplist/
+0	phplive/
+0	phpmailer/
+0	phpmanager/
+0	phpmanual/
+0	phpmv2/
+0	phpmy-admin/
+0	phpMyAdmin-2.2.3/
+0	phpMyAdmin-2.2.6/
+0	phpMyAdmin-2.5.1/
+0	phpMyAdmin-2.5.4/
+0	phpMyAdmin-2.5.5-pl1/
+0	phpMyAdmin-2.5.5-rc1/
+0	phpMyAdmin-2.5.5-rc2/
+0	phpMyAdmin-2.5.5/
+0	phpMyAdmin-2.5.6-rc1/
+0	phpMyAdmin-2.5.6-rc2/
+0	phpMyAdmin-2.5.6/
+0	phpMyAdmin-2.5.7-pl1/
+0	phpMyAdmin-2.5.7/
+0	phpMyAdmin-2.6.0-alpha/
+0	phpMyAdmin-2.6.0-alpha2/
+0	phpMyAdmin-2.6.0-beta1/
+0	phpMyAdmin-2.6.0-beta2/
+0	phpMyAdmin-2.6.0-pl1/
+0	phpMyAdmin-2.6.0-pl2/
+0	phpMyAdmin-2.6.0-pl3/
+0	phpMyAdmin-2.6.0-rc1/
+0	phpMyAdmin-2.6.0-rc2/
+0	phpMyAdmin-2.6.0-rc3/
+0	phpMyAdmin-2.6.0/
+0	phpMyAdmin-2.6.1-pl1/
+0	phpMyAdmin-2.6.1-pl2/
+0	phpMyAdmin-2.6.1-pl3/
+0	phpMyAdmin-2.6.1-rc1/
+0	phpMyAdmin-2.6.1-rc2/
+0	phpMyAdmin-2.6.1/
+0	phpMyAdmin-2.6.2-beta1/
+0	phpMyAdmin-2.6.2-pl1/
+0	phpMyAdmin-2.6.2-rc1/
+0	phpMyAdmin-2.6.2/
+0	phpMyAdmin-2.6.3-pl1/
+0	phpMyAdmin-2.6.3-rc1/
+0	phpMyAdmin-2.6.3/
+0	phpMyAdmin-2.6.4-pl1/
+0	phpMyAdmin-2.6.4-pl2/
+0	phpMyAdmin-2.6.4-pl3/
+0	phpMyAdmin-2.6.4-pl4/
+0	phpMyAdmin-2.6.4-rc1/
+0	phpMyAdmin-2.6.4/
+0	phpMyAdmin-2.7.0-beta1/
+0	phpMyAdmin-2.7.0-pl1/
+0	phpMyAdmin-2.7.0-pl2/
+0	phpMyAdmin-2.7.0-rc1/
+0	phpMyAdmin-2.7.0/
+0	phpMyAdmin-2.8.0-beta1/
+0	phpMyAdmin-2.8.0-rc1/
+0	phpMyAdmin-2.8.0-rc2/
+0	phpMyAdmin-2.8.0.1/
+0	phpMyAdmin-2.8.0.2/
+0	phpMyAdmin-2.8.0.3/
+0	phpMyAdmin-2.8.0.4/
+0	phpMyAdmin-2.8.0/
+0	phpMyAdmin-2.8.1-rc1/
+0	phpMyAdmin-2.8.1/
+0	phpMyAdmin-2.8.2/
+0	phpMyAdmin-2/
+0	phpMyAdmin/
+0	phpmyadmin/
+0	phpmyadmin2/
+0	phpMyAdmin2/
+0	phpnuke/
+0	phppgadmin/
+0	phps/
+0	phpsecinfo/
+0	phpsitemapng/
+0	phpSQLiteAdmin/
+0	phpthumb/
+0	phtml/
+0	pic/
+0	pics/
+0	picts/
+0	picture_library/
+0	picture/
+0	picturecomment/
+0	pictures/
+0	pii/
+0	ping/
+0	pingback/
+0	pipe/
+0	pipermail/
+0	piranha/
+0	pivot/
+0	piwik/
+0	pix/
+0	pixel/
+0	pixelpost/
+0	pkg/
+0	pkginfo/
+0	pkgs/
+0	pl/
+0	placeorder/
+0	places/
+0	plain/
+0	plate/
+0	platz_login/
+0	play/
+0	player.swf/
+0	player/
+0	players/
+0	playing/
+0	playlist/
+0	please/
+0	plenty/
+0	plesk-stat/
+0	pls/
+0	plugin/
+0	plugins/
+0	plus/
+0	plx/
+0	pm/
+0	pma/
+0	PMA/
+0	PMA2005/
+0	pma2005/
+0	pmwiki/
+0	pnadodb/
+0	png/
+0	pntables/
+0	pntemp/
+0	poc/
+0	podcast/
+0	podcasting/
+0	podcasts/
+0	poi/
+0	poker/
+0	pol/
+0	policies/
+0	policy/
+0	politics/
+0	poll/
+0	pollbooth/
+0	polls/
+0	pollvote/
+0	pool/
+0	pop/
+0	pop3/
+0	popular/
+0	populate/
+0	popup_content/
+0	popup_cvv/
+0	popup_image/
+0	popup_info/
+0	popup_magnifier/
+0	popup_poptions/
+0	popup/
+0	popups/
+0	porn/
+0	port/
+0	portal/
+0	portals/
+0	portfolio/
+0	portfoliofiles/
+0	portlet/
+0	portlets/
+0	ports/
+0	pos/
+0	post_thanks/
+0	post/
+0	postcard/
+0	postcards/
+0	posted/
+0	postgres/
+0	postgresql/
+0	posthistory/
+0	postinfo/
+0	posting/
+0	postings/
+0	postnuke/
+0	postpaid/
+0	postreview/
+0	posts/
+0	posttocar/
+0	power_user/
+0	power/
+0	pp/
+0	ppc/
+0	ppcredir/
+0	ppt/
+0	pr/
+0	pr0n/
+0	pre/
+0	preferences/
+0	preload/
+0	premiere/
+0	premium/
+0	prepaid/
+0	prepare/
+0	presentation/
+0	presentations/
+0	preserve/
+0	press_releases/
+0	Press/
+0	press/
+0	presse/
+0	pressreleases/
+0	pressroom/
+0	prev/
+0	preview/
+0	previews/
+0	previous/
+0	price/
+0	pricelist/
+0	prices/
+0	pricing/
+0	print_order/
+0	print/
+0	printable/
+0	printarticle/
+0	printenv/
+0	printer/
+0	printers/
+0	printmail/
+0	printpdf/
+0	printthread/
+0	printview/
+0	priv/
+0	privacy_policy/
+0	privacy-policy/
+0	privacy/
+0	Privacy/
+0	privacypolicy/
+0	privat/
+0	private/
+0	private2/
+0	privateassets/
+0	privatemsg/
+0	prive/
+0	privmsg/
+0	privs/
+0	prn/
+0	pro/
+0	probe/
+0	problems/
+0	proc/
+0	procedures/
+0	process_order/
+0	process/
+0	processform/
+0	procure/
+0	procurement/
+0	prod/
+0	prodconf/
+0	prodimages/
+0	producers/
+0	product_compare/
+0	product_image/
+0	product_images/
+0	product_info/
+0	product_reviews/
+0	product_thumb/
+0	product-sort/
+0	product/
+0	productdetails/
+0	productimage/
+0	production.log/
+0	production/
+0	productquestion/
+0	products_new/
+0	products/
+0	Products/
+0	productspecs/
+0	productupdates/
+0	produkte/
+0	professor/
+0	profil/
+0	profile/
+0	profiles/
+0	profiling/
+0	proftpd/
+0	prog/
+0	Program Files/
+0	program/
+0	programming/
+0	programs/
+0	progress/
+0	project-admins/
+0	project/
+0	projects/
+0	Projects/
+0	promo/
+0	promos/
+0	promoted/
+0	promotion/
+0	promotions/
+0	proof/
+0	proofs/
+0	prop-base/
+0	prop/
+0	properties/
+0	property/
+0	props/
+0	prot/
+0	protect/
+0	protected/
+0	protection/
+0	proto/
+0	provider/
+0	providers/
+0	proxies/
+0	proxy/
+0	prueba/
+0	pruebas/
+0	prv_download/
+0	prv/
+0	ps/
+0	psd/
+0	psp/
+0	psql/
+0	pt_BR/
+0	pt/
+0	ptopic/
+0	pub/
+0	public_ftp/
+0	public_html/
+0	public/
+0	publication/
+0	Publications/
+0	publications/
+0	publicidad/
+0	publish/
+0	published/
+0	publisher/
+0	pubs/
+0	pull/
+0	purchase/
+0	purchases/
+0	purchasing/
+0	pureadmin/
+0	push/
+0	put/
+0	putty.reg/
+0	putty/
+0	pw_ajax/
+0	pw_api/
+0	pw_app/
+0	pw/
+0	pwd/
+0	py/
+0	python/
+0	q/
+0	q1/
+0	q2/
+0	q3/
+0	q4/
+0	qa/
+0	qinetiq/
+0	qotd/
+0	qpid/
+0	qsc/
+0	quarterly/
+0	queries/
+0	query/
+0	question/
+0	questions/
+0	queue/
+0	queues/
+0	quick/
+0	quickstart/
+0	quiz/
+0	quote/
+0	quotes/
+0	R/
+0	r/
+0	r57/
+0	radcontrols/
+0	radio/
+0	radmind-1/
+0	radmind/
+0	rail/
+0	rails/
+0	Rakefile/
+0	ramon/
+0	random/
+0	rank/
+0	ranks/
+0	rar/
+0	rarticles/
+0	rate/
+0	ratecomment/
+0	rateit/
+0	ratepic/
+0	rates/
+0	ratethread/
+0	rating/
+0	rating0/
+0	ratings/
+0	rb/
+0	rcLogin/
+0	rcp/
+0	rcs/
+0	RCS/
+0	rct/
+0	rd/
+0	rdf/
+0	read/
+0	reader/
+0	readfile/
+0	readfolder/
+0	README/
+0	readme/
+0	Readme/
+0	real/
+0	realaudio/
+0	realestate/
+0	RealMedia/
+0	receipt/
+0	receipts/
+0	receive/
+0	received/
+0	recent/
+0	recharge/
+0	recherche/
+0	recipes/
+0	recommend/
+0	recommends/
+0	record/
+0	recorded/
+0	recorder/
+0	records/
+0	recoverpassword/
+0	recovery/
+0	recycle/
+0	Recycled/
+0	recycled/
+0	red/
+0	reddit/
+0	redesign/
+0	redir/
+0	redirect/
+0	redirector/
+0	redirects/
+0	redis/
+0	ref/
+0	refer/
+0	reference/
+0	references/
+0	referer/
+0	referral/
+0	referrers/
+0	refuse/
+0	refused/
+0	reg/
+0	reginternal/
+0	region/
+0	regional/
+0	register/
+0	registered/
+0	registration/
+0	registrations/
+0	registro/
+0	reklama/
+0	related/
+0	release/
+0	releases/
+0	religion/
+0	remind_password/
+0	remind/
+0	reminder/
+0	remote/
+0	remotetracer/
+0	removal/
+0	removals/
+0	remove/
+0	removed/
+0	render/
+0	rendered/
+0	reorder/
+0	rep/
+0	repl/
+0	replica/
+0	replicas/
+0	replicate/
+0	replicated/
+0	replication/
+0	replicator/
+0	reply/
+0	repo/
+0	report/
+0	reporting/
+0	reports list/
+0	reports/
+0	repository/
+0	repost/
+0	reprints/
+0	reputation/
+0	req/
+0	reqs/
+0	request/
+0	requested/
+0	requests/
+0	require/
+0	requisite/
+0	requisition/
+0	requisitions/
+0	res/
+0	research/
+0	Research/
+0	reseller/
+0	resellers/
+0	reservation/
+0	reservations/
+0	resin-admin/
+0	resin/
+0	resize/
+0	resolution/
+0	resolve/
+0	resolved/
+0	resource/
+0	Resources/
+0	resources/
+0	respond/
+0	responder/
+0	rest/
+0	restaurants/
+0	restore/
+0	restored/
+0	restricted/
+0	result/
+0	results/
+0	resume/
+0	resumes/
+0	retail/
+0	returns/
+0	reusablecontent/
+0	reverse/
+0	reversed/
+0	revert/
+0	reverted/
+0	review/
+0	reviews/
+0	rfid/
+0	rhtml/
+0	right/
+0	ro/
+0	roadmap/
+0	roam/
+0	roaming/
+0	robot/
+0	robotics/
+0	robots.txt/
+0	robots/
+0	role/
+0	roles/
+0	roller/
+0	room/
+0	Root/
+0	root/
+0	rorentity/
+0	rorindex/
+0	rortopics/
+0	route/
+0	router/
+0	routes/
+0	rpc/
+0	rs/
+0	rsa/
+0	RSS/
+0	rss/
+0	rss10/
+0	rss2/
+0	rss20/
+0	rssarticle/
+0	rssfeed/
+0	rsync/
+0	rte/
+0	rtf/
+0	ru/
+0	rub/
+0	ruby/
+0	rule/
+0	rules/
+0	run/
+0	rus/
+0	rwservlet/
+0	s/
+0	S/
+0	s1/
+0	sa/
+0	safe/
+0	safety/
+0	sale/
+0	sales/
+0	salesforce/
+0	sam/
+0	samba/
+0	saml/
+0	sample/
+0	samples/
+0	san/
+0	sandbox/
+0	sav/
+0	save/
+0	saved/
+0	saves/
+0	sb/
+0	sbin/
+0	sc/
+0	scan/
+0	scanned/
+0	scans/
+0	scgi-bin/
+0	sched/
+0	schedule/
+0	scheduled/
+0	scheduling/
+0	schema/
+0	schemas/
+0	schemes/
+0	school/
+0	schools/
+0	science/
+0	scope/
+0	scr/
+0	scratc/
+0	screen/
+0	screens/
+0	screenshot/
+0	screenshots/
+0	script/
+0	scripte/
+0	scriptlet/
+0	scriptlets/
+0	scriptlibrary/
+0	scriptresource/
+0	Scripts/
+0	scripts/
+0	sd/
+0	sdk/
+0	se/
+0	search_result/
+0	search_results/
+0	search-results/
+0	search/
+0	Search/
+0	searchnx/
+0	searchresults/
+0	searchurl/
+0	sec/
+0	seccode/
+0	second/
+0	secondary/
+0	secret/
+0	secrets/
+0	section/
+0	sections/
+0	secure_login/
+0	secure/
+0	secureauth/
+0	secured/
+0	secureform/
+0	secureprocess/
+0	securimage/
+0	Security/
+0	security/
+0	seed/
+0	select/
+0	selectaddress/
+0	selected/
+0	selection/
+0	self/
+0	sell/
+0	sem/
+0	seminar/
+0	seminars/
+0	send_order/
+0	send_pwd/
+0	send_to_friend/
+0	send-password/
+0	send/
+0	sendform/
+0	sendfriend/
+0	sendmail/
+0	sendmessage/
+0	sendpm/
+0	sendthread/
+0	sendto/
+0	sendtofriend/
+0	sensepost/
+0	sensor/
+0	sent/
+0	seo/
+0	serial/
+0	serv/
+0	serve/
+0	server_admin_small/
+0	server_stats/
+0	SERVER-INF/
+0	server-info/
+0	server-status/
+0	Server/
+0	server/
+0	ServerAdministrator/
+0	servers/
+0	service/
+0	services/
+0	Services/
+0	servicios/
+0	servlet/
+0	Servlet/
+0	servlets-examples/
+0	Servlets/
+0	servlets/
+0	sess/
+0	session/
+0	sessionid/
+0	sessions/
+0	set/
+0	setcurrency/
+0	setlocale/
+0	setting/
+0	settings/
+0	setup/
+0	setvatsetting/
+0	sex/
+0	sf/
+0	sg/
+0	sh/
+0	shadow/
+0	shaken/
+0	share/
+0	shared/
+0	shares/
+0	shell/
+0	shim/
+0	ship/
+0	shipped/
+0	shipping_help/
+0	shipping/
+0	shippinginfo/
+0	shipquote/
+0	shit/
+0	shockwave/
+0	shop_closed/
+0	shop_content/
+0	shop/
+0	shopadmin/
+0	shopper/
+0	shopping_cart/
+0	shopping-lists/
+0	shopping/
+0	shoppingcart/
+0	shops_buyaction/
+0	shops/
+0	shopstat/
+0	shopsys/
+0	shoutbox/
+0	show_post/
+0	show_thread/
+0	show/
+0	showallsites/
+0	showcase/
+0	showcat/
+0	showcode.asp/
+0	showcode/
+0	showenv/
+0	showgroups/
+0	showjobs/
+0	showkey/
+0	showlogin/
+0	showmap/
+0	showmsg/
+0	showpost/
+0	showroom/
+0	shows/
+0	showthread/
+0	shtml/
+0	si/
+0	sid/
+0	sign_up/
+0	sign-up/
+0	sign/
+0	signature/
+0	signaturepics/
+0	signed/
+0	signer/
+0	signin/
+0	signing/
+0	signoff/
+0	signon/
+0	signout/
+0	signup/
+0	simple/
+0	simpleLogin/
+0	simplelogin/
+0	single_pages/
+0	single/
+0	sink/
+0	site_map/
+0	site-map/
+0	site/
+0	siteadmin/
+0	sitebuilder/
+0	sitecore/
+0	sitefiles/
+0	siteimages/
+0	sitemap.gz/
+0	sitemap.xml/
+0	SiteMap/
+0	sitemap/
+0	sitemaps/
+0	sitemgr/
+0	Sites/
+0	sites/
+0	SiteScope/
+0	sitesearch/
+0	SiteServer/
+0	sk/
+0	skel/
+0	skin/
+0	skin1_original/
+0	skin1/
+0	skins/
+0	skip/
+0	sl/
+0	slabel/
+0	slashdot/
+0	slide_show/
+0	slides/
+0	slideshow/
+0	slimstat/
+0	sling/
+0	sm/
+0	small/
+0	smarty/
+0	smb/
+0	smblogin/
+0	smf/
+0	smile/
+0	smiles/
+0	smileys/
+0	smilies/
+0	sms/
+0	smtp/
+0	snippets/
+0	snoop/
+0	snp/
+0	so/
+0	soap/
+0	soapdocs/
+0	SOAPMonitor/
+0	soaprouter/
+0	social/
+0	soft/
+0	Software/
+0	software/
+0	sohoadmin/
+0	solaris/
+0	sold/
+0	solution/
+0	solutions/
+0	solve/
+0	solved/
+0	somebody/
+0	songs/
+0	sony/
+0	soporte/
+0	sort/
+0	sound/
+0	sounds/
+0	source/
+0	Sources/
+0	sources/
+0	sox/
+0	sp/
+0	space/
+0	spacer/
+0	spain/
+0	spam/
+0	spamlog.log/
+0	spanish/
+0	spaw/
+0	speakers/
+0	spec/
+0	special_offers/
+0	special/
+0	specials/
+0	specified/
+0	specs/
+0	speedtest/
+0	spellchecker/
+0	sphider/
+0	spider/
+0	spiders/
+0	splash/
+0	sponsor/
+0	sponsors/
+0	spool/
+0	sport/
+0	Sports/
+0	sports/
+0	spotlight/
+0	spryassets/
+0	Spy/
+0	spyware/
+0	sq/
+0	sql-admin/
+0	sql/
+0	SQL/
+0	sqladmin/
+0	sqlmanager/
+0	sqlnet/
+0	sqlweb/
+0	squelettes-dist/
+0	squelettes/
+0	squirrel/
+0	squirrelmail/
+0	sr/
+0	src/
+0	srchad/
+0	srv/
+0	ss_vms_admin_sm/
+0	ss/
+0	ssfm/
+0	ssh/
+0	sshadmin/
+0	ssi/
+0	ssl_check/
+0	ssl/
+0	sslvpn/
+0	ssn/
+0	sso/
+0	ssp_director/
+0	st/
+0	stackdump/
+0	staff_directory/
+0	staff/
+0	stage/
+0	staging/
+0	stale/
+0	standalone/
+0	standard/
+0	standards/
+0	star/
+0	staradmin/
+0	start/
+0	starter/
+0	startpage/
+0	stat/
+0	state/
+0	statement/
+0	statements/
+0	states/
+0	static/
+0	staticpages/
+0	statistic/
+0	statistics/
+0	Statistics/
+0	statistik/
+0	Stats/
+0	stats/
+0	statshistory/
+0	status/
+0	statusicon/
+0	stock/
+0	stoneedge/
+0	stop/
+0	storage/
+0	store_closed/
+0	store/
+0	stored/
+0	stores/
+0	stories/
+0	story/
+0	stow/
+0	strategy/
+0	stream/
+0	string/
+0	strut/
+0	struts/
+0	student/
+0	students/
+0	studio/
+0	stuff/
+0	style_avatars/
+0	style_captcha/
+0	style_css/
+0	style_emoticons/
+0	style_images/
+0	style/
+0	styles/
+0	stylesheet/
+0	stylesheets/
+0	sub-login/
+0	sub/
+0	subdomains/
+0	subject/
+0	submenus/
+0	submissions/
+0	submit/
+0	submitter/
+0	subs/
+0	subscribe/
+0	subscribed/
+0	subscriber/
+0	subscribers/
+0	subscription/
+0	subscriptions/
+0	success/
+0	suche/
+0	sucontact/
+0	suffix/
+0	suggest-listing/
+0	suggest/
+0	suite/
+0	suites/
+0	summary/
+0	sun/
+0	sunos/
+0	SUNWmc/
+0	Super-Admin/
+0	super/
+0	supplier/
+0	support_login/
+0	support/
+0	Support/
+0	supported/
+0	surf/
+0	survey/
+0	surveys/
+0	suspended.page/
+0	suupgrade/
+0	sv/
+0	svc/
+0	svn-base/
+0	svn/
+0	svr/
+0	sw/
+0	swajax1/
+0	swf/
+0	swfobject.js/
+0	swfs/
+0	switch/
+0	sws/
+0	synapse/
+0	sync/
+0	synced/
+0	syndication/
+0	sys-admin/
+0	sys/
+0	SysAdmin/
+0	sysadmin/
+0	sysadmin2/
+0	SysAdmin2/
+0	sysadmins/
+0	sysmanager/
+0	system_admin/
+0	system_administration/
+0	system_web/
+0	system-admin/
+0	system-administration/
+0	system/
+0	systems/
+0	sysuser/
+0	szukaj/
+0	t/
+0	T/
+0	t1/
+0	t3lib/
+0	table/
+0	tabs/
+0	tag/
+0	tagline/
+0	tags/
+0	tail/
+0	talk/
+0	talks/
+0	tape/
+0	tapes/
+0	tapestry/
+0	tar.bz2/
+0	tar.gz/
+0	tar/
+0	target/
+0	tartarus/
+0	task/
+0	tasks/
+0	taxonomy/
+0	tb/
+0	tcl/
+0	te/
+0	team/
+0	tech/
+0	technical/
+0	technology/
+0	Technology/
+0	tel/
+0	tele/
+0	television/
+0	tell_a_friend/
+0	tell_friend/
+0	tellafriend/
+0	temaoversikt/
+0	temp/
+0	TEMP/
+0	templ/
+0	template/
+0	templates_c/
+0	templates/
+0	templets/
+0	temporal/
+0	temporary/
+0	temps/
+0	term/
+0	terminal/
+0	terms_privacy/
+0	terms-of-use/
+0	terms/
+0	termsofuse/
+0	terrorism/
+0	test_db/
+0	test-cgi/
+0	test-env/
+0	test/
+0	test1/
+0	test123/
+0	test1234/
+0	test2/
+0	test3/
+0	teste/
+0	testimonial/
+0	testimonials/
+0	testing/
+0	tests/
+0	testsite/
+0	texis/
+0	text-base/
+0	text/
+0	textobject/
+0	textpattern/
+0	texts/
+0	tgp/
+0	tgz/
+0	th/
+0	thank-you/
+0	thanks/
+0	thankyou/
+0	the/
+0	theme/
+0	Themes/
+0	themes/
+0	thickbox/
+0	third-party/
+0	this/
+0	thread/
+0	threadrate/
+0	threads/
+0	threadtag/
+0	thumb/
+0	thumbnail/
+0	thumbnails/
+0	Thumbs.db/
+0	thumbs.db/
+0	thumbs/
+0	ticket_list/
+0	ticket_new/
+0	ticket/
+0	tickets/
+0	tienda/
+0	tiki/
+0	tiles/
+0	time/
+0	timeline/
+0	tiny_mce/
+0	tinymce/
+0	tip/
+0	tips/
+0	title/
+0	titles/
+0	tl/
+0	tls/
+0	TMP/
+0	tmp/
+0	tmpl/
+0	tmps/
+0	tn/
+0	tncms/
+0	to/
+0	toc/
+0	today/
+0	todel/
+0	todo/
+0	TODO/
+0	toggle/
+0	tomcat-docs/
+0	tomcat/
+0	tool/
+0	toolbar/
+0	toolkit/
+0	tools/
+0	top/
+0	top1/
+0	topic/
+0	topicadmin/
+0	topics/
+0	toplist/
+0	toplists/
+0	topnav/
+0	topsites/
+0	torrent/
+0	torrents/
+0	tos/
+0	tour/
+0	tours/
+0	toys/
+0	tp/
+0	tpl/
+0	tpv/
+0	tr/
+0	trac/
+0	trace/
+0	traceroute/
+0	traces/
+0	track/
+0	trackback/
+0	trackclick/
+0	tracker/
+0	trackers/
+0	tracking/
+0	trackpackage/
+0	tracks/
+0	trade/
+0	trademarks/
+0	traffic/
+0	trailer/
+0	trailers/
+0	training/
+0	trans/
+0	transaction/
+0	transactions/
+0	transfer/
+0	transformations/
+0	translate/
+0	translations/
+0	transparent/
+0	transport/
+0	trap/
+0	trash/
+0	Travel/
+0	travel/
+0	treasury/
+0	tree/
+0	trees/
+0	trends/
+0	trial/
+0	true/
+0	trunk/
+0	tslib/
+0	tsweb/
+0	tt/
+0	tuning/
+0	turbine/
+0	tuscany/
+0	tutorial/
+0	tutorials/
+0	tv/
+0	tw/
+0	twatch/
+0	tweak/
+0	twiki/
+0	twitter/
+0	tx/
+0	txt/
+0	type/
+0	typo3_src/
+0	typo3/
+0	typo3conf/
+0	typo3temp/
+0	typolight/
+0	U/
+0	u/
+0	ua/
+0	ubb/
+0	uc_client/
+0	uc_server/
+0	uc/
+0	ucenter/
+0	ucp/
+0	uddi/
+0	uds/
+0	ui/
+0	uk/
+0	umbraco_client/
+0	umbraco/
+0	umts/
+0	uncategorized/
+0	under_update/
+0	uninstall/
+0	union/
+0	unix/
+0	unlock/
+0	unpaid/
+0	unreg/
+0	unregister/
+0	unsafe/
+0	unsubscribe/
+0	unused/
+0	up/
+0	upcoming/
+0	upd/
+0	update/
+0	updated/
+0	updateinstaller/
+0	updater/
+0	updates-topic/
+0	updates/
+0	upgrade.readme/
+0	upgrade/
+0	upload_file/
+0	upload_files/
+0	upload/
+0	uploaded/
+0	uploadedfiles/
+0	uploadedimages/
+0	uploader/
+0	uploadfile/
+0	uploadfiles/
+0	uploads/
+0	ur-admin/
+0	urchin/
+0	url/
+0	urlrewriter/
+0	urls/
+0	US/
+0	us/
+0	usa/
+0	usage/
+0	user_upload/
+0	user/
+0	useradmin/
+0	userapp/
+0	usercontrols/
+0	usercp/
+0	usercp2/
+0	userdir/
+0	userfiles/
+0	UserFiles/
+0	userimages/
+0	userinfo/
+0	userlist/
+0	userlog/
+0	userlogin/
+0	usermanager/
+0	username/
+0	usernames/
+0	usernote/
+0	users/
+0	usr/
+0	usrmgr/
+0	usrs/
+0	ustats/
+0	usuario/
+0	usuarios/
+0	util/
+0	utilities/
+0	Utilities/
+0	utility_login/
+0	utility/
+0	utils/
+0	v/
+0	V/
+0	v1/
+0	v2/
+0	v3/
+0	v4/
+0	vadmind/
+0	validation/
+0	validatior/
+0	vap/
+0	var/
+0	vault/
+0	vb/
+0	vbmodcp/
+0	vbs/
+0	vbscript/
+0	vbscripts/
+0	vbseo/
+0	vbseocp/
+0	vcss/
+0	vdsbackup/
+0	vector/
+0	vehicle/
+0	vehiclemakeoffer/
+0	vehiclequote/
+0	vehicletestdrive/
+0	velocity/
+0	venda/
+0	vendor/
+0	vendors/
+0	ver/
+0	ver1/
+0	ver2/
+0	version/
+0	verwaltung/
+0	vfs/
+0	vi/
+0	viagra/
+0	vid/
+0	Video/
+0	video/
+0	videos/
+0	view_cart/
+0	view-source/
+0	view/
+0	viewcart/
+0	viewcvs/
+0	viewer/
+0	viewfile/
+0	viewforum/
+0	viewlogin/
+0	viewonline/
+0	views/
+0	viewsource/
+0	viewsvn/
+0	viewthread/
+0	viewtopic/
+0	viewvc/
+0	vip/
+0	virtual/
+0	virus/
+0	visit/
+0	visitor/
+0	visitormessage/
+0	vista/
+0	vm/
+0	vmailadmin/
+0	void/
+0	voip/
+0	vol/
+0	volunteer/
+0	vote/
+0	voted/
+0	voter/
+0	votes/
+0	vp/
+0	vpg/
+0	vpn/
+0	vs/
+0	vsadmin/
+0	vuln/
+0	vvc_display/
+0	W/
+0	w/
+0	w3/
+0	w3c/
+0	w3svc/
+0	W3SVC/
+0	W3SVC1/
+0	W3SVC2/
+0	W3SVC3/
+0	wa/
+0	wallpaper/
+0	wallpapers/
+0	wap/
+0	war/
+0	warenkorb/
+0	warez/
+0	warn/
+0	way-board/
+0	wbboard/
+0	wbsadmin/
+0	wc/
+0	wcs/
+0	wdav/
+0	weather/
+0	web_users/
+0	web-beans/
+0	web-console/
+0	web-inf/
+0	WEB-INF/
+0	WEB-INF/classes/
+0	WEB-INF/lib/
+0	WEB-INF/src/
+0	web.config/
+0	web.xml/
+0	web/
+0	web1/
+0	web2/
+0	web3/
+0	webaccess/
+0	webadm/
+0	WebAdmin/
+0	webadmin/
+0	webagent/
+0	webalizer/
+0	webapp/
+0	webapps/
+0	webb/
+0	webbbs/
+0	webboard/
+0	webcalendar/
+0	webcam/
+0	webcart/
+0	webcast/
+0	webcasts/
+0	webcgi/
+0	webcharts/
+0	webchat/
+0	webctrl_client/
+0	webdata/
+0	webdav/
+0	webdb/
+0	webdist/
+0	webedit/
+0	webfm_send/
+0	webhits/
+0	webim/
+0	webinar/
+0	weblog/
+0	weblogic/
+0	weblogs/
+0	webmail/
+0	webmaster/
+0	webmasters/
+0	webpages/
+0	webplus/
+0	webresource/
+0	websearch/
+0	webservice/
+0	webservices/
+0	webshop/
+0	website/
+0	websites/
+0	websphere/
+0	websql/
+0	webstat/
+0	webstats/
+0	websvn/
+0	webtrends/
+0	webusers/
+0	webvpn/
+0	webwork/
+0	wedding/
+0	week/
+0	weekly/
+0	welcome/
+0	wellcome/
+0	werbung/
+0	wget/
+0	what/
+0	whatever/
+0	whatnot/
+0	whatsnew/
+0	white/
+0	whitepaper/
+0	whitepapers/
+0	who/
+0	whois/
+0	wholesale/
+0	whosonline/
+0	why/
+0	wicket/
+0	wide_search/
+0	widget/
+0	widgets/
+0	wifi/
+0	wii/
+0	wiki/
+0	will/
+0	win/
+0	win32/
+0	Windows/
+0	windows/
+0	wink/
+0	winnt/
+0	wireless/
+0	wishlist/
+0	with/
+0	wizmysqladmin/
+0	wml/
+0	wolthuis/
+0	word/
+0	wordpress/
+0	work/
+0	workarea/
+0	workflowtasks/
+0	working/
+0	workplace/
+0	works/
+0	workshop/
+0	workshops/
+0	world/
+0	worldpayreturn/
+0	worldwide/
+0	wow/
+0	wp-admin/
+0	wp-app/
+0	wp-atom/
+0	wp-blog-header/
+0	wp-comments/
+0	wp-commentsrss2/
+0	wp-config/
+0	wp-content/
+0	wp-cron/
+0	wp-dbmanager/
+0	wp-feed/
+0	wp-icludes/
+0	wp-images/
+0	wp-includes/
+0	wp-links-opml/
+0	wp-load/
+0	wp-login/
+0	wp-mail/
+0	wp-pass/
+0	wp-rdf/
+0	wp-register/
+0	wp-rss/
+0	wp-rss2/
+0	wp-settings/
+0	wp-signup/
+0	wp-syntax/
+0	wp-trackback/
+0	wp/
+0	wpau-backup/
+0	wpcallback/
+0	wpcontent/
+0	wps/
+0	wrap/
+0	writing/
+0	WS_FTP.LOG/
+0	WS_FTP/
+0	ws_ftp/
+0	ws-client/
+0	ws/
+0	wsdl/
+0	wss/
+0	wstat/
+0	wstats/
+0	wt/
+0	wtai/
+0	wusage/
+0	wwhelp/
+0	www-sql/
+0	www/
+0	www1/
+0	www2/
+0	www3/
+0	wwwboard/
+0	wwwjoin/
+0	wwwlog/
+0	wwwroot/
+0	wwwstat/
+0	wwwstats/
+0	wwwthreads/
+0	wwwuser/
+0	wysiwyg/
+0	wysiwygpro/
+0	x/
+0	X/
+0	xajax_js/
+0	xajax/
+0	xalan/
+0	xbox/
+0	xcache/
+0	xcart/
+0	xd_receiver/
+0	xdb/
+0	xerces/
+0	xfer/
+0	xhtml/
+0	xlogin/
+0	xls/
+0	xmas/
+0	xml-rpc/
+0	XML/
+0	xml/
+0	xmlfiles/
+0	xmlimporter/
+0	xmlrpc.php/
+0	xmlrpc/
+0	xn/
+0	xsl/
+0	xslt/
+0	xsql/
+0	xx/
+0	xxx/
+0	XXX/
+0	xyz/
+0	xyzzy/
+0	y/
+0	yahoo/
+0	year/
+0	yearly/
+0	yesterday/
+0	yml/
+0	yonetici/
+0	yonetim/
+0	youtube/
+0	yshop/
+0	yt/
+0	yui/
+0	z/
+0	zap/
+0	zboard/
+0	zencart/
+0	zend/
+0	zero/
+0	zeus/
+0	zh_CN/
+0	zh_TW/
+0	zh-cn/
+0	zh-tw/
+0	zh/
+0	zimbra/
+0	zip/
+0	zipfiles/
+0	zips/
+0	zoeken/
+0	zoom/
+0	zope/
+0	zorum/
+0	zt/

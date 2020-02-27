@@ -10,7 +10,7 @@ from lib.util import terminal
 from lib.context import context
 
 
-def check(url, timeout, retry=4):
+def check(url, foldername, filename, backup, timeout=4):
     try:
         start_time = time.time()
         response = requests.head(url, timeout=timeout)
@@ -27,6 +27,7 @@ def check(url, timeout, retry=4):
             content_type = "UNKNOWN"
         time_used = end_time - start_time
 
+        context.result_lock.acquire()
         context.result[url] = {
             "code":code,
             "headers":response.headers,
@@ -34,15 +35,31 @@ def check(url, timeout, retry=4):
             "Content-Length": content_length,
             "Content-Type": content_type,
         }
+        context.result_lock.release()
+
+        # Update cache
+        if code >= 200 and code < 300:
+            context.foldernames_lock.acquire()
+            context.foldernames_cache[foldername] += 1
+            context.foldernames_lock.release()
+
+            context.filenames_lock.acquire()
+            context.filenames_cache[filename] += 1
+            context.filenames_lock.release()
+
+            context.backups_lock.acquire()
+            context.backups_cache[backup] += 1
+            context.backups_lock.release()
+
         logger.http("[%d]\t%s\t%02f\t%s\t%s" % (code, content_length, time_used, content_type, url), code)
     except Exception as e:
-        logger.detail(e)
+        logger.detail("error:", e)
         raise e
 
 class Producer(threading.Thread):
     def __init__(self, Q, urls, foldernames_file, filenames_file, backups_file, timeout):
         threading.Thread.__init__(self)
-        # self.daemon = True
+        self.daemon = True
         self.Q = Q
         self.urls = urls
         self.foldernames_file = foldernames_file
@@ -52,20 +69,45 @@ class Producer(threading.Thread):
 
     def run(self):
         # Generate tasks for threads
-        foldernames = [i.strip() for i in list(self.foldernames_file)]
-        filenames = [i.strip() for i in list(self.filenames_file)]
-        backups = [i.strip() for i in list(self.backups_file)]
-        paths = []
-        for folder in foldernames:
-            for filename in filenames:
-                for backup in backups:
-                    paths.append("{}{}".format(folder, backup.replace("?", filename)))
-        for path in paths:
-            for url in self.urls:
-                u = "{}{}".format(url, path)
-                task = {"url":u, "timeout": self.timeout, "retry":4}
-                if not context.CTRL_C_FLAG:
-                    self.Q.put(task)
+        for i in list(self.foldernames_file):
+            key = i.split("\t")[1].strip()
+            value = int(i.split("\t")[0])
+            context.foldernames_lock.acquire()
+            context.foldernames_cache[key] = value
+            context.foldernames_lock.release()
+
+        for i in list(self.filenames_file):
+            key = i.split("\t")[1].strip()
+            value = int(i.split("\t")[0])
+            context.filenames_lock.acquire()
+            context.filenames_cache[key] = value
+            context.filenames_lock.release()
+
+        for i in list(self.backups_file):
+            key = i.split("\t")[1].strip()
+            value = int(i.split("\t")[0])
+            context.backups_lock.acquire()
+            context.backups_cache[key] = value
+            context.backups_lock.release()
+        
+        # Sort
+
+        for foldername in list(context.foldernames_cache.keys())[0:2]:
+            for filename in list(context.filenames_cache.keys())[0:2]:
+                for backup in list(context.backups_cache.keys())[0:2]:
+                    path = "{}{}".format(foldername, backup.replace("?", filename))
+                    for url in self.urls:
+                        u = "{}{}".format(url, path)
+                        task = {
+                            "url":u, 
+                            "timeout": self.timeout, 
+                            "retry":4, 
+                            "foldername": foldername, 
+                            "filename":filename,
+                            "backup": backup,
+                        }
+                        if not context.CTRL_C_FLAG:
+                            self.Q.put(task)
         context.FINISH_FLAG = True
 
 
@@ -81,7 +123,7 @@ class Consumer(threading.Thread):
                 break
             task = self.Q.get()
             try:
-                check(task["url"], task["timeout"])
+                check(task["url"], task["foldername"], task["filename"], task["backup"], task["timeout"])
             except Exception as e:
                 # retry may cause dead lock, so disabled
                 # if task["retry"] > 0:
@@ -94,6 +136,13 @@ class Consumer(threading.Thread):
                 # Mark this task as done, whether an exception happened or not
                 self.Q.task_done()
 
+
+def save_dictionary(filename, dictionary):
+    with open(filename, "w") as f:
+        for k, v in dictionary.items():
+            f.write("{}\t{}\n".format(v, k))
+
+
 def start(urls, foldernames_file, filenames_file, backups_file, threads_number, timeout):
     Q = queue.Queue(maxsize=threads_number * 2)
 
@@ -103,5 +152,10 @@ def start(urls, foldernames_file, filenames_file, backups_file, threads_number, 
     for i in range(threads_number):
         consumer = Consumer(Q)
         consumer.start()
-        
+
     producer.join()
+    
+    logger.detail("Saving ordered dictionary...")
+    save_dictionary(context.foldernames_dictionary, context.foldernames_cache)
+    save_dictionary(context.filenames_dictionary, context.filenames_cache)
+    save_dictionary(context.backups_dictionary, context.backups_cache)

@@ -12,8 +12,8 @@ from colorama import init as initcolorama
 from lib.util import logger
 from lib.util import url
 from lib.util import output
+from lib.context import context
 from lib.util import signal as sg
-from lib.info import prompt
 from lib.core import dispatcher
 
 def init():
@@ -31,9 +31,9 @@ def initArguments(output_filename):
     group.add_argument("--url", help="url to scan, eg: 'http://127.0.0.1/'")
     group.add_argument("--urls", type=argparse.FileType("r"), help="file contains urls to sacn, one line one url.")
 
-    parser.add_argument("--folders", type=argparse.FileType("r"), default="dict/folders.txt", help="dictionary for most common folder names")
-    parser.add_argument("--files", type=argparse.FileType("r"), default="dict/files.txt", help="dictionary for most common file names")
-    parser.add_argument("--backups", type=argparse.FileType("r"), default="dict/backups.txt", help="dictionary for most common backup file patterns")
+    parser.add_argument("--folders", type=argparse.FileType("r"), default=context.foldernames_dictionary, help="dictionary for most common folder names")
+    parser.add_argument("--files", type=argparse.FileType("r"), default=context.filenames_dictionary, help="dictionary for most common file names")
+    parser.add_argument("--backups", type=argparse.FileType("r"), default=context.backups_dictionary, help="dictionary for most common backup file patterns")
     # parser.add_argument("--output", type=argparse.FileType("w"), default="result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
     parser.add_argument("--output", default=output_filename, help="output csv filename")
     
