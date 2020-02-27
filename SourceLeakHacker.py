@@ -26,18 +26,21 @@ def initSignal():
 
 def initArguments(output_filename):
     parser = argparse.ArgumentParser(usage="%(prog)s [options]")
-    parser.add_argument('--url')
-    parser.add_argument('--urls', type=argparse.FileType('r'))
-    parser.add_argument('--folders', type=argparse.FileType('r'), default="dict/folders.txt")
-    parser.add_argument('--files', type=argparse.FileType('r'), default="dict/files.txt")
-    parser.add_argument('--backups', type=argparse.FileType('r'), default="dict/backups.txt")
-    # parser.add_argument('--output', type=argparse.FileType('w'), default="result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
-    parser.add_argument('--output', default=output_filename)
     
-    parser.add_argument("--threads", "-t", default=4, type=int, help="threads numbers (default: 4)")
-    parser.add_argument('--timeout', type=float, default=4)
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--url", help="url to scan, eg: 'http://127.0.0.1/'")
+    group.add_argument("--urls", type=argparse.FileType("r"), help="file contains urls to sacn, one line one url.")
 
-    parser.add_argument("--verbose", "-v", action="count", default=0, help="x")
+    parser.add_argument("--folders", type=argparse.FileType("r"), default="dict/folders.txt", help="dictionary for most common folder names")
+    parser.add_argument("--files", type=argparse.FileType("r"), default="dict/files.txt", help="dictionary for most common file names")
+    parser.add_argument("--backups", type=argparse.FileType("r"), default="dict/backups.txt", help="dictionary for most common backup file patterns")
+    # parser.add_argument("--output", type=argparse.FileType("w"), default="result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
+    parser.add_argument("--output", default=output_filename, help="output csv filename")
+    
+    parser.add_argument("--threads", "-t", default=4, type=int, help="threads numbers, default: 4")
+    parser.add_argument("--timeout", type=float, default=4, help="HTTP request timeout")
+
+    parser.add_argument("--verbose", "-v", action="count", default=0, help="log level, eg: -vv")
     parser.add_argument("--version", "-V", action="version", version="%(prog)s 2.0")
 
     args = parser.parse_args()

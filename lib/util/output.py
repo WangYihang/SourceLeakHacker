@@ -26,7 +26,7 @@ def asTable():
     logger.plain(table)
 
 def asCSV(filename):
-    with open(filename, 'w') as f:
+    with open(filename, "w") as f:
         cvs_writer = csv.writer(f)
         cvs_writer.writerow(headers)
         for k, v in context.result.items():

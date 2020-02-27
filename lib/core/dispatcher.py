@@ -81,7 +81,7 @@ class Consumer(threading.Thread):
                 break
             task = self.Q.get()
             try:
-                check(task['url'], task['timeout'])
+                check(task["url"], task["timeout"])
             except Exception as e:
                 # retry may cause dead lock, so disabled
                 # if task["retry"] > 0:

@@ -4,22 +4,22 @@ from lib.context import context
 
 def error(content):
     context.screenLock.acquire()
-    print(colored(content, 'red', 'on_grey'))
+    print(colored(content, "red", "on_grey"))
     context.screenLock.release()
 
 def correct(content):
     context.screenLock.acquire()
-    print(colored(content, 'green', 'on_grey'))
+    print(colored(content, "green", "on_grey"))
     context.screenLock.release()
 
 def detail(content):
     context.screenLock.acquire()
-    print(colored(content, 'blue', 'on_grey'))
+    print(colored(content, "blue", "on_grey"))
     context.screenLock.release()
 
 def plain(content):
     context.screenLock.acquire()
-    print(colored(content, 'white', 'on_grey'))
+    print(colored(content, "white", "on_grey"))
     context.screenLock.release()
 
 def http(content, code):
