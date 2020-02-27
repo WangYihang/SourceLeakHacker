@@ -24,3 +24,6 @@ Tips :
 ![screenshot-00.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-00.png)
 ![screenshot-01.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-01.png)
 ![screenshot-02.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-02.png)
+
+
+### 自动调整顺序，缓存调整算法。

@@ -15,6 +15,7 @@ _index.php
 .git/HEAD
 .git/index
 .gitignore
+.viminfo
 .history
 .hta
 .htaccess
