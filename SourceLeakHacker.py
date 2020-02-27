@@ -25,7 +25,7 @@ def initSignal():
     signal.signal(signal.SIGINT, sg.ctrlC)
     signal.signal(signal.SIGTERM, sg.ctrlC)
 
-def initArguments(output_filename):
+def initArguments():
     parser = argparse.ArgumentParser(usage="%(prog)s [options]")
     
     group = parser.add_mutually_exclusive_group(required=True)
@@ -33,17 +33,15 @@ def initArguments(output_filename):
     group.add_argument("--urls", type=argparse.FileType("r"), help="file contains urls to scan, one line one url.")
 
     parser.add_argument("--scale", default="full", help="build-in dictionary scale", choices=[i.split("/")[-1] for i in glob.glob("./dict/*")])
-    parser.add_argument("--folders", default=context.foldernames_dictionary, help="dictionary for most common folder names")
-    parser.add_argument("--files", default=context.filenames_dictionary, help="dictionary for most common file names")
-    parser.add_argument("--backups", default=context.backups_dictionary, help="dictionary for most common backup file patterns")
-    # parser.add_argument("--output", type=argparse.FileType("w"), default="result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
-    parser.add_argument("--output", default=output_filename, help="output csv filename")
-
+    # parser.add_argument("--folders", default=context.foldernames_dictionary, help="dictionary for most common folder names, default: {}".format(context.foldernames_dictionary))
+    # parser.add_argument("--files", default=context.filenames_dictionary, help="dictionary for most common file names, default: {}".format(context.filenames_dictionary))
+    # parser.add_argument("--backups", default=context.backups_dictionary, help="dictionary for most common backup file patterns, default: {}".format(context.backups_dictionary))
+    parser.add_argument("--output", help="output folder, default: result/YYYY-MM-DD hh:mm:ss", default=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
     
     parser.add_argument("--threads", "-t", default=4, type=int, help="threads numbers, default: 4")
     parser.add_argument("--timeout", type=float, default=4, help="HTTP request timeout")
 
-    parser.add_argument("--verbose", "-v", action="count", default=0, help="log level, eg: -vv")
+    parser.add_argument("--verbose", "-v", action="count", default=0, help="log level, eg: -v or -vv")
     parser.add_argument("--version", "-V", action="version", version="%(prog)s 2.0")
 
     args = parser.parse_args()
@@ -53,8 +51,7 @@ def main():
     init()
 
     # Parse command line arguments
-    output_filename = "result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
-    args = initArguments(output_filename)
+    args = initArguments()
 
     # Parse urls
     urls = set()
@@ -68,14 +65,13 @@ def main():
     # Start dispatching
     dispatcher.start(
         urls, 
-        "dict/{}/{}".format(args.scale, args.folders), 
-        "dict/{}/{}".format(args.scale, args.files), 
-        "dict/{}/{}".format(args.scale, args.backups), 
+        "dict/{}/{}".format(args.scale, context.foldernames_dictionary), 
+        "dict/{}/{}".format(args.scale, context.filenames_dictionary), 
+        "dict/{}/{}".format(args.scale, context.backups_dictionary), 
         args.threads,args.timeout
     )
 
     # Save result
-    logger.plain("Result save in file: {}".format(output_filename))
     output.asCSV(args.output)
 
 if __name__ == "__main__":

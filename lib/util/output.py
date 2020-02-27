@@ -1,5 +1,6 @@
 import prettytable
 import csv
+import os
 
 from lib.util import string
 from lib.util import color
@@ -25,9 +26,24 @@ def asTable():
     table.set_style(prettytable.MSWORD_FRIENDLY)
     logger.plain(table)
 
-def asCSV(filename):
-    with open(filename, "w") as f:
+def asCSV(foldername):
+    folder = "result/{}".format(foldername)
+    # Create folder
+    try:
+        os.mkdir(folder)
+    except OSError:
+        print ("Creation of the directory %s failed" % folder)
+
+    codes = context.statistic.keys()
+    writers = {}
+
+    for code in codes:
+        f = open("{}/{}.csv".format(folder, code), "w")
         cvs_writer = csv.writer(f)
         cvs_writer.writerow(headers)
-        for k, v in context.result.items():
-            cvs_writer.writerow([v["code"], v["Content-Length"], v["time"], v["Content-Type"], k])
+        writers[code] = cvs_writer
+
+    for k, v in context.result.items():
+        writers[v["code"]].writerow([v["code"], v["Content-Length"], v["time"], v["Content-Type"], k])
+    logger.plain("Result save in files: {}/{}.csv".format(folder, list(writers.keys())))
+    
