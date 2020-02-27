@@ -15,6 +15,9 @@ backups_lock = threading.Lock()
 CTRL_C_FLAG = False
 FINISH_FLAG = False
 
-foldernames_dictionary = "dict/folders.txt"
-filenames_dictionary = "dict/files.txt"
-backups_dictionary = "dict/backups.txt"
+foldernames_dictionary = "folders.txt"
+filenames_dictionary = "files.txt"
+backups_dictionary = "backups.txt"
+
+statistic = dict()
+statistic_lock = threading.Lock()

@@ -3,12 +3,11 @@ import queue
 import threading
 import time
 import requests
-from multiprocessing import JoinableQueue
+import prettytable
 
 from lib.util import logger
 from lib.util import terminal
 from lib.context import context
-
 
 def check(url, foldername, filename, backup, timeout=4):
     try:
@@ -36,6 +35,12 @@ def check(url, foldername, filename, backup, timeout=4):
             "Content-Type": content_type,
         }
         context.result_lock.release()
+
+        context.statistic_lock.acquire()
+        if code not in context.statistic.keys():
+            context.statistic[code] = 0
+        context.statistic[code] += 1
+        context.statistic_lock.release()
 
         # Update cache
         if code >= 200 and code < 300:
@@ -92,9 +97,9 @@ class Producer(threading.Thread):
         
         # Sort
 
-        for foldername in list(context.foldernames_cache.keys())[0:2]:
-            for filename in list(context.filenames_cache.keys())[0:2]:
-                for backup in list(context.backups_cache.keys())[0:2]:
+        for foldername in list(context.foldernames_cache.keys()):
+            for filename in list(context.filenames_cache.keys()):
+                for backup in list(context.backups_cache.keys()):
                     path = "{}{}".format(foldername, backup.replace("?", filename))
                     for url in self.urls:
                         u = "{}{}".format(url, path)
@@ -109,7 +114,6 @@ class Producer(threading.Thread):
                         if not context.CTRL_C_FLAG:
                             self.Q.put(task)
         context.FINISH_FLAG = True
-
 
 class Consumer(threading.Thread):
     def __init__(self, Q):
@@ -146,7 +150,7 @@ def save_dictionary(filename, dictionary):
 def start(urls, foldernames_file, filenames_file, backups_file, threads_number, timeout):
     Q = queue.Queue(maxsize=threads_number * 2)
 
-    producer = Producer(Q, urls, foldernames_file, filenames_file, backups_file, timeout)
+    producer = Producer(Q, urls, open(foldernames_file), open(filenames_file), open(backups_file), timeout)
     producer.start()
 
     for i in range(threads_number):
@@ -155,7 +159,17 @@ def start(urls, foldernames_file, filenames_file, backups_file, threads_number, 
 
     producer.join()
     
-    logger.detail("Saving ordered dictionary...")
-    save_dictionary(context.foldernames_dictionary, context.foldernames_cache)
-    save_dictionary(context.filenames_dictionary, context.filenames_cache)
-    save_dictionary(context.backups_dictionary, context.backups_cache)
+    logger.detail("Saving optimized dictionary: {}".format(foldernames_file))
+    save_dictionary(foldernames_file, context.foldernames_cache)
+    logger.detail("Saving optimized dictionary: {}".format(filenames_file))
+    save_dictionary(filenames_file, context.filenames_cache)
+    logger.detail("Saving optimized dictionary: {}".format(backups_file))
+    save_dictionary(backups_file, context.backups_cache)
+    
+    # Print statistic information
+    table = prettytable.PrettyTable()
+    table.field_names = ["Code", "Times"]
+    for k, v in context.statistic.items():
+        table.add_row([k, v])
+    table.set_style(prettytable.MSWORD_FRIENDLY)
+    logger.plain(table)
