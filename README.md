@@ -27,14 +27,14 @@ Tips :
 
 
 #### TODOs
-- [ ] Adjust dictionary elements order systematically.
 - [x] Arguments parser.
 - [x] Store scan result into csv file.
-- [ ] Store scan result into sqlite database.
-- [ ] Support for multiple urls (from file).
-- [ ] Download small url contents, then store them into sqlite database.
+- [x] Support for multiple urls (from file).
+- [ ] Update Usage.
+- [ ] Adjust dictionary elements order systematically.
 - [ ] Change logger in order to suite for both windows and linux.
 - [ ] Add log level.
 - [ ] Update Screenshots.
-- [ ] Update Usage.
+- [ ] Store scan result into sqlite database.
+- [ ] Download small url contents, then store them into sqlite database.
 
