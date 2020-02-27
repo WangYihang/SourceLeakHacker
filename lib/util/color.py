@@ -1,19 +1,15 @@
-from termcolor import colored
+from colorama import Fore
 
-def colorProjection(code):
+def projection(code):
     if int(code / 100) == 1:
-        return ("blue", "on_grey")
+        return Fore.BLUE
     elif int(code / 100) == 2:
-        return ("green", "on_grey")
+        return Fore.GREEN
     elif int(code / 100) == 3:
-        return ("yellow", "on_grey")
+        return Fore.YELLOW
     elif int(code / 100) == 4:
-        return ("red", "on_grey")
+        return Fore.RED
     elif int(code / 100) == 5:
-        return ("magenta", "on_grey")
+        return Fore.MAGENTA
     else:
-        return ("cyan", "on_grey")
-
-def colorByStatusCode(data, code):
-    color_config = colorProjection(code)
-    return colored(data, color_config[0], color_config[1])
+        return Fore.CYAN

@@ -8,9 +8,10 @@ import sys
 import glob
 import time
 import argparse
+import prettytable
+import coloredlogs
+import logging
 
-from colorama import init as initcolorama
-from lib.util import logger
 from lib.util import url
 from lib.util import output
 from lib.context import context
@@ -18,7 +19,6 @@ from lib.util import signal as sg
 from lib.core import dispatcher
 
 def init():
-    initcolorama()
     initSignal()
 
 def initSignal():
@@ -41,17 +41,30 @@ def initArguments():
     parser.add_argument("--threads", "-t", default=4, type=int, help="threads numbers, default: 4")
     parser.add_argument("--timeout", type=float, default=4, help="HTTP request timeout")
 
-    parser.add_argument("--verbose", "-v", action="count", default=0, help="log level, eg: -v or -vv")
+    levels = ["CRITICAL", "ERROR", "WARNING", "INFO", "DEBUG",]
+    parser.add_argument("--level", "-v", choices=levels, default="DEBUG", help="log level")
     parser.add_argument("--version", "-V", action="version", version="%(prog)s 2.0")
 
     args = parser.parse_args()
     return args
 
+def save_dictionary(filename, dictionary):
+    with open(filename, "w") as f:
+        for k, v in dictionary.items():
+            f.write("{}\t{}\n".format(v, k))
+
 def main():
     init()
-
     # Parse command line arguments
     args = initArguments()
+
+    # Logger
+    logger = logging.getLogger(__name__)
+    coloredlogs.install(
+        level=args.level, 
+        fmt='%(asctime)s [%(levelname)s] %(message)s'
+    )
+    context.logger = logger
 
     # Parse urls
     urls = set()
@@ -71,8 +84,23 @@ def main():
         args.threads,args.timeout
     )
 
+    # Save optimized dictionary
+    context.logger.info("Saving optimized dictionary: {}".format(context.foldernames_dictionary))
+    save_dictionary(context.foldernames_dictionary, context.foldernames_cache)
+    context.logger.info("Saving optimized dictionary: {}".format(context.filenames_dictionary))
+    save_dictionary(context.filenames_dictionary, context.filenames_cache)
+    context.logger.info("Saving optimized dictionary: {}".format(context.backups_dictionary))
+    save_dictionary(context.backups_dictionary, context.backups_cache)
+
     # Save result
     output.asCSV(args.output)
+
+    # Print statistic information
+    table = prettytable.PrettyTable()
+    table.field_names = ["Code", "Times"]
+    for k, v in context.statistic.items():
+        table.add_row([k, v])
+    print(table)
 
 if __name__ == "__main__":
     main()

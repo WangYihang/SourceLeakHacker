@@ -4,7 +4,6 @@ import os
 
 from lib.util import string
 from lib.util import color
-from lib.util import logger
 from lib.context import context
 
 headers = ["Code", "Length", "Time", "Type", "URL"]
@@ -24,7 +23,7 @@ def asTable():
                 k,
             ])
     table.set_style(prettytable.MSWORD_FRIENDLY)
-    logger.plain(table)
+    context.logger.info(table)
 
 def asCSV(foldername):
     folder = "result/{}".format(foldername)
@@ -45,5 +44,5 @@ def asCSV(foldername):
 
     for k, v in context.result.items():
         writers[v["code"]].writerow([v["code"], v["Content-Length"], v["time"], v["Content-Type"], k])
-    logger.plain("Result save in files: {}/{}.csv".format(folder, list(writers.keys())))
+    context.logger.info("Result save in files: {}/{}.csv".format(folder, list(writers.keys())))
     

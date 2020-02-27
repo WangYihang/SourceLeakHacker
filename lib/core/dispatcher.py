@@ -3,9 +3,9 @@ import queue
 import threading
 import time
 import requests
-import prettytable
 
-from lib.util import logger
+from colorama import Style
+from lib.util import color
 from lib.util import terminal
 from lib.context import context
 
@@ -56,9 +56,14 @@ def check(url, foldername, filename, backup, timeout=4):
             context.backups_cache[backup] += 1
             context.backups_lock.release()
 
-        logger.http("[%d]\t%s\t%02f\t%s\t%s" % (code, content_length, time_used, content_type, url), code)
+        context.screenLock.acquire()
+        print(color.projection(code) + "[%d]\t%s\t%02f\t%s\t%s" % (code, content_length, time_used, content_type, url))
+        print(Style.RESET_ALL, end="")
+        context.screenLock.release()
+
+        # logger.http(, code)
     except Exception as e:
-        logger.detail("error:", e)
+        context.logger.error(e)
         raise e
 
 class Producer(threading.Thread):
@@ -141,12 +146,6 @@ class Consumer(threading.Thread):
                 self.Q.task_done()
 
 
-def save_dictionary(filename, dictionary):
-    with open(filename, "w") as f:
-        for k, v in dictionary.items():
-            f.write("{}\t{}\n".format(v, k))
-
-
 def start(urls, foldernames_file, filenames_file, backups_file, threads_number, timeout):
     Q = queue.Queue(maxsize=threads_number * 2)
 
@@ -158,18 +157,3 @@ def start(urls, foldernames_file, filenames_file, backups_file, threads_number, 
         consumer.start()
 
     producer.join()
-    
-    logger.detail("Saving optimized dictionary: {}".format(foldernames_file))
-    save_dictionary(foldernames_file, context.foldernames_cache)
-    logger.detail("Saving optimized dictionary: {}".format(filenames_file))
-    save_dictionary(filenames_file, context.filenames_cache)
-    logger.detail("Saving optimized dictionary: {}".format(backups_file))
-    save_dictionary(backups_file, context.backups_cache)
-    
-    # Print statistic information
-    table = prettytable.PrettyTable()
-    table.field_names = ["Code", "Times"]
-    for k, v in context.statistic.items():
-        table.add_row([k, v])
-    table.set_style(prettytable.MSWORD_FRIENDLY)
-    logger.plain(table)
