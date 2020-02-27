@@ -62,10 +62,10 @@ Result save in file: result/2020-02-27 07:08:54.csv
 - [x] Add help comments for every params.
 - [x] Update Usage.
 - [x] Adjust dictionary elements order systematically.
-- [ ] Change logger in order to suite for both windows and linux.
-- [ ] Retry
-- [ ] Add log level.
+- [x] Change logger in order to suite for both windows and linux.
+- [x] Add log level.
 - [ ] Update Screenshots.
+- [ ] Retry and avoid dead lock
 - [ ] Store scan result into sqlite database.
 - [ ] Download small url contents, then store them into sqlite database.
 
