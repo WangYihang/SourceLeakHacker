@@ -7,7 +7,6 @@ from multiprocessing import JoinableQueue
 
 from lib.util import logger
 from lib.util import terminal
-from lib.core import spider
 from lib.context import context
 
 

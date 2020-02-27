@@ -14,7 +14,6 @@ from lib.util import url
 from lib.util import output
 from lib.util import signal as sg
 from lib.info import prompt
-from lib.core import spider
 from lib.core import dispatcher
 
 def init():
@@ -25,7 +24,7 @@ def initSignal():
     signal.signal(signal.SIGINT, sg.ctrlC)
     signal.signal(signal.SIGTERM, sg.ctrlC)
 
-def initArguments():
+def initArguments(output_filename):
     parser = argparse.ArgumentParser(usage="%(prog)s [options]")
     parser.add_argument('--url')
     parser.add_argument('--urls', type=argparse.FileType('r'))
@@ -33,7 +32,7 @@ def initArguments():
     parser.add_argument('--files', type=argparse.FileType('r'), default="dict/files.txt")
     parser.add_argument('--backups', type=argparse.FileType('r'), default="dict/backups.txt")
     # parser.add_argument('--output', type=argparse.FileType('w'), default="result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
-    parser.add_argument('--output', default="result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
+    parser.add_argument('--output', default=output_filename)
     
     parser.add_argument("--threads", "-t", default=4, type=int, help="threads numbers (default: 4)")
     parser.add_argument('--timeout', type=float, default=4)
@@ -48,7 +47,8 @@ def main():
     init()
 
     # Parse command line arguments
-    args = initArguments()
+    output_filename = "result/{}.csv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
+    args = initArguments(output_filename)
 
     # Parse urls
     urls = set()
@@ -63,6 +63,7 @@ def main():
     dispatcher.start(urls, args.folders, args.files, args.backups, args.threads,args.timeout)
 
     # Save result
+    logger.plain("Result save in file: {}".format(output_filename))
     output.asCSV(args.output)
 
 if __name__ == "__main__":

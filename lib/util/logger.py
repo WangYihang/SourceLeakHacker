@@ -12,18 +12,15 @@ def correct(content):
     print(colored(content, 'green', 'on_grey'))
     context.screenLock.release()
 
-
 def detail(content):
     context.screenLock.acquire()
     print(colored(content, 'blue', 'on_grey'))
     context.screenLock.release()
 
-
 def plain(content):
     context.screenLock.acquire()
     print(colored(content, 'white', 'on_grey'))
     context.screenLock.release()
-
 
 def http(content, code):
     context.screenLock.acquire()
