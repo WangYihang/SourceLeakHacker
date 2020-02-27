@@ -26,4 +26,15 @@ Tips :
 ![screenshot-02.png](https://raw.githubusercontent.com/WangYihang/SourceLeakHacker/master/image/screenshot-02.png)
 
 
-### 自动调整顺序，缓存调整算法。
+#### TODOs
+- [ ] Adjust dictionary elements order systematically.
+- [x] Arguments parser.
+- [x] Store scan result into csv file.
+- [ ] Store scan result into sqlite database.
+- [ ] Support for multiple urls (from file).
+- [ ] Download small url contents, then store them into sqlite database.
+- [ ] Change logger in order to suite for both windows and linux.
+- [ ] Add log level.
+- [ ] Update Screenshots.
+- [ ] Update Usage.
+
