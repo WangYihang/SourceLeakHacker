@@ -68,3 +68,5 @@ Result save in file: result/2020-02-27 07:08:54.csv
 - [ ] Store scan result into sqlite database.
 - [ ] Download small url contents, then store them into sqlite database.
 
+#### Known Bugs
+- [ ] CTRL C does not works on windows platform
