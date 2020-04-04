@@ -1,5 +1,5 @@
 #### Description
-SourceLeakHacker is a muilt-threads web dictories scanner.
+SourceLeakHacker is a muilt-threads web directories scanner.
 
 #### Installation
 ```
