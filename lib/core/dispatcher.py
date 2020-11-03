@@ -12,7 +12,7 @@ from lib.context import context
 def check(url, foldername, filename, backup, timeout=4):
     try:
         start_time = time.time()
-        response = requests.head(url, timeout=timeout)
+        response = requests.head(url, timeout=timeout, verify=False)
         end_time = time.time()
 
         code = response.status_code
@@ -125,7 +125,7 @@ class Producer(threading.Thread):
                     folder_url = "{}{}".format(url, foldername[0])
                     skip_flag = False
                     try:
-                        response = requests.head(folder_url, timeout=self.timeout)
+                        response = requests.head(folder_url, timeout=self.timeout, verify=False)
                         code = response.status_code
                         if code >= 400 and code < 500:
                             skip_flag = True
