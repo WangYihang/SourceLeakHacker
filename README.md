@@ -3,7 +3,7 @@ SourceLeakHacker is a muilt-threads web directories scanner.
 
 #### Installation
 ```
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 #### Usage　
