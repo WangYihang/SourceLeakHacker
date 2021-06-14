@@ -52,7 +52,7 @@ Examples:
     # parser.add_argument("--folders", default=context.foldernames_dictionary, help="dictionary for most common folder names, default: {}".format(context.foldernames_dictionary))
     # parser.add_argument("--files", default=context.filenames_dictionary, help="dictionary for most common file names, default: {}".format(context.filenames_dictionary))
     # parser.add_argument("--backups", default=context.backups_dictionary, help="dictionary for most common backup file patterns, default: {}".format(context.backups_dictionary))
-    parser.add_argument("--output", "-o", help="output folder, default: result/YYYY-MM-DD hh:mm:ss", default=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
+    parser.add_argument("--output", "-o", help="output folder, default: result/YYYY-MM-DD-hh-mm-ss", default=time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime(time.time())))
 
     parser.add_argument("--threads", "-t", default=4, type=int, help="threads numbers, default: 4")
     parser.add_argument("--timeout", type=float, default=4, help="HTTP request timeout")
