@@ -67,7 +67,7 @@ Examples:
 def save_dictionary(filename, dictionary):
     with open(filename, "w") as f:
         for k, v in dictionary.items():
-            f.write("{}-{}\n".format(v, k))
+            f.write("{}\t{}\n".format(v, k))
 
 def main():
     init()
