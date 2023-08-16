@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sourceleakhacker"
+version = "0.1.0"
+description = ""
+authors = ["Yihang Wang <wangyihanger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+colorama = "^0.4.6"
+prettytable = "^3.7.0"
+termcolor = "^2.3.0"
+coloredlogs = "^15.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -163,7 +163,7 @@
 0	index.7z
 0	index.bak
 0	index.old
-0	index.php
+1	index.php
 0	index.php-bak
 0	index.php.bak
 0	index.php~
@@ -230,7 +230,7 @@
 0	r00t.php
 0	r57.php
 0	r58.php
-0	README
+18	README
 0	README.md
 0	README.MD
 0	register.php
